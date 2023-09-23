@@ -1,6 +1,6 @@
 extends Control
 
-@onready var clouds = $Skybox
+@onready var clouds = $'Skybox'
 @onready var start = $title_screen/Label/startime
 func _ready():
 	clouds.play("title")
@@ -15,7 +15,3 @@ func _on_button_pressed():
 	get_node("title_screen").hide()
 	start.paused = true
 	get_node("m_menu").show()
-
-
-	
-	
