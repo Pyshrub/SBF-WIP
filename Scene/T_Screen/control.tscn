@@ -1,4 +1,4 @@
-[gd_scene load_steps=83 format=3 uid="uid://csuge57jeoxp8"]
+[gd_scene load_steps=84 format=3 uid="uid://csuge57jeoxp8"]
 
 [ext_resource type="Script" path="res://SBF-WIP/Scene/T_Screen/control.gd" id="1_u0gym"]
 [ext_resource type="Texture2D" uid="uid://jtm6krffiams" path="res://Assets/Sprites/Title_Sky_Small.png" id="2_malw5"]
@@ -7,6 +7,7 @@
 [ext_resource type="FontFile" uid="uid://bshv7fqape0a1" path="res://Assets/1980v23P01.ttf" id="5_8eg0m"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/T_Screen/Start.gd" id="6_k2hx2"]
 [ext_resource type="Texture2D" uid="uid://dwwuwqy3jp01g" path="res://Assets/Sprites/Title_Dennys.png" id="7_13bih"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/T_Screen/m_menu.gd" id="7_k4wsn"]
 [ext_resource type="Texture2D" uid="uid://ds5uid6ppw3vp" path="res://Assets/Sprites/Title_Extras.png" id="8_1s4vl"]
 [ext_resource type="Texture2D" uid="uid://bcfijs2squohg" path="res://Assets/Sprites/Title_Options.png" id="9_0ogkb"]
 [ext_resource type="Texture2D" uid="uid://d0pk6cd3r4px1" path="res://Assets/Sprites/Title_FIght.png" id="10_w5rwb"]
@@ -567,10 +568,10 @@ offset_right = 1152.0
 offset_bottom = 656.0
 
 [node name="m_menu" type="Control" parent="."]
-visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+script = ExtResource("7_k4wsn")
 
 [node name="denny" type="TextureRect" parent="m_menu"]
 layout_mode = 0
@@ -598,15 +599,16 @@ texture_normal = ExtResource("9_0ogkb")
 ignore_texture_size = true
 stretch_mode = 0
 
-[node name="Fight2" type="TextureButton" parent="m_menu"]
+[node name="Fight" type="TextureButton" parent="m_menu"]
 layout_mode = 0
 offset_right = 1150.0
 offset_bottom = 659.0
+action_mode = 0
 texture_normal = ExtResource("10_w5rwb")
 ignore_texture_size = true
 stretch_mode = 0
 
-[node name="Adventure2" type="TextureButton" parent="m_menu"]
+[node name="Adventure" type="TextureButton" parent="m_menu"]
 layout_mode = 0
 offset_right = 1150.0
 offset_bottom = 659.0
@@ -616,3 +618,4 @@ stretch_mode = 0
 
 [connection signal="timeout" from="title_screen/Label/startime" to="title_screen/Label" method="_on_timer_timeout"]
 [connection signal="pressed" from="title_screen/start_button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="m_menu/Fight" to="m_menu" method="_on_fight_pressed"]
