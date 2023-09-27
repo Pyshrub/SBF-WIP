@@ -1,79 +1,13 @@
-[gd_scene load_steps=15 format=3 uid="uid://cce48mcsbibgf"]
+[gd_scene load_steps=7 format=3 uid="uid://cce48mcsbibgf"]
 
 [ext_resource type="Texture2D" uid="uid://4wd2fyfaaynk" path="res://Assets/Sprites/Streaming_SbF-1.png.png" id="1_wvnfg"]
 [ext_resource type="Texture2D" uid="uid://dr3mdxn2offn2" path="res://Assets/Sprites/Streaming_SbF-2.png.png" id="2_43873"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/floor.gd" id="3_6mqjw"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Player1.gd" id="4_ial1w"]
-[ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://Assets/Sprites/FailBattle_SbF_3.png" id="5_3f3pk"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Player_Container.gd" id="4_4qbg7"]
+[ext_resource type="PackedScene" uid="uid://ja5ty68paj2m" path="res://SBF-WIP/Scene/fight/player_1.tscn" id="4_wbmeq"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_b3n4w"]
-atlas = ExtResource("5_3f3pk")
-region = Rect2(308, 3696, 308, 308)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_30ylu"]
-atlas = ExtResource("5_3f3pk")
-region = Rect2(616, 3696, 308, 308)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_3ix1w"]
-atlas = ExtResource("5_3f3pk")
-region = Rect2(924, 3696, 308, 308)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_3clei"]
-atlas = ExtResource("5_3f3pk")
-region = Rect2(1232, 3696, 308, 308)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_tsdud"]
-atlas = ExtResource("5_3f3pk")
-region = Rect2(1540, 3696, 308, 308)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_al23f"]
-atlas = ExtResource("5_3f3pk")
-region = Rect2(1848, 3696, 308, 308)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_qkn5e"]
-atlas = ExtResource("5_3f3pk")
-region = Rect2(2156, 3696, 308, 308)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_shukk"]
-atlas = ExtResource("5_3f3pk")
-region = Rect2(2464, 3696, 308, 308)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_balaw"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_b3n4w")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_30ylu")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_3ix1w")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_3clei")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_tsdud")
-}],
-"loop": true,
-"name": &"idle",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 2.0,
-"texture": SubResource("AtlasTexture_al23f")
-}, {
-"duration": 2.0,
-"texture": SubResource("AtlasTexture_qkn5e")
-}, {
-"duration": 2.0,
-"texture": SubResource("AtlasTexture_shukk")
-}],
-"loop": true,
-"name": &"run",
-"speed": 5.0
-}]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e0rum"]
+size = Vector2(122, 578)
 
 [node name="fight" type="Node2D"]
 
@@ -89,32 +23,55 @@ scale = Vector2(0.36, 0.36)
 texture = ExtResource("2_43873")
 script = ExtResource("3_6mqjw")
 
-[node name="Player1" type="CharacterBody2D" parent="."]
-script = ExtResource("4_ial1w")
+[node name="Player_Container" type="Node2D" parent="."]
+script = ExtResource("4_4qbg7")
 
-[node name="Avatar1" type="AnimatedSprite2D" parent="Player1"]
-position = Vector2(168, 448)
-sprite_frames = SubResource("SpriteFrames_balaw")
-animation = &"run"
-frame_progress = 0.463023
+[node name="Player1" parent="Player_Container" instance=ExtResource("4_wbmeq")]
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Player1"]
-build_mode = 1
-polygon = PackedVector2Array(184, 376, 200, 392, 200, 432, 184, 456, 192, 488, 192, 512, 200, 544, 208, 552, 208, 560, 208, 560, 192, 568, 176, 568, 168, 528, 144, 560, 104, 560, 120, 520, 120, 472, 112, 448, 112, 408, 120, 384, 136, 360, 168, 368)
+[node name="Player2" parent="Player_Container" instance=ExtResource("4_wbmeq")]
+visible = false
+position = Vector2(264, -8)
 
-[node name="Area2D" type="Area2D" parent="Player1"]
+[node name="Player3" parent="Player_Container" instance=ExtResource("4_wbmeq")]
+visible = false
+position = Vector2(735, -8)
+
+[node name="Player4" parent="Player_Container" instance=ExtResource("4_wbmeq")]
+visible = false
+position = Vector2(496, -8)
+
+[node name="Floor" type="StaticBody2D" parent="."]
 position = Vector2(576, 324)
 scale = Vector2(0.36, 0.36)
+collision_layer = 3
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Player1/Area2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Floor"]
 position = Vector2(0, 258.576)
 scale = Vector2(1, 0.744541)
 polygon = PackedVector2Array(1600, 900, -1844.44, 891.35, -1844.44, 533.187, 2133.33, 533.187)
 
-[node name="jumpt" type="Timer" parent="Player1"]
-process_callback = 0
-autostart = true
+[node name="Area2D" type="Area2D" parent="Floor"]
 
-[connection signal="body_entered" from="Player1/Area2D" to="Player1" method="_on_area_2d_body_entered"]
-[connection signal="body_exited" from="Player1/Area2D" to="Player1" method="_on_area_2d_body_exited"]
-[connection signal="timeout" from="Player1/jumpt" to="Player1" method="_on_jumpt_timeout"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Floor/Area2D"]
+position = Vector2(0, 258.576)
+scale = Vector2(1, 0.744541)
+polygon = PackedVector2Array(1600, 900, -1844.44, 891.35, -1844.44, 533.187, 2133.33, 533.187)
+
+[node name="wall1" type="StaticBody2D" parent="."]
+position = Vector2(-216, 112)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wall1"]
+position = Vector2(152, 160)
+shape = SubResource("RectangleShape2D_e0rum")
+
+[node name="wall2" type="StaticBody2D" parent="."]
+position = Vector2(-432, 224)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wall2"]
+position = Vector2(1648, 46)
+shape = SubResource("RectangleShape2D_e0rum")
+
+[connection signal="body_shape_entered" from="Floor/Area2D" to="Player_Container/Player1" method="_on_area_2d_body_shape_entered"]
+[connection signal="body_shape_entered" from="Floor/Area2D" to="Player_Container/Player2" method="_on_area_2d_body_shape_entered"]
+[connection signal="body_shape_entered" from="Floor/Area2D" to="Player_Container/Player3" method="_on_area_2d_body_shape_entered"]
+[connection signal="body_shape_entered" from="Floor/Area2D" to="Player_Container/Player4" method="_on_area_2d_body_shape_entered"]
