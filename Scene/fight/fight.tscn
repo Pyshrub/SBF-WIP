@@ -27,18 +27,37 @@ script = ExtResource("3_6mqjw")
 script = ExtResource("4_4qbg7")
 
 [node name="Player1" parent="Player_Container" instance=ExtResource("4_wbmeq")]
+position = Vector2(8, -18)
 
 [node name="Player2" parent="Player_Container" instance=ExtResource("4_wbmeq")]
-visible = false
 position = Vector2(264, -8)
 
 [node name="Player3" parent="Player_Container" instance=ExtResource("4_wbmeq")]
-visible = false
 position = Vector2(735, -8)
 
 [node name="Player4" parent="Player_Container" instance=ExtResource("4_wbmeq")]
-visible = false
 position = Vector2(496, -8)
+
+[node name="Player5" parent="Player_Container" instance=ExtResource("4_wbmeq")]
+position = Vector2(552, -360)
+
+[node name="Player6" parent="Player_Container" instance=ExtResource("4_wbmeq")]
+position = Vector2(880, -80)
+
+[node name="Player7" parent="Player_Container" instance=ExtResource("4_wbmeq")]
+position = Vector2(792, -320)
+
+[node name="Player8" parent="Player_Container" instance=ExtResource("4_wbmeq")]
+position = Vector2(399, -152)
+
+[node name="Player9" parent="Player_Container" instance=ExtResource("4_wbmeq")]
+position = Vector2(-88, -136)
+
+[node name="Player10" parent="Player_Container" instance=ExtResource("4_wbmeq")]
+position = Vector2(152, -248)
+
+[node name="Player11" parent="Player_Container" instance=ExtResource("4_wbmeq")]
+position = Vector2(-56, -296)
 
 [node name="Floor" type="StaticBody2D" parent="."]
 position = Vector2(576, 324)
