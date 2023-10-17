@@ -44,7 +44,6 @@ scale = Vector2(1, 0.744541)
 polygon = PackedVector2Array(1600, 900, -1844.44, 891.35, -1844.44, 533.187, 2133.33, 533.187)
 
 [node name="floor" type="Area2D" parent="Floor"]
-scale = Vector2(1, 1)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Floor/floor"]
 position = Vector2(22.2223, -1388.89)
