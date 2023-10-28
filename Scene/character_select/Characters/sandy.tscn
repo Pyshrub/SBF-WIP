@@ -1,0 +1,143 @@
+[gd_scene load_steps=12 format=3 uid="uid://dupqylxues7mx"]
+
+[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/StateMachine.gd" id="1_2apyb"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/sandy.gd" id="1_q1qdv"]
+[ext_resource type="Texture2D" uid="uid://wc4pf3p4rqsb" path="res://Assets/Sprites/BagSpriteSheet.png" id="2_1sr3a"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Sandy_Idle.gd" id="4_j2qnx"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Sandy_falls.gd" id="5_6mw8r"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Sandy_Damage.gd" id="6_kt76w"]
+
+[sub_resource type="Animation" id="Animation_q2kki"]
+resource_name = "Idle"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.512442),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [0, 1]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CollisionShape2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.759513),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(40, 24), Vector2(40, 24)]
+}
+
+[sub_resource type="Animation" id="Animation_3tt05"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CollisionShape2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-4.5, 1.5)]
+}
+
+[sub_resource type="Animation" id="Animation_kjikl"]
+resource_name = "Damage"
+length = 0.7
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.11896, 0.235945, 0.35293, 0.415668),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [1, 3, 2, 3, 1]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CollisionShape2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(47, 24)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ctc6m"]
+_data = {
+"Damage": SubResource("Animation_kjikl"),
+"Idle": SubResource("Animation_q2kki"),
+"RESET": SubResource("Animation_3tt05")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k8g6x"]
+size = Vector2(92.5, 140)
+
+[node name="Sandy" type="CharacterBody2D"]
+script = ExtResource("1_q1qdv")
+
+[node name="Anima" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_ctc6m")
+}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(58, 16)
+scale = Vector2(3.07143, 3.14286)
+texture = ExtResource("2_1sr3a")
+hframes = 2
+vframes = 2
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("1_2apyb")
+
+[node name="Idle" type="Node" parent="StateMachine"]
+script = ExtResource("4_j2qnx")
+
+[node name="Falling" type="Node" parent="StateMachine"]
+script = ExtResource("5_6mw8r")
+
+[node name="Damage" type="Node" parent="StateMachine"]
+script = ExtResource("6_kt76w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4.5, 1.5)
+shape = SubResource("RectangleShape2D_k8g6x")
+
+[node name="Hitbox" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 4
+
+[node name="HitboxC" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2(40, 24)
+shape = SubResource("RectangleShape2D_k8g6x")
+
+[connection signal="animation_finished" from="Anima" to="StateMachine/Damage" method="_on_anima_animation_finished"]
+[connection signal="area_entered" from="Hitbox" to="." method="_on_hitbox_area_entered"]

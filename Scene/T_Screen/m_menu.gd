@@ -13,5 +13,5 @@ func _process(delta):
 
 func _on_fight_pressed():
 	print("yes")
-	get_tree().change_scene_to_file("res://Char-select.tscn")
+	get_tree().change_scene_to_file("res://SBF-WIP/Scene/character_select/Char-select.tscn")
 
