@@ -1,0 +1,66 @@
+[gd_scene load_steps=9 format=3 uid="uid://dxpowyogjspir"]
+
+[ext_resource type="Script" path="res://SBF-WIP/Scene/adventure/enemies/waddle_dee.gd" id="1_hsbue"]
+[ext_resource type="Texture2D" uid="uid://bu7v8arba3eel" path="res://Assets/Sprites/waddleWalksheet.png" id="1_ng71m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eiypw"]
+atlas = ExtResource("1_ng71m")
+region = Rect2(0, 0, 38, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_moijp"]
+atlas = ExtResource("1_ng71m")
+region = Rect2(38, 0, 38, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ox85"]
+atlas = ExtResource("1_ng71m")
+region = Rect2(76, 0, 38, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x8pga"]
+atlas = ExtResource("1_ng71m")
+region = Rect2(114, 0, 38, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_orwww"]
+atlas = ExtResource("1_ng71m")
+region = Rect2(152, 0, 38, 41)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_22ij3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eiypw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_moijp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ox85")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x8pga")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_orwww")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ox85")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[node name="Waddle_Dee" type="CharacterBody2D"]
+collision_layer = 5
+collision_mask = 5
+script = ExtResource("1_hsbue")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(42.5, -41.75)
+scale = Vector2(3.23684, 3.03659)
+sprite_frames = SubResource("SpriteFrames_22ij3")
+animation = &"walk"
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(40, -40)
+scale = Vector2(2.53125, 2.6875)
+polygon = PackedVector2Array(8, -8, 16, 0, 16, 0, 16, 8, 16, 16, -16, 16, -16, 0, -8, -8)

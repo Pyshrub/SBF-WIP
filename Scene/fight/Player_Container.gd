@@ -1,6 +1,7 @@
 extends Node2D
 var player1
 var player2
+var type = "Normal"
 func ready():
 	pass
 func star():

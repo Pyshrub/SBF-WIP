@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=3 uid="uid://b2tkqqrn34ucu"]
+[gd_scene load_steps=27 format=3 uid="uid://b2tkqqrn34ucu"]
 
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Fail_2.gd" id="1_cgjp8"]
 [ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://Assets/Sprites/FailBattle_SbF_3.png" id="2_yyqnh"]
@@ -729,9 +729,12 @@ animations = [{
 "speed": 2.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o5oek"]
+size = Vector2(48, 196)
+
 [node name="Fail_2" type="CharacterBody2D"]
 position = Vector2(-168, -456)
-collision_layer = 2
+collision_layer = 3
 collision_mask = 2
 script = ExtResource("1_cgjp8")
 
@@ -771,9 +774,6 @@ position = Vector2(168, 344)
 scale = Vector2(4.80769, 5.07143)
 sprite_frames = SubResource("SpriteFrames_n75gt")
 
-[node name="Body" type="CollisionPolygon2D" parent="."]
-polygon = PackedVector2Array(112, 584, 216, 584, 192, 392, 128, 384)
-
 [node name="StateMachine" type="Node" parent="."]
 script = ExtResource("4_kdlsi")
 
@@ -796,3 +796,7 @@ script = ExtResource("8_5gqdf")
 [node name="Down" type="Node" parent="StateMachine"]
 
 [node name="Defend" type="Node" parent="StateMachine"]
+
+[node name="Body" type="CollisionShape2D" parent="."]
+position = Vector2(160, 486)
+shape = SubResource("RectangleShape2D_o5oek")

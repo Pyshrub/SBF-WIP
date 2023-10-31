@@ -2,7 +2,7 @@ extends Node
 
 @onready var SM = get_parent()
 @onready var player = get_node("../..")
-
+var direction
 func _ready():
 	await player.ready
 
@@ -15,7 +15,16 @@ func physics_process(_delta):
 	if Input.is_action_pressed("Up"):
 		SM.set_state("Jumping")
 
-	var direction = Input.get_axis("Left", "Right")
+	if Input.is_action_pressed("Left"):
+		direction = -1
+		if Input.is_action_pressed("Right"):
+			direction = 1
+	if Input.is_action_pressed("Right"):
+		direction = 1
+		if Input.is_action_pressed("Left"):
+			direction = -1
+	if not Input.is_action_pressed("Left") and not Input.is_action_pressed("Right"):
+		direction = 0
 	player.set_direction(direction)
 	if direction:
 		player.velocity.x = player.direction * player.SPEED

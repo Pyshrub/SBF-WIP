@@ -1,0 +1,124 @@
+[gd_scene load_steps=11 format=3 uid="uid://c32l744q1nrdb"]
+
+[ext_resource type="Texture2D" uid="uid://4wd2fyfaaynk" path="res://Assets/Sprites/Streaming_SbF-1.png.png" id="1_2oj6v"]
+[ext_resource type="Texture2D" uid="uid://dr3mdxn2offn2" path="res://Assets/Sprites/Streaming_SbF-2.png.png" id="2_0rkj7"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/adventure/Player_Container.gd" id="3_a681h"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/adventure/Enemy_Container.gd" id="4_r27sn"]
+[ext_resource type="Texture2D" uid="uid://cdaidn44x1bcq" path="res://Assets/Sprites/Square.png" id="5_ooa1n"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xo6qp"]
+size = Vector2(8244.44, 44.6298)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j2jwr"]
+size = Vector2(149, 1241)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xgpyd"]
+size = Vector2(122, 1233)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1cxf3"]
+size = Vector2(962, 142.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yyu71"]
+size = Vector2(1322, 66)
+
+[node name="Wave_Battle" type="Node2D"]
+position = Vector2(-576, 8)
+metadata/_edit_horizontal_guides_ = []
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -920.0
+offset_top = -1040.0
+offset_right = 2048.0
+offset_bottom = -392.0
+scale = Vector2(1, 2.6)
+texture = ExtResource("1_2oj6v")
+expand_mode = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+offset_left = -896.0
+offset_top = 352.0
+offset_right = 2064.0
+offset_bottom = 648.0
+texture = ExtResource("2_0rkj7")
+expand_mode = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Player_Container" type="Node2D" parent="."]
+script = ExtResource("3_a681h")
+
+[node name="Enemy_Container" type="Node2D" parent="."]
+script = ExtResource("4_r27sn")
+
+[node name="Wall Container" type="Node2D" parent="."]
+
+[node name="Floor" type="StaticBody2D" parent="Wall Container"]
+position = Vector2(576, 324)
+scale = Vector2(0.36, 0.36)
+collision_layer = 7
+collision_mask = 5
+
+[node name="floor" type="Area2D" parent="Wall Container/Floor"]
+collision_layer = 32768
+collision_mask = 32768
+
+[node name="CollisionPolygon2D" type="CollisionShape2D" parent="Wall Container/Floor/floor"]
+position = Vector2(11.1106, 814.082)
+scale = Vector2(1, 3.85024)
+shape = SubResource("RectangleShape2D_xo6qp")
+
+[node name="CollisionPolygon2D2" type="CollisionShape2D" parent="Wall Container/Floor"]
+position = Vector2(11.1106, 814.082)
+scale = Vector2(1, 3.85024)
+shape = SubResource("RectangleShape2D_xo6qp")
+
+[node name="wall1" type="StaticBody2D" parent="Wall Container"]
+position = Vector2(-216, 112)
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall Container/wall1"]
+position = Vector2(-749.5, -139.5)
+shape = SubResource("RectangleShape2D_j2jwr")
+
+[node name="wall2" type="StaticBody2D" parent="Wall Container"]
+position = Vector2(-432, 224)
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall Container/wall2"]
+position = Vector2(2536, -255.5)
+shape = SubResource("RectangleShape2D_xgpyd")
+
+[node name="Addons" type="StaticBody2D" parent="Wall Container"]
+collision_layer = 4
+collision_mask = 7
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall Container/Addons"]
+position = Vector2(-1400, 128.75)
+shape = SubResource("RectangleShape2D_1cxf3")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Wall Container/Addons"]
+position = Vector2(2536, 129)
+shape = SubResource("RectangleShape2D_1cxf3")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
+
+[node name="Area2D" type="StaticBody2D" parent="."]
+collision_layer = 3
+collision_mask = 3
+
+[node name="TextureRect3" type="TextureRect" parent="Area2D"]
+offset_left = -72.0
+offset_top = 296.0
+offset_right = 1240.0
+offset_bottom = 376.0
+texture = ExtResource("5_ooa1n")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(580, 336)
+shape = SubResource("RectangleShape2D_yyu71")
+
+[connection signal="timeout" from="Timer" to="Enemy_Container" method="_on_timer_timeout"]

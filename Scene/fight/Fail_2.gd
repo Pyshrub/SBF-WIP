@@ -9,7 +9,7 @@ const MAX_JUMP = -2000.0
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
-var direction = 1
+var direction = -1
 
 func _ready():
 	up_direction = Vector2.UP
@@ -21,13 +21,13 @@ func _physics_process(delta):
 		$Flip_Container.transform.x.x = -1
 		$Flip_Container.position.x += 345
 		$Body.transform.x.x = -1
-		$Body.position.x += 345
+		$Body.position.x += 30
 	if direction > 0 and $Sprite2D.flip_h:
 		$Sprite2D.flip_h = false
 		$Flip_Container.transform.x.x = 1
 		$Flip_Container.position.x -= 345
 		$Body.transform.x.x = 1
-		$Body.position.x -= 345
+		$Body.position.x -= 30
 func set_direction(d):
 	direction = d
 

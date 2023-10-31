@@ -7,4 +7,5 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	if Input.is_action_just_pressed("Menu"):
+		get_tree().change_scene_to_file("res://SBF-WIP/Scene/character_select/Char-select.tscn")

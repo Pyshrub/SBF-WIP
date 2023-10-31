@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://ja5ty68paj2m"]
+[gd_scene load_steps=29 format=3 uid="uid://ja5ty68paj2m"]
 
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Player1.gd" id="1_ramds"]
 [ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://Assets/Sprites/FailBattle_SbF_3.png" id="2_1n3t7"]
@@ -707,7 +707,12 @@ _data = {
 "strong_atk2": SubResource("Animation_4mol1")
 }
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_57e20"]
+size = Vector2(48, 196)
+
 [node name="Player1" type="CharacterBody2D"]
+collision_layer = 3
+collision_mask = 3
 safe_margin = 0.001
 script = ExtResource("1_ramds")
 
@@ -748,9 +753,6 @@ libraries = {
 "": SubResource("AnimationLibrary_r5as0")
 }
 
-[node name="Body" type="CollisionPolygon2D" parent="."]
-polygon = PackedVector2Array(104, 584, 216, 584, 192, 392, 128, 384)
-
 [node name="StateMachine" type="Node" parent="."]
 script = ExtResource("4_al31w")
 
@@ -776,7 +778,23 @@ script = ExtResource("10_jje1n")
 [node name="Defend" type="Node" parent="StateMachine"]
 
 [node name="Combo" type="Timer" parent="."]
+wait_time = 0.7
 one_shot = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(184, 56)
+zoom = Vector2(0.5, 0.5)
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+drag_horizontal_offset = 0.3
+drag_left_margin = 0.3
+drag_top_margin = 1.0
+drag_right_margin = 0.3
+drag_bottom_margin = 0.0
+
+[node name="Body" type="CollisionShape2D" parent="."]
+position = Vector2(160, 486)
+shape = SubResource("RectangleShape2D_57e20")
 
 [connection signal="animation_finished" from="Anima" to="StateMachine/Jab" method="_on_anima_animation_finished"]
 [connection signal="timeout" from="Combo" to="StateMachine/Jab" method="_on_combo_timeout"]

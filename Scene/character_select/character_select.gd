@@ -39,10 +39,7 @@ func _on_fail_mouse_exited():
 
 
 func _on_sandy_pressed():
-	if clicks == 0:
-		Global.play_one = "Fail"
-		clicks += 1
-	elif clicks == 1:
+	if clicks == 1:
 		Global.play_two = "Sandy"
 		clicks += 1
 		if clicks == 2:
