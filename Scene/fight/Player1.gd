@@ -43,4 +43,5 @@ func set_animation(anim):
 	if $Anima.current_animation == anim: return
 	if $Anima.has_animation(anim): $Anima.play(anim)
 	else: $Anima.play()
-
+func die():
+	queue_free()

@@ -1,9 +1,10 @@
-[gd_scene load_steps=11 format=3 uid="uid://c32l744q1nrdb"]
+[gd_scene load_steps=12 format=3 uid="uid://c32l744q1nrdb"]
 
 [ext_resource type="Texture2D" uid="uid://4wd2fyfaaynk" path="res://Assets/Sprites/Streaming_SbF-1.png.png" id="1_2oj6v"]
 [ext_resource type="Texture2D" uid="uid://dr3mdxn2offn2" path="res://Assets/Sprites/Streaming_SbF-2.png.png" id="2_0rkj7"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/adventure/Player_Container.gd" id="3_a681h"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/adventure/Enemy_Container.gd" id="4_r27sn"]
+[ext_resource type="PackedScene" uid="uid://dwn0m5tqp18i3" path="res://SBF-WIP/Scene/adventure/enemies/character_body_2d.tscn" id="5_5761w"]
 [ext_resource type="Texture2D" uid="uid://cdaidn44x1bcq" path="res://Assets/Sprites/Square.png" id="5_ooa1n"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xo6qp"]
@@ -49,6 +50,9 @@ script = ExtResource("3_a681h")
 
 [node name="Enemy_Container" type="Node2D" parent="."]
 script = ExtResource("4_r27sn")
+
+[node name="ShadowFail" parent="Enemy_Container" instance=ExtResource("5_5761w")]
+position = Vector2(-776, 496)
 
 [node name="Wall Container" type="Node2D" parent="."]
 
