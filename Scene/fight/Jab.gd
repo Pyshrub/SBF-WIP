@@ -6,6 +6,7 @@ extends Node
 func _ready():
 	await player.ready
 func start():
+	player.attack_type = "jab"
 	player.set_animation("jab")
 	player.timing.wait_time = .5
 	player.timing.start()
@@ -22,5 +23,7 @@ func physics_process(_delta):
 
 
 func _on_combo_timeout():
+	player.attack_type = ""
 	player.combo = false
 	SM.set_state("Idle")
+

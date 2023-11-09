@@ -1,7 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://bew5wh1ls31pa"]
+[gd_scene load_steps=4 format=3 uid="uid://bew5wh1ls31pa"]
 
-[ext_resource type="Texture2D" uid="uid://cbjp6dixq0j0" path="res://Assets/Sprites/Healthbar-1.png.png" id="1_8cn7i"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Player1HP.gd" id="2_cwdxv"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/HUD/hud.gd" id="1_pdjg2"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_13nrh"]
+bg_color = Color(1, 0, 0, 1)
+
+[sub_resource type="Theme" id="Theme_g066k"]
+ProgressBar/styles/fill = SubResource("StyleBoxFlat_13nrh")
 
 [node name="HUD" type="Control"]
 layout_mode = 3
@@ -10,14 +15,24 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_pdjg2")
 
-[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+[node name="P1_Health" type="ProgressBar" parent="."]
 layout_mode = 0
-offset_left = 8.0
-offset_top = -152.0
-offset_right = 1008.0
-offset_bottom = 848.0
+offset_left = 32.0
+offset_top = 48.0
+offset_right = 1032.0
+offset_bottom = 134.0
 scale = Vector2(0.450037, 0.411599)
-texture_under = ExtResource("1_8cn7i")
-tint_progress = Color(0, 0, 1, 1)
-script = ExtResource("2_cwdxv")
+theme = SubResource("Theme_g066k")
+fill_mode = 1
+
+[node name="P2_Health" type="ProgressBar" parent="."]
+layout_mode = 0
+offset_left = 1128.0
+offset_top = 48.0
+offset_right = 2128.0
+offset_bottom = 135.0
+scale = Vector2(-0.45, 0.412)
+theme = SubResource("Theme_g066k")
+fill_mode = 1

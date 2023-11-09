@@ -1,10 +1,11 @@
-[gd_scene load_steps=29 format=3 uid="uid://ja5ty68paj2m"]
+[gd_scene load_steps=30 format=3 uid="uid://ja5ty68paj2m"]
 
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Player1.gd" id="1_ramds"]
 [ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://Assets/Sprites/FailBattle_SbF_3.png" id="2_1n3t7"]
 [ext_resource type="Texture2D" uid="uid://bg7qa5tpbhhu" path="res://Assets/Sprites/player_indicator.png" id="3_321pn"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Damage.gd" id="4_4lssf"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/StateMachine.gd" id="4_al31w"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/hurt.gd" id="4_mqr38"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/Idle.gd" id="5_qji01"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/Moving.gd" id="6_4gmim"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/Jumping.gd" id="7_c6752"]
@@ -731,10 +732,13 @@ collision_mask = 4
 script = ExtResource("4_4lssf")
 
 [node name="damage" type="CollisionPolygon2D" parent="Flip_Container/damage"]
-polygon = PackedVector2Array(176, 464, 176, 504, 133, 504, 136, 456)
+polygon = PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464)
 
 [node name="hurt" type="Area2D" parent="Flip_Container"]
 position = Vector2(168, 456)
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("4_mqr38")
 
 [node name="x" type="CollisionPolygon2D" parent="Flip_Container/hurt"]
 position = Vector2(-168, -432)
@@ -796,5 +800,6 @@ drag_bottom_margin = 0.0
 position = Vector2(160, 486)
 shape = SubResource("RectangleShape2D_57e20")
 
+[connection signal="area_entered" from="Flip_Container/damage" to="." method="_on_damage_area_entered"]
 [connection signal="animation_finished" from="Anima" to="StateMachine/Jab" method="_on_anima_animation_finished"]
 [connection signal="timeout" from="Combo" to="StateMachine/Jab" method="_on_combo_timeout"]
