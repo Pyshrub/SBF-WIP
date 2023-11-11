@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=3 uid="uid://b2tkqqrn34ucu"]
+[gd_scene load_steps=32 format=3 uid="uid://b2tkqqrn34ucu"]
 
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Fail_2.gd" id="1_cgjp8"]
 [ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://Assets/Sprites/FailBattle_SbF_3.png" id="2_yyqnh"]
@@ -10,6 +10,9 @@
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/Jumping2.gd" id="7_svj6u"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/Falling2.gd" id="8_5gqdf"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/Jab2.gd" id="9_nlq11"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Strong Attack2.gd" id="11_os3tv"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Down2.gd" id="12_lded6"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Defend2.gd" id="13_xxwe5"]
 
 [sub_resource type="Animation" id="Animation_xy8hs"]
 resource_name = "Idle"
@@ -798,10 +801,13 @@ script = ExtResource("8_5gqdf")
 script = ExtResource("9_nlq11")
 
 [node name="Strong Attack" type="Node" parent="StateMachine"]
+script = ExtResource("11_os3tv")
 
 [node name="Down" type="Node" parent="StateMachine"]
+script = ExtResource("12_lded6")
 
 [node name="Defend" type="Node" parent="StateMachine"]
+script = ExtResource("13_xxwe5")
 
 [node name="Body" type="CollisionShape2D" parent="."]
 position = Vector2(160, 486)
@@ -810,5 +816,10 @@ shape = SubResource("RectangleShape2D_o5oek")
 [node name="Combo" type="Timer" parent="."]
 one_shot = true
 
+[node name="Hit_Window" type="Timer" parent="."]
+one_shot = true
+
 [connection signal="area_entered" from="Flip_Container/damage" to="." method="_on_damage_area_entered"]
+[connection signal="area_exited" from="Flip_Container/damage" to="." method="_on_damage_area_exited"]
 [connection signal="timeout" from="Combo" to="StateMachine/Jab" method="_on_combo_timeout"]
+[connection signal="timeout" from="Hit_Window" to="." method="_on_hit_window_timeout"]

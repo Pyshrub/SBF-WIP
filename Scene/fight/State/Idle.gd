@@ -14,9 +14,15 @@ func physics_process(_delta):
 	player.move_and_slide()
 	if Input.is_action_just_pressed("Jab"):
 		SM.set_state("Jab")
+	if Input.is_action_just_pressed("Strong Attack"):
+		SM.set_state("Strong Attack")
 	if not player.is_on_floor():
 		SM.set_state("Falling")
 	if Input.is_action_just_pressed("Left") or Input.is_action_just_pressed("Right"):
 		SM.set_state("Moving")
 	if Input.is_action_pressed("Up"):
 		SM.set_state("Jumping")
+	if Input.is_action_pressed("Down"):
+		SM.set_state("Down")
+	if Input.is_action_pressed("defend"):
+		SM.set_state("Defend")

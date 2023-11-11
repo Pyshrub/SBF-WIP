@@ -33,3 +33,6 @@ func physics_process(_delta):
 	player.move_and_slide()
 	if direction == 0:
 		SM.set_state("Idle")
+	if Input.is_action_pressed("Down"):
+		player.velocity.x = 0
+		SM.set_state("Down")

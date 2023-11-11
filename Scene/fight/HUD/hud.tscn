@@ -35,4 +35,5 @@ offset_right = 2128.0
 offset_bottom = 135.0
 scale = Vector2(-0.45, 0.412)
 theme = SubResource("Theme_g066k")
+allow_greater = true
 fill_mode = 1

@@ -19,3 +19,9 @@ func physics_process(_delta):
 		SM.set_state("Jumping")
 	if Input.is_action_just_pressed("Jab2"):
 		SM.set_state("Jab")
+	if Input.is_action_pressed("Strong Attack 2"):
+		SM.set_state("Strong Attack")
+	if Input.is_action_pressed("Down_2"):
+		SM.set_state("Down")
+	if Input.is_action_pressed("defend2"):
+		SM.set_state("Defend")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://dupqylxues7mx"]
+[gd_scene load_steps=13 format=3 uid="uid://dupqylxues7mx"]
 
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/StateMachine.gd" id="1_2apyb"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/sandy.gd" id="1_q1qdv"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Sandy_Idle.gd" id="4_j2qnx"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Sandy_falls.gd" id="5_6mw8r"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Sandy_Damage.gd" id="6_kt76w"]
+[ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Hitbox.gd" id="7_6836h"]
 
 [sub_resource type="Animation" id="Animation_kjikl"]
 resource_name = "Damage"
@@ -87,7 +88,7 @@ tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(-4.5, 1.5)]
+"values": [Vector2(40, 24)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ctc6m"]
@@ -128,12 +129,13 @@ script = ExtResource("5_6mw8r")
 script = ExtResource("6_kt76w")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-4.5, 1.5)
+position = Vector2(40, 24)
 shape = SubResource("RectangleShape2D_k8g6x")
 
 [node name="Hitbox" type="Area2D" parent="."]
 collision_layer = 4
 collision_mask = 4
+script = ExtResource("7_6836h")
 
 [node name="HitboxC" type="CollisionShape2D" parent="Hitbox"]
 position = Vector2(40, 24)
