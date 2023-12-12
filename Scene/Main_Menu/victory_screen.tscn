@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://cdalawh7d4f6r"]
+[gd_scene load_steps=5 format=3 uid="uid://cdalawh7d4f6r"]
 
 [ext_resource type="Script" path="res://SBF-WIP/Scene/Main_Menu/Victory_Screen.gd" id="1_d82l7"]
 [ext_resource type="Texture2D" uid="uid://swjiqqhho5q4" path="res://SBF-WIP/Assets/Character Portraits/Failboat-1.png.png" id="2_7s0ob"]
+[ext_resource type="AudioStream" uid="uid://bmjftg77t7spi" path="res://SBF-WIP/Assets/Music/menu_main.ogg" id="3_v45y2"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_i3vs8"]
 font_size = 30
@@ -52,5 +53,8 @@ text = "The Winner Is:"
 label_settings = SubResource("LabelSettings_i3vs8")
 horizontal_alignment = 1
 autowrap_mode = 2
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_v45y2")
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
