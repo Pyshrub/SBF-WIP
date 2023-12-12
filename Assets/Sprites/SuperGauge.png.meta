@@ -1,0 +1,1460 @@
+fileFormatVersion: 2
+guid: baab096887fad424d913fd93d8d9eca4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1330683945079389389
+    second: SuperGauge_0
+  - first:
+      213: -2883649218453350334
+    second: SuperGauge_1
+  - first:
+      213: 9038714001034633754
+    second: SuperGauge_2
+  - first:
+      213: 4377550178697261279
+    second: SuperGauge_3
+  - first:
+      213: -1817431543918205925
+    second: SuperGauge_4
+  - first:
+      213: -1887007614380898197
+    second: SuperGauge_5
+  - first:
+      213: -131349305555393036
+    second: SuperGauge_6
+  - first:
+      213: 6449940651899291056
+    second: SuperGauge_7
+  - first:
+      213: 787948624502426726
+    second: SuperGauge_8
+  - first:
+      213: 8675811821926982950
+    second: SuperGauge_9
+  - first:
+      213: 5914946036733013172
+    second: SuperGauge_10
+  - first:
+      213: 6043912865545823924
+    second: SuperGauge_11
+  - first:
+      213: 7471193724550892454
+    second: SuperGauge_12
+  - first:
+      213: 7839589542562516182
+    second: SuperGauge_13
+  - first:
+      213: -6303864867194351669
+    second: SuperGauge_14
+  - first:
+      213: -3894196925556622063
+    second: SuperGauge_15
+  - first:
+      213: -1627483684476966955
+    second: SuperGauge_16
+  - first:
+      213: -4797091759032541299
+    second: SuperGauge_17
+  - first:
+      213: -3112520120227417729
+    second: SuperGauge_18
+  - first:
+      213: 6213907429668574487
+    second: SuperGauge_19
+  - first:
+      213: 2976201625226004953
+    second: SuperGauge_20
+  - first:
+      213: -5985382369095158313
+    second: SuperGauge_21
+  - first:
+      213: -2980831089222915172
+    second: SuperGauge_22
+  - first:
+      213: 61400329591451960
+    second: SuperGauge_23
+  - first:
+      213: 2927398590077776026
+    second: SuperGauge_24
+  - first:
+      213: -1795589037328794690
+    second: SuperGauge_25
+  - first:
+      213: 4229916757179663930
+    second: SuperGauge_26
+  - first:
+      213: -7653377037435664887
+    second: SuperGauge_27
+  - first:
+      213: -6823727649266229570
+    second: SuperGauge_28
+  - first:
+      213: 8747707421437410975
+    second: SuperGauge_29
+  - first:
+      213: 6075536655963208308
+    second: SuperGauge_30
+  - first:
+      213: -5658512224570187652
+    second: SuperGauge_31
+  - first:
+      213: -6475728430421773667
+    second: SuperGauge_32
+  - first:
+      213: 5239601550265112789
+    second: SuperGauge_33
+  - first:
+      213: -1149043287624793721
+    second: SuperGauge_34
+  - first:
+      213: 2235912255129181565
+    second: SuperGauge_35
+  - first:
+      213: 234258543997721642
+    second: SuperGauge_36
+  - first:
+      213: -3997583105335334160
+    second: SuperGauge_37
+  - first:
+      213: -8034607779702231496
+    second: SuperGauge_38
+  - first:
+      213: 3222313301794792595
+    second: SuperGauge_39
+  - first:
+      213: 7470643105485231179
+    second: SuperGauge_40
+  - first:
+      213: 1809538060918694031
+    second: SuperGauge_41
+  - first:
+      213: -7714305898772708732
+    second: SuperGauge_42
+  - first:
+      213: -8890640213118154738
+    second: SuperGauge_43
+  - first:
+      213: -223291015359847924
+    second: SuperGauge_44
+  - first:
+      213: -1346630306609660091
+    second: SuperGauge_45
+  - first:
+      213: 1134510662668384234
+    second: SuperGauge_46
+  - first:
+      213: -511167700413314344
+    second: SuperGauge_47
+  - first:
+      213: -8418067606735730213
+    second: SuperGauge_48
+  - first:
+      213: -3937373540643931182
+    second: SuperGauge_49
+  - first:
+      213: 2181366338845266774
+    second: SuperGauge_50
+  - first:
+      213: -4268952758393824815
+    second: SuperGauge_51
+  - first:
+      213: -2292446493003323271
+    second: SuperGauge_52
+  - first:
+      213: 4724383292130554018
+    second: SuperGauge_53
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SuperGauge_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 7148
+        width: 957
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccb5ce6ff9877210800000000000000
+      internalID: 1330683945079389389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_1
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 7148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248514560583bf7d0800000000000000
+      internalID: -2883649218453350334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_2
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 7148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12e40aae76ff6d70800000000000000
+      internalID: 9038714001034633754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_3
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 7148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0b2bbb1be20cc30800000000000000
+      internalID: 4377550178697261279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_4
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 7148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b146a25d3af27c6e0800000000000000
+      internalID: -1817431543918205925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_5
+      rect:
+        serializedVersion: 2
+        x: 5199
+        y: 7148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b688e50929000d5e0800000000000000
+      internalID: -1887007614380898197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_6
+      rect:
+        serializedVersion: 2
+        x: 6199
+        y: 7148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f560e4a08a5d2ef0800000000000000
+      internalID: -131349305555393036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 6148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b50fc289dac28950800000000000000
+      internalID: 6449940651899291056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_8
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 6148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c89b8691b5fea00800000000000000
+      internalID: 787948624502426726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_9
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 6148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625a718b2eca66870800000000000000
+      internalID: 8675811821926982950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_10
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 6148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc6319e41c161250800000000000000
+      internalID: 5914946036733013172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_11
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 6148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6a54caaba40e350800000000000000
+      internalID: 6043912865545823924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_12
+      rect:
+        serializedVersion: 2
+        x: 5199
+        y: 6148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abcbffbb130fa760800000000000000
+      internalID: 7471193724550892454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_13
+      rect:
+        serializedVersion: 2
+        x: 6199
+        y: 6148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc4e4d2721dbcc60800000000000000
+      internalID: 7839589542562516182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 5148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfc0d67d4c2488a0800000000000000
+      internalID: -6303864867194351669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_15
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 5148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d77ce478805f9c0800000000000000
+      internalID: -3894196925556622063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_16
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 5148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7a10536340a69e0800000000000000
+      internalID: -1627483684476966955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_17
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 5148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f59e3167e4d6db0800000000000000
+      internalID: -4797091759032541299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_18
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 5148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71b695017b1ec4d0800000000000000
+      internalID: -3112520120227417729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_19
+      rect:
+        serializedVersion: 2
+        x: 5199
+        y: 5148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7155e8472eb3c3650800000000000000
+      internalID: 6213907429668574487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_20
+      rect:
+        serializedVersion: 2
+        x: 6199
+        y: 5148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9498b0c979d4920800000000000000
+      internalID: 2976201625226004953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_21
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 4148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5723d7276afeca0800000000000000
+      internalID: -5985382369095158313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_22
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 4148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b6d6fdae5f1a6d0800000000000000
+      internalID: -2980831089222915172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_23
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 4148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831f36246432ad000800000000000000
+      internalID: 61400329591451960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_24
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 4148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90b095f18530a820800000000000000
+      internalID: 2927398590077776026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_25
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 4148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb7e63b849c417e0800000000000000
+      internalID: -1795589037328794690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_26
+      rect:
+        serializedVersion: 2
+        x: 5199
+        y: 4148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a368a2d21eea3ba30800000000000000
+      internalID: 4229916757179663930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_27
+      rect:
+        serializedVersion: 2
+        x: 6199
+        y: 4148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906048f322eb9c590800000000000000
+      internalID: -7653377037435664887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_28
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 3148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe997d4bdf3d41a0800000000000000
+      internalID: -6823727649266229570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_29
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 3148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e33dd6d89166970800000000000000
+      internalID: 8747707421437410975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_30
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 3148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a3d862664a05450800000000000000
+      internalID: 6075536655963208308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_31
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 3148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70e941ac1de871b0800000000000000
+      internalID: -5658512224570187652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_32
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 3148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92ffca6d479126a0800000000000000
+      internalID: -6475728430421773667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_33
+      rect:
+        serializedVersion: 2
+        x: 5199
+        y: 3148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8532079ddc6b840800000000000000
+      internalID: 5239601550265112789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_34
+      rect:
+        serializedVersion: 2
+        x: 6199
+        y: 3148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781c391c737cd00f0800000000000000
+      internalID: -1149043287624793721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_35
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ddae3895e870f10800000000000000
+      internalID: 2235912255129181565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_36
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 2148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c959497e0404300800000000000000
+      internalID: 234258543997721642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_37
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 2148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa6266885bb588c0800000000000000
+      internalID: -3997583105335334160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_38
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 2148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e22452bc65f7090800000000000000
+      internalID: -8034607779702231496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_39
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 2148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394ae7c10e4f7bc20800000000000000
+      internalID: 3222313301794792595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_40
+      rect:
+        serializedVersion: 2
+        x: 5199
+        y: 2148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b441b22c25e0da760800000000000000
+      internalID: 7470643105485231179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_41
+      rect:
+        serializedVersion: 2
+        x: 6199
+        y: 2148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80ab907745cc1910800000000000000
+      internalID: 1809538060918694031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_42
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482c3fe38a741f490800000000000000
+      internalID: -7714305898772708732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_43
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e080a4fa4d91e9480800000000000000
+      internalID: -8890640213118154738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_44
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 1148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02a0fb2106b6ecf0800000000000000
+      internalID: -223291015359847924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_45
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 1148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f71c2fedecf4de0800000000000000
+      internalID: -1346630306609660091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_46
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 1148
+        width: 785
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7fd32df679ebf00800000000000000
+      internalID: 1134510662668384234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_47
+      rect:
+        serializedVersion: 2
+        x: 5027
+        y: 1156
+        width: 368
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da063c4fa7f7e8f0800000000000000
+      internalID: -511167700413314344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_48
+      rect:
+        serializedVersion: 2
+        x: 6027
+        y: 1156
+        width: 368
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd94b4dcc140d2b80800000000000000
+      internalID: -8418067606735730213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_49
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 156
+        width: 368
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db75e930a3ab59c0800000000000000
+      internalID: -3937373540643931182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_50
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 156
+        width: 368
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653ddd7b025c54e10800000000000000
+      internalID: 2181366338845266774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_51
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 156
+        width: 368
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d913098512a1c4c0800000000000000
+      internalID: -4268952758393824815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_52
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 156
+        width: 368
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97862fd7f089f20e0800000000000000
+      internalID: -2292446493003323271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGauge_53
+      rect:
+        serializedVersion: 2
+        x: 4027
+        y: 156
+        width: 368
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a07b36c291609140800000000000000
+      internalID: 4724383292130554018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SuperGauge_6: -131349305555393036
+      SuperGauge_45: -1346630306609660091
+      SuperGauge_47: -511167700413314344
+      SuperGauge_43: -8890640213118154738
+      SuperGauge_2: 9038714001034633754
+      SuperGauge_3: 4377550178697261279
+      SuperGauge_36: 234258543997721642
+      SuperGauge_29: 8747707421437410975
+      SuperGauge_15: -3894196925556622063
+      SuperGauge_16: -1627483684476966955
+      SuperGauge_30: 6075536655963208308
+      SuperGauge_27: -7653377037435664887
+      SuperGauge_9: 8675811821926982950
+      SuperGauge_14: -6303864867194351669
+      SuperGauge_20: 2976201625226004953
+      SuperGauge_46: 1134510662668384234
+      SuperGauge_50: 2181366338845266774
+      SuperGauge_48: -8418067606735730213
+      SuperGauge_53: 4724383292130554018
+      SuperGauge_49: -3937373540643931182
+      SuperGauge_18: -3112520120227417729
+      SuperGauge_4: -1817431543918205925
+      SuperGauge_17: -4797091759032541299
+      SuperGauge_12: 7471193724550892454
+      SuperGauge_41: 1809538060918694031
+      SuperGauge_31: -5658512224570187652
+      SuperGauge_1: -2883649218453350334
+      SuperGauge_10: 5914946036733013172
+      SuperGauge_23: 61400329591451960
+      SuperGauge_35: 2235912255129181565
+      SuperGauge_39: 3222313301794792595
+      SuperGauge_42: -7714305898772708732
+      SuperGauge_28: -6823727649266229570
+      SuperGauge_26: 4229916757179663930
+      SuperGauge_52: -2292446493003323271
+      SuperGauge_40: 7470643105485231179
+      SuperGauge_13: 7839589542562516182
+      SuperGauge_21: -5985382369095158313
+      SuperGauge_33: 5239601550265112789
+      SuperGauge_24: 2927398590077776026
+      SuperGauge_11: 6043912865545823924
+      SuperGauge_0: 1330683945079389389
+      SuperGauge_38: -8034607779702231496
+      SuperGauge_44: -223291015359847924
+      SuperGauge_22: -2980831089222915172
+      SuperGauge_34: -1149043287624793721
+      SuperGauge_5: -1887007614380898197
+      SuperGauge_7: 6449940651899291056
+      SuperGauge_51: -4268952758393824815
+      SuperGauge_8: 787948624502426726
+      SuperGauge_19: 6213907429668574487
+      SuperGauge_37: -3997583105335334160
+      SuperGauge_25: -1795589037328794690
+      SuperGauge_32: -6475728430421773667
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

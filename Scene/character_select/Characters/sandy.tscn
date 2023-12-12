@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/StateMachine.gd" id="1_2apyb"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/sandy.gd" id="1_q1qdv"]
-[ext_resource type="Texture2D" uid="uid://wc4pf3p4rqsb" path="res://Assets/Sprites/BagSpriteSheet.png" id="2_1sr3a"]
+[ext_resource type="Texture2D" uid="uid://wc4pf3p4rqsb" path="res://SBF-WIP/Assets/Sprites/BagSpriteSheet.png" id="2_u2qkk"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Sandy_Idle.gd" id="4_j2qnx"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Sandy_falls.gd" id="5_6mw8r"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Sandy_Damage.gd" id="6_kt76w"]
@@ -112,7 +112,7 @@ libraries = {
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(58, 16)
 scale = Vector2(3.07143, 3.14286)
-texture = ExtResource("2_1sr3a")
+texture = ExtResource("2_u2qkk")
 hframes = 2
 vframes = 2
 
@@ -133,6 +133,7 @@ position = Vector2(40, 24)
 shape = SubResource("RectangleShape2D_k8g6x")
 
 [node name="Hitbox" type="Area2D" parent="."]
+visible = false
 collision_layer = 4
 collision_mask = 4
 script = ExtResource("7_6836h")

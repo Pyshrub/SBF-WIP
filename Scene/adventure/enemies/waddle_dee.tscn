@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://dxpowyogjspir"]
 
 [ext_resource type="Script" path="res://SBF-WIP/Scene/adventure/enemies/waddle_dee.gd" id="1_hsbue"]
-[ext_resource type="Texture2D" uid="uid://bu7v8arba3eel" path="res://Assets/Sprites/waddleWalksheet.png" id="1_ng71m"]
+[ext_resource type="Texture2D" uid="uid://bu7v8arba3eel" path="res://SBF-WIP/Assets/Sprites/waddleWalksheet.png" id="1_ng71m"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eiypw"]
 atlas = ExtResource("1_ng71m")

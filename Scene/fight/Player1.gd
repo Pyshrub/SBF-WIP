@@ -57,9 +57,10 @@ func _on_damage_area_entered(area):
 		if target.has_method("damage"):
 			if attack_type == "jab":
 				target.damage(7.5)
-				if area.global_position.x < global_position.x:
-					print("hi")
-					area.knockback(-5)
+				if area.get_place() < position.x:
+					pass
+				else:
+					area.knockback(5)
 			if attack_type == "Strong Attack":
 				target.damage(20)
 		if target.hp <= 0:

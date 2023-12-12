@@ -18,7 +18,7 @@ func _process(delta):
 
 func _on_fail_pressed():
 	Global.play_one = "Fail"
-	p_1_clicks += 1
+	p_1_clicks = 1
 
 	
 
@@ -39,8 +39,7 @@ func _on_fail_2_pressed():
 
 
 func _on_sandy_pressed():
-	Global.play_two = "Sandy"
-	p_2_clicks = 1
+	pass
 
 
 func _on_sandy_mouse_entered():

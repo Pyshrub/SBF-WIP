@@ -1,0 +1,5528 @@
+fileFormatVersion: 2
+guid: ae43b8d4a9f24f14c90eb98b2d259031
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4689048142404631835
+    second: Gex_0
+  - first:
+      213: -6173059834047868804
+    second: Gex_1
+  - first:
+      213: -734109936118862539
+    second: Gex_2
+  - first:
+      213: -6642497729794271068
+    second: Gex_3
+  - first:
+      213: -1566608492692292112
+    second: Gex_4
+  - first:
+      213: -8408917766949069986
+    second: Gex_5
+  - first:
+      213: -3718167697528625856
+    second: Gex_6
+  - first:
+      213: 1550208549810333816
+    second: Gex_7
+  - first:
+      213: 2578866117600601199
+    second: Gex_8
+  - first:
+      213: 59984492440863821
+    second: Gex_9
+  - first:
+      213: 4497894972227316097
+    second: Gex_10
+  - first:
+      213: 5703257713759329382
+    second: Gex_11
+  - first:
+      213: 7435396575114648240
+    second: Gex_12
+  - first:
+      213: 5031014415843058622
+    second: Gex_13
+  - first:
+      213: -5307857404065412553
+    second: Gex_14
+  - first:
+      213: -2545793693209149274
+    second: Gex_15
+  - first:
+      213: 6192319235402272185
+    second: Gex_16
+  - first:
+      213: 6696195347472997655
+    second: Gex_17
+  - first:
+      213: 2335638038249133860
+    second: Gex_18
+  - first:
+      213: -5928505567561862838
+    second: Gex_19
+  - first:
+      213: 6519533566559269397
+    second: Gex_20
+  - first:
+      213: 8235778627240072397
+    second: Gex_21
+  - first:
+      213: -8097755757684330726
+    second: Gex_22
+  - first:
+      213: 284449708342394673
+    second: Gex_23
+  - first:
+      213: 7461322810420017238
+    second: Gex_24
+  - first:
+      213: -8629824580922560620
+    second: Gex_25
+  - first:
+      213: -3434335289871033096
+    second: Gex_26
+  - first:
+      213: -3623822969110586561
+    second: Gex_27
+  - first:
+      213: -1259747252946398181
+    second: Gex_28
+  - first:
+      213: 8270145698961017251
+    second: Gex_29
+  - first:
+      213: -631692000895584095
+    second: Gex_30
+  - first:
+      213: -6971142124637412700
+    second: Gex_31
+  - first:
+      213: 1944788684947609778
+    second: Gex_32
+  - first:
+      213: -615176596308909116
+    second: Gex_33
+  - first:
+      213: -2016380220832650954
+    second: Gex_34
+  - first:
+      213: 5422222020435498272
+    second: Gex_35
+  - first:
+      213: 6232767205046210108
+    second: Gex_36
+  - first:
+      213: 5181695680311530391
+    second: Gex_37
+  - first:
+      213: 6915746076774466513
+    second: Gex_38
+  - first:
+      213: 5926500387127838850
+    second: Gex_39
+  - first:
+      213: -7940606971381270560
+    second: Gex_40
+  - first:
+      213: -1127093739471120186
+    second: Gex_41
+  - first:
+      213: -8111486761735096941
+    second: Gex_42
+  - first:
+      213: -3148492557528397232
+    second: Gex_43
+  - first:
+      213: -8366904188181259607
+    second: Gex_44
+  - first:
+      213: -4814468907656119266
+    second: Gex_45
+  - first:
+      213: 4071181096425836559
+    second: Gex_46
+  - first:
+      213: 4881693376312305331
+    second: Gex_47
+  - first:
+      213: -3852262339768638454
+    second: Gex_48
+  - first:
+      213: -2116411333933906535
+    second: Gex_49
+  - first:
+      213: 7454193899642915504
+    second: Gex_50
+  - first:
+      213: -5234306868155131568
+    second: Gex_51
+  - first:
+      213: -5886533943486163296
+    second: Gex_52
+  - first:
+      213: -2411770162464572196
+    second: Gex_53
+  - first:
+      213: -5587064709020257478
+    second: Gex_54
+  - first:
+      213: 870091775609590158
+    second: Gex_55
+  - first:
+      213: 3505735020808177743
+    second: Gex_56
+  - first:
+      213: 6816210498941866116
+    second: Gex_57
+  - first:
+      213: -5436914581131272204
+    second: Gex_58
+  - first:
+      213: -443844958560017331
+    second: Gex_59
+  - first:
+      213: -242979941380066015
+    second: Gex_60
+  - first:
+      213: -5378050280890767869
+    second: Gex_61
+  - first:
+      213: -3855208800803628223
+    second: Gex_62
+  - first:
+      213: -9197785419250374365
+    second: Gex_63
+  - first:
+      213: -6132249046237063603
+    second: Gex_64
+  - first:
+      213: -6666419900229271323
+    second: Gex_65
+  - first:
+      213: 7214837141457586943
+    second: Gex_66
+  - first:
+      213: 1995310615055571287
+    second: Gex_67
+  - first:
+      213: 7007961901849701490
+    second: Gex_68
+  - first:
+      213: 1859286475112324774
+    second: Gex_69
+  - first:
+      213: 8161280545324078490
+    second: Gex_70
+  - first:
+      213: -7888312687340048357
+    second: Gex_71
+  - first:
+      213: -3515500993908275896
+    second: Gex_72
+  - first:
+      213: -287606221225041625
+    second: Gex_73
+  - first:
+      213: -2745778955070273568
+    second: Gex_74
+  - first:
+      213: -5987742642053457194
+    second: Gex_75
+  - first:
+      213: -3710456028507383399
+    second: Gex_76
+  - first:
+      213: 3716961651559280111
+    second: Gex_77
+  - first:
+      213: 1856361990412824755
+    second: Gex_78
+  - first:
+      213: 1205221597597930364
+    second: Gex_79
+  - first:
+      213: 5325319154908575025
+    second: Gex_80
+  - first:
+      213: 5056383848563004632
+    second: Gex_81
+  - first:
+      213: 8340104955429930235
+    second: Gex_82
+  - first:
+      213: 1791452565693126455
+    second: Gex_83
+  - first:
+      213: 3076159952935805422
+    second: Gex_84
+  - first:
+      213: 7397304223983777837
+    second: Gex_85
+  - first:
+      213: 3029305521516201981
+    second: Gex_86
+  - first:
+      213: -8173153500316479611
+    second: Gex_87
+  - first:
+      213: 2059347451886195752
+    second: Gex_88
+  - first:
+      213: -8436332294136626185
+    second: Gex_89
+  - first:
+      213: 5176751566336923203
+    second: Gex_90
+  - first:
+      213: -616028025337997527
+    second: Gex_91
+  - first:
+      213: 5984466818630241474
+    second: Gex_92
+  - first:
+      213: 2736767277834983657
+    second: Gex_93
+  - first:
+      213: -7241759538203616928
+    second: Gex_94
+  - first:
+      213: -1234526700078202343
+    second: Gex_95
+  - first:
+      213: -1337439035126877610
+    second: Gex_96
+  - first:
+      213: -8342614259426111634
+    second: Gex_97
+  - first:
+      213: -193226462301087604
+    second: Gex_98
+  - first:
+      213: -1351725611481421771
+    second: Gex_99
+  - first:
+      213: 3877679395037039170
+    second: Gex_100
+  - first:
+      213: -6378623588296523573
+    second: Gex_101
+  - first:
+      213: 4152601390758453485
+    second: Gex_102
+  - first:
+      213: -525130631160769252
+    second: Gex_103
+  - first:
+      213: 3498184043492341475
+    second: Gex_104
+  - first:
+      213: 5874734506239001944
+    second: Gex_105
+  - first:
+      213: 5994922649670882958
+    second: Gex_106
+  - first:
+      213: 4504234655585508827
+    second: Gex_107
+  - first:
+      213: -7858250553912877429
+    second: Gex_108
+  - first:
+      213: 8158504660245949533
+    second: Gex_109
+  - first:
+      213: -3629648326020801278
+    second: Gex_110
+  - first:
+      213: 6729521715779436940
+    second: Gex_111
+  - first:
+      213: 2567713125376699186
+    second: Gex_112
+  - first:
+      213: 394027778232601746
+    second: Gex_113
+  - first:
+      213: -7093421091994242944
+    second: Gex_114
+  - first:
+      213: -6345242807181394724
+    second: Gex_115
+  - first:
+      213: -1248731932524101513
+    second: Gex_116
+  - first:
+      213: -6106655951197396352
+    second: Gex_117
+  - first:
+      213: 5053941862683529151
+    second: Gex_118
+  - first:
+      213: -1913407482951630118
+    second: Gex_119
+  - first:
+      213: -5075573633430431544
+    second: Gex_120
+  - first:
+      213: -580186812223754689
+    second: Gex_121
+  - first:
+      213: -7926577512150239536
+    second: Gex_122
+  - first:
+      213: 8402428203192730876
+    second: Gex_123
+  - first:
+      213: -5844003261160147070
+    second: Gex_124
+  - first:
+      213: 5924485855305418359
+    second: Gex_125
+  - first:
+      213: -3878293787612975907
+    second: Gex_126
+  - first:
+      213: -4331867204164198810
+    second: Gex_127
+  - first:
+      213: -6626492694980915922
+    second: Gex_128
+  - first:
+      213: -8140998414229257721
+    second: Gex_129
+  - first:
+      213: -661318490983038463
+    second: Gex_130
+  - first:
+      213: 4332281071725669181
+    second: Gex_131
+  - first:
+      213: -8001545550854799302
+    second: Gex_132
+  - first:
+      213: -1642397837945765166
+    second: Gex_133
+  - first:
+      213: -3816635508208632429
+    second: Gex_134
+  - first:
+      213: -2796011906505398920
+    second: Gex_135
+  - first:
+      213: -2425468093422686997
+    second: Gex_136
+  - first:
+      213: 1362150150896880319
+    second: Gex_137
+  - first:
+      213: 2302098309300347866
+    second: Gex_138
+  - first:
+      213: 7794422247093324071
+    second: Gex_139
+  - first:
+      213: 7805155243540093633
+    second: Gex_140
+  - first:
+      213: -6893369269299475538
+    second: Gex_141
+  - first:
+      213: 976312580149803505
+    second: Gex_142
+  - first:
+      213: -8802334295328248130
+    second: Gex_143
+  - first:
+      213: -3955866414766558453
+    second: Gex_144
+  - first:
+      213: -3675504032859630127
+    second: Gex_145
+  - first:
+      213: -4730908969036055969
+    second: Gex_146
+  - first:
+      213: 8918965386129463746
+    second: Gex_147
+  - first:
+      213: -7067110840746087614
+    second: Gex_148
+  - first:
+      213: -5305478444981458579
+    second: Gex_149
+  - first:
+      213: 8207429140343697407
+    second: Gex_150
+  - first:
+      213: 6656709043078093882
+    second: Gex_151
+  - first:
+      213: -4272235353255425532
+    second: Gex_152
+  - first:
+      213: -5859472723699466037
+    second: Gex_153
+  - first:
+      213: 239219676675651489
+    second: Gex_154
+  - first:
+      213: -5051833067021924684
+    second: Gex_155
+  - first:
+      213: -2011083080174675451
+    second: Gex_156
+  - first:
+      213: 5502458818315019569
+    second: Gex_157
+  - first:
+      213: -7956173491192454020
+    second: Gex_158
+  - first:
+      213: 3050990801199514499
+    second: Gex_159
+  - first:
+      213: -3930074172290539809
+    second: Gex_160
+  - first:
+      213: -3065760809352145345
+    second: Gex_161
+  - first:
+      213: -5674607094363176368
+    second: Gex_162
+  - first:
+      213: -4449894812222394992
+    second: Gex_163
+  - first:
+      213: -7017772563860068631
+    second: Gex_164
+  - first:
+      213: -9160666390880998443
+    second: Gex_165
+  - first:
+      213: 8018656450667099012
+    second: Gex_166
+  - first:
+      213: -5474411257054049495
+    second: Gex_167
+  - first:
+      213: -4216260085969337550
+    second: Gex_168
+  - first:
+      213: -8603314216215366516
+    second: Gex_169
+  - first:
+      213: 1922233038464944393
+    second: Gex_170
+  - first:
+      213: -1086138503768365653
+    second: Gex_171
+  - first:
+      213: 1232077704123922545
+    second: Gex_172
+  - first:
+      213: -7206618348001125114
+    second: Gex_173
+  - first:
+      213: 6977388829067047329
+    second: Gex_174
+  - first:
+      213: 1115157441520124194
+    second: Gex_175
+  - first:
+      213: -6995113921080876489
+    second: Gex_176
+  - first:
+      213: -6037870053768987949
+    second: Gex_177
+  - first:
+      213: -1683766727651604062
+    second: Gex_178
+  - first:
+      213: -8694634925400052402
+    second: Gex_179
+  - first:
+      213: -4394598810408985950
+    second: Gex_180
+  - first:
+      213: 6939987750038760271
+    second: Gex_181
+  - first:
+      213: -6480702688504173456
+    second: Gex_182
+  - first:
+      213: 2713071575998623363
+    second: Gex_183
+  - first:
+      213: -3011209938362329747
+    second: Gex_184
+  - first:
+      213: 7552916838664197685
+    second: Gex_185
+  - first:
+      213: 2006117569449277925
+    second: Gex_186
+  - first:
+      213: -348525092022809948
+    second: Gex_187
+  - first:
+      213: 2099455756936071215
+    second: Gex_188
+  - first:
+      213: -4139279084798967050
+    second: Gex_189
+  - first:
+      213: 5611882977959396434
+    second: Gex_190
+  - first:
+      213: 5849950708149705201
+    second: Gex_191
+  - first:
+      213: -6573217514066223400
+    second: Gex_192
+  - first:
+      213: 7589664310105051267
+    second: Gex_193
+  - first:
+      213: 1492892051234811048
+    second: Gex_194
+  - first:
+      213: -4327067023377124793
+    second: Gex_195
+  - first:
+      213: -3138433932336481400
+    second: Gex_196
+  - first:
+      213: 2510720824542803379
+    second: Gex_197
+  - first:
+      213: 4833842936831097840
+    second: Gex_198
+  - first:
+      213: -4002472000091714348
+    second: Gex_199
+  - first:
+      213: 3055239366151279872
+    second: Gex_200
+  - first:
+      213: 7774097998070431915
+    second: Gex_201
+  - first:
+      213: -7334410247914093976
+    second: Gex_202
+  - first:
+      213: 6950153158218487223
+    second: Gex_203
+  - first:
+      213: -6808383871142715962
+    second: Gex_204
+  - first:
+      213: -1886034347941140593
+    second: Gex_205
+  - first:
+      213: 9057905587513296458
+    second: Gex_206
+  - first:
+      213: 1423620816152537830
+    second: Gex_207
+  - first:
+      213: -1892283098980940512
+    second: Gex_208
+  - first:
+      213: -4310794486290518743
+    second: Gex_209
+  - first:
+      213: 8523150588256085587
+    second: Gex_210
+  - first:
+      213: -8195405053846185224
+    second: Gex_211
+  - first:
+      213: 4393757602427642079
+    second: Gex_212
+  - first:
+      213: 6957930289866855111
+    second: Gex_213
+  - first:
+      213: -8075450821877346623
+    second: Gex_214
+  - first:
+      213: -943472681742141005
+    second: Gex_215
+  - first:
+      213: -4007671599190870192
+    second: Gex_216
+  - first:
+      213: 2074762244508821083
+    second: Gex_217
+  - first:
+      213: -6102611235935944196
+    second: Gex_218
+  - first:
+      213: 8737798192967932164
+    second: Gex_219
+  - first:
+      213: -839418784416472913
+    second: Gex_220
+  - first:
+      213: -4151856779532941385
+    second: Gex_221
+  - first:
+      213: -7504682810374961952
+    second: Gex_222
+  - first:
+      213: -7795637225858270925
+    second: Gex_223
+  - first:
+      213: 7579039813511485553
+    second: Gex_224
+  - first:
+      213: 2472185120671160888
+    second: Gex_225
+  - first:
+      213: 6777337620653344746
+    second: Gex_226
+  - first:
+      213: 1823006592256614997
+    second: Gex_227
+  - first:
+      213: 2718088448450550920
+    second: Gex_228
+  - first:
+      213: 8093771109798537312
+    second: Gex_229
+  - first:
+      213: -152503862783382635
+    second: Gex_230
+  - first:
+      213: 7073976514649499003
+    second: Gex_231
+  - first:
+      213: 4424110179189573522
+    second: Gex_232
+  - first:
+      213: 344253998451414811
+    second: Gex_233
+  - first:
+      213: -3041809070844164307
+    second: Gex_234
+  - first:
+      213: -4688885074900611121
+    second: Gex_235
+  - first:
+      213: 1574325560177741128
+    second: Gex_236
+  - first:
+      213: -6933421915023147831
+    second: Gex_237
+  - first:
+      213: -1701768663480135532
+    second: Gex_238
+  - first:
+      213: 7396643910356509545
+    second: Gex_239
+  - first:
+      213: 5358852422990449234
+    second: Gex_240
+  - first:
+      213: -179850759770078618
+    second: Gex_241
+  - first:
+      213: -2317639576117970626
+    second: Gex_242
+  - first:
+      213: -5437047203604761430
+    second: Gex_243
+  - first:
+      213: 3531252876278569562
+    second: Gex_244
+  - first:
+      213: -5659620928366420622
+    second: Gex_245
+  - first:
+      213: -3894563677396493962
+    second: Gex_246
+  - first:
+      213: 1417864440411856488
+    second: Gex_247
+  - first:
+      213: 6614878176360780448
+    second: Gex_248
+  - first:
+      213: -3248280591126239847
+    second: Gex_249
+  - first:
+      213: 844635314543195827
+    second: Gex_250
+  - first:
+      213: 7034916457806055567
+    second: Gex_251
+  - first:
+      213: 9098128355428136348
+    second: Gex_252
+  - first:
+      213: -581568146598726853
+    second: Gex_253
+  - first:
+      213: 5230817111449066983
+    second: Gex_254
+  - first:
+      213: -8564248705928119097
+    second: Gex_255
+  - first:
+      213: 4092750784166803390
+    second: Gex_256
+  - first:
+      213: 7397879420744310007
+    second: Gex_257
+  - first:
+      213: -8083999552297237990
+    second: Gex_258
+  - first:
+      213: 2792540961278661947
+    second: Gex_259
+  - first:
+      213: 697661993376451100
+    second: Gex_260
+  - first:
+      213: 122617938666320902
+    second: Gex_261
+  - first:
+      213: -2341400575384490743
+    second: Gex_262
+  - first:
+      213: -757678687983895370
+    second: Gex_263
+  - first:
+      213: 8678860736459512366
+    second: Gex_264
+  - first:
+      213: 4916847642368827608
+    second: Gex_265
+  - first:
+      213: -5249416791758903990
+    second: Gex_266
+  - first:
+      213: 4571999058681738975
+    second: Gex_267
+  - first:
+      213: -3720574196286352868
+    second: Gex_268
+  - first:
+      213: -1470758798054490656
+    second: Gex_269
+  - first:
+      213: 5202790980671522086
+    second: Gex_270
+  - first:
+      213: 4649217784756436434
+    second: Gex_271
+  - first:
+      213: 467294406274249880
+    second: Gex_272
+  - first:
+      213: -1270101793634309078
+    second: Gex_273
+  - first:
+      213: 1283522327510455902
+    second: Gex_274
+  - first:
+      213: -5335272570251572973
+    second: Gex_275
+  - first:
+      213: 3155822099428907187
+    second: Gex_276
+  - first:
+      213: 4233403433558142681
+    second: Gex_277
+  - first:
+      213: -6325818527029073829
+    second: Gex_278
+  - first:
+      213: 2415022208459860829
+    second: Gex_279
+  - first:
+      213: -6304808239515021842
+    second: Gex_280
+  - first:
+      213: -9132966361114929520
+    second: Gex_281
+  - first:
+      213: 4596735966943498464
+    second: Gex_282
+  - first:
+      213: 1340627413366997559
+    second: Gex_283
+  - first:
+      213: -1726265366331676125
+    second: Gex_284
+  - first:
+      213: -3798584979986847746
+    second: Gex_285
+  - first:
+      213: -3656806974971745135
+    second: Gex_286
+  - first:
+      213: -2538297121982806993
+    second: Gex_287
+  - first:
+      213: 4104885976805653340
+    second: Gex_288
+  - first:
+      213: -6747208496942376643
+    second: Gex_289
+  - first:
+      213: 6272142132388816959
+    second: Gex_290
+  - first:
+      213: 8017700964282768592
+    second: Gex_291
+  - first:
+      213: -8219639543014208806
+    second: Gex_292
+  - first:
+      213: 2209943986622913558
+    second: Gex_293
+  - first:
+      213: -90096279590445549
+    second: Gex_294
+  - first:
+      213: -2984389724322166764
+    second: Gex_295
+  - first:
+      213: -2230259145634510648
+    second: Gex_296
+  - first:
+      213: -2660830562390374925
+    second: Gex_297
+  - first:
+      213: -4591043050454194843
+    second: Gex_298
+  - first:
+      213: -6440415579072493691
+    second: Gex_299
+  - first:
+      213: 6669294892112062696
+    second: Gex_300
+  - first:
+      213: 2272742192521815162
+    second: Gex_301
+  - first:
+      213: 4485580449996665757
+    second: Gex_302
+  - first:
+      213: -4207627534338158713
+    second: Gex_303
+  - first:
+      213: -3398224201176511651
+    second: Gex_304
+  - first:
+      213: 6397856752507508107
+    second: Gex_305
+  - first:
+      213: -271944750840404265
+    second: Gex_306
+  - first:
+      213: 7561659705971461024
+    second: Gex_307
+  - first:
+      213: 1681864064817108145
+    second: Gex_308
+  - first:
+      213: -185876618355114893
+    second: Gex_309
+  - first:
+      213: -1155180585532539969
+    second: Gex_310
+  - first:
+      213: 5239458248764729972
+    second: Gex_311
+  - first:
+      213: -2279065076333661256
+    second: Gex_312
+  - first:
+      213: 4832181627876162159
+    second: Gex_313
+  - first:
+      213: -3464124881481030365
+    second: Gex_314
+  - first:
+      213: 3247383233512751233
+    second: Gex_315
+  - first:
+      213: 4457910089019786294
+    second: Gex_316
+  - first:
+      213: -5723413625433725373
+    second: Gex_317
+  - first:
+      213: 3842552491796597703
+    second: Gex_318
+  - first:
+      213: -4946195103401462973
+    second: Gex_319
+  - first:
+      213: -1781841358668849874
+    second: Gex_320
+  - first:
+      213: -5754178901471936338
+    second: Gex_321
+  - first:
+      213: -8375784132457050340
+    second: Gex_322
+  - first:
+      213: 4283862582419592999
+    second: Gex_323
+  - first:
+      213: 2471841261043476346
+    second: Gex_324
+  - first:
+      213: 4557353460456568087
+    second: Gex_325
+  - first:
+      213: -4446401599075664469
+    second: Gex_326
+  - first:
+      213: 1028167569937381528
+    second: Gex_327
+  - first:
+      213: -9014996439885502230
+    second: Gex_328
+  - first:
+      213: -3470161437716198491
+    second: Gex_329
+  - first:
+      213: -7580622752381198646
+    second: Gex_330
+  - first:
+      213: 997261163065279054
+    second: Gex_331
+  - first:
+      213: 3396496083496934353
+    second: Gex_332
+  - first:
+      213: 3189965748346892021
+    second: Gex_333
+  - first:
+      213: -1468510169496104558
+    second: Gex_334
+  - first:
+      213: -841261336690330645
+    second: Gex_335
+  - first:
+      213: 6897936558785175458
+    second: Gex_336
+  - first:
+      213: 5424816461814007014
+    second: Gex_337
+  - first:
+      213: -1977742866738607790
+    second: Gex_338
+  - first:
+      213: 8980401111013534992
+    second: Gex_339
+  - first:
+      213: -8159855531512365713
+    second: Gex_340
+  - first:
+      213: 6979596705833907686
+    second: Gex_341
+  - first:
+      213: 1566305523985415389
+    second: Gex_342
+  - first:
+      213: -6741102241878110244
+    second: Gex_343
+  - first:
+      213: -1249617871675117469
+    second: Gex_344
+  - first:
+      213: -4343826037138468762
+    second: Gex_345
+  - first:
+      213: 4839573669164666712
+    second: Gex_346
+  - first:
+      213: 7067411816559641968
+    second: Gex_347
+  - first:
+      213: 3700168524270630076
+    second: Gex_348
+  - first:
+      213: -4754459156488039395
+    second: Gex_349
+  - first:
+      213: 2068800751171774025
+    second: Gex_350
+  - first:
+      213: -1286588746780745532
+    second: Gex_351
+  - first:
+      213: -4347571354982124828
+    second: Gex_352
+  - first:
+      213: -557795874500607640
+    second: Gex_353
+  - first:
+      213: -7969868521720118209
+    second: Gex_354
+  - first:
+      213: -8533661849164882643
+    second: Gex_355
+  - first:
+      213: -9083985304006796462
+    second: Gex_356
+  - first:
+      213: -4286969988465016060
+    second: Gex_357
+  - first:
+      213: -8917388183189333284
+    second: Gex_358
+  - first:
+      213: 1557010717482655780
+    second: Gex_359
+  - first:
+      213: -7265274318944610205
+    second: Gex_360
+  - first:
+      213: 6627768754809789008
+    second: Gex_361
+  - first:
+      213: 1597858062202027988
+    second: Gex_362
+  - first:
+      213: -9011557835915165432
+    second: Gex_363
+  - first:
+      213: 4301332490151835738
+    second: Gex_364
+  - first:
+      213: 5054183102066923177
+    second: Gex_365
+  - first:
+      213: 4710236657158317190
+    second: Gex_366
+  - first:
+      213: -3113154615588415168
+    second: Gex_367
+  - first:
+      213: 4699541272474296663
+    second: Gex_368
+  - first:
+      213: 4014119978368146096
+    second: Gex_369
+  - first:
+      213: -8444808654114653982
+    second: Gex_370
+  - first:
+      213: 1021818801215278325
+    second: Gex_371
+  - first:
+      213: -7868487094016739153
+    second: Gex_372
+  - first:
+      213: -928249293018023467
+    second: Gex_373
+  - first:
+      213: 4164668937337410851
+    second: Gex_374
+  - first:
+      213: -9207437548662354240
+    second: Gex_375
+  - first:
+      213: 6586809266960794267
+    second: Gex_376
+  - first:
+      213: -4852994994629695165
+    second: Gex_377
+  - first:
+      213: 4216198354378537523
+    second: Gex_378
+  - first:
+      213: -6337104736084585373
+    second: Gex_379
+  - first:
+      213: -1762021316824190872
+    second: Gex_380
+  - first:
+      213: -1979845498739927664
+    second: Gex_381
+  - first:
+      213: 8911351854854502100
+    second: Gex_382
+  - first:
+      213: 5021790038257942578
+    second: Gex_383
+  - first:
+      213: -3026905933205078251
+    second: Gex_384
+  - first:
+      213: 809237850828752483
+    second: Gex_385
+  - first:
+      213: -4003593504099702998
+    second: Gex_386
+  - first:
+      213: 7345084319709985260
+    second: Gex_387
+  - first:
+      213: 7231463944334436496
+    second: Gex_388
+  - first:
+      213: 1038389676243596019
+    second: Gex_389
+  - first:
+      213: 2407985809834480968
+    second: Gex_390
+  - first:
+      213: 4446329956719323049
+    second: Gex_391
+  - first:
+      213: -4226118535405735943
+    second: Gex_392
+  - first:
+      213: 3790071694263798330
+    second: Gex_393
+  - first:
+      213: -6231938578164220293
+    second: Gex_394
+  - first:
+      213: -3794796197926020500
+    second: Gex_395
+  - first:
+      213: -810043890853558321
+    second: Gex_396
+  - first:
+      213: -6595786344919850989
+    second: Gex_397
+  - first:
+      213: -2780931738314192693
+    second: Gex_398
+  - first:
+      213: 806147214321891015
+    second: Gex_399
+  - first:
+      213: 123099613703618097
+    second: Gex_400
+  - first:
+      213: -3288674481281130243
+    second: Gex_401
+  - first:
+      213: -809310933146067172
+    second: Gex_402
+  - first:
+      213: 4420952837849784135
+    second: Gex_403
+  - first:
+      213: 579513088584882480
+    second: Gex_404
+  - first:
+      213: -1830355346430325257
+    second: Gex_405
+  - first:
+      213: 6399472659765829400
+    second: Gex_406
+  - first:
+      213: -6743030453837758121
+    second: Gex_407
+  - first:
+      213: 5654752998395015682
+    second: Gex_408
+  - first:
+      213: -1919512191754458829
+    second: Gex_409
+  - first:
+      213: -512874969710691339
+    second: Gex_410
+  - first:
+      213: 3146701666070798841
+    second: Gex_411
+  - first:
+      213: -212907716724825265
+    second: Gex_412
+  - first:
+      213: 1593428632088281393
+    second: Gex_413
+  - first:
+      213: 1754875663558546967
+    second: Gex_414
+  - first:
+      213: -3294933324802471165
+    second: Gex_415
+  - first:
+      213: -1220467934175667810
+    second: Gex_416
+  - first:
+      213: -7974673635177707522
+    second: Gex_417
+  - first:
+      213: 6236710897991699559
+    second: Gex_418
+  - first:
+      213: -6269000254802086926
+    second: Gex_419
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gex_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 913
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1dbbbe1178d21140800000000000000
+      internalID: 4689048142404631835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 913
+        width: 25
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70585689c2e45aa0800000000000000
+      internalID: -6173059834047868804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 913
+        width: 25
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dec8f07eaefc5f0800000000000000
+      internalID: -734109936118862539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 913
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8164a128b11d3a0800000000000000
+      internalID: -6642497729794271068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 876
+        width: 25
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427dab9cb6ad96020800000000000000
+      internalID: 2335638038249133860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_19
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 876
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41bc8cc897b9bda0800000000000000
+      internalID: -5928505567561862838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 876
+        width: 28
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5123000ac390a7a50800000000000000
+      internalID: 6519533566559269397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_21
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 876
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc41665c60d5b4270800000000000000
+      internalID: 8235778627240072397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_22
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 876
+        width: 25
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fe959ca0efe9f80800000000000000
+      internalID: -8097755757684330726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 876
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f363ea08192f300800000000000000
+      internalID: 284449708342394673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_24
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 876
+        width: 26
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658ba957091fb8760800000000000000
+      internalID: 7461322810420017238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_25
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 876
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f2d243444bc3880800000000000000
+      internalID: -8629824580922560620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 841
+        width: 31
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa5ab978f8c2eb80800000000000000
+      internalID: -8366904188181259607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_45
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 841
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c7ef069029f2db0800000000000000
+      internalID: -4814468907656119266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_46
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 841
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f005fbc13adbf7830800000000000000
+      internalID: 4071181096425836559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_47
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 841
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6e87de2424fb340800000000000000
+      internalID: 4881693376312305331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_48
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 841
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04a978efc30a8ac0800000000000000
+      internalID: -3852262339768638454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_49
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 841
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9954242ea1ff0a2e0800000000000000
+      internalID: -2116411333933906535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_50
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 841
+        width: 31
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba89139bdd927760800000000000000
+      internalID: 7454193899642915504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_51
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 841
+        width: 32
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059d93ec2a10c57b0800000000000000
+      internalID: -5234306868155131568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_58
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 807
+        width: 32
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff57859ef23c84b0800000000000000
+      internalID: -5436914581131272204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_59
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 807
+        width: 31
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44aead9c5527d9f0800000000000000
+      internalID: -443844958560017331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_60
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 807
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125fe7ad703c0acf0800000000000000
+      internalID: -242979941380066015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_71
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 770
+        width: 26
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10b3e9a765178290800000000000000
+      internalID: -7888312687340048357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_72
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 770
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8458092d87e663fc0800000000000000
+      internalID: -3515500993908275896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_73
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 770
+        width: 20
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72160b46aa7320cf0800000000000000
+      internalID: -287606221225041625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_81
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 735
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4de950252eb2640800000000000000
+      internalID: 5056383848563004632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_90
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 707
+        width: 21
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34695f93f1487d740800000000000000
+      internalID: 5176751566336923203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_91
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 707
+        width: 17
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9271b0a56cd6377f0800000000000000
+      internalID: -616028025337997527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_92
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 707
+        width: 27
+        height: 22
+      alignment: 9
+      pivot: {x: 0.36, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc419e4dd81d0350800000000000000
+      internalID: 5984466818630241474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_93
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 707
+        width: 21
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e85444d653faf520800000000000000
+      internalID: 2736767277834983657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_94
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 707
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0699398811a108b90800000000000000
+      internalID: -7241759538203616928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_95
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 707
+        width: 26
+        height: 22
+      alignment: 9
+      pivot: {x: 0.64, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9128a10d1841edee0800000000000000
+      internalID: -1234526700078202343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_101
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 679
+        width: 28
+        height: 23
+      alignment: 9
+      pivot: {x: 0.36, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc088af44a39a77a0800000000000000
+      internalID: -6378623588296523573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_102
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 679
+        width: 28
+        height: 23
+      alignment: 9
+      pivot: {x: 0.36, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de063f5a6f001a930800000000000000
+      internalID: 4152601390758453485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_111
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 642
+        width: 26
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c818f419850146d50800000000000000
+      internalID: 6729521715779436940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_119
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 618
+        width: 32
+        height: 19
+      alignment: 9
+      pivot: {x: 0.36, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2081c28063275e0800000000000000
+      internalID: -1913407482951630118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_126
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 582
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc69b629588d2ac0800000000000000
+      internalID: -3878293787612975907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_127
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 582
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ed0a1aabd12e3c0800000000000000
+      internalID: -4331867204164198810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_128
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 582
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d01f8a008f904a0800000000000000
+      internalID: -6626492694980915922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_129
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 582
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702c8da331d550f80800000000000000
+      internalID: -8140998414229257721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_144
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 550
+        width: 27
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03f0f07470f919c0800000000000000
+      internalID: -3955866414766558453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_145
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 550
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5d2e64e8cfdfcc0800000000000000
+      internalID: -3675504032859630127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_146
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 550
+        width: 25
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a75ebab5f685eb0800000000000000
+      internalID: -4730908969036055969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_147
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 550
+        width: 25
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9504493c786cb70800000000000000
+      internalID: 8918965386129463746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_158
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 523
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7428160d5ef59190800000000000000
+      internalID: -7956173491192454020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_159
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 523
+        width: 30
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3834b7608fb475a20800000000000000
+      internalID: 3050990801199514499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_160
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 523
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde5fabdc529579c0800000000000000
+      internalID: -3930074172290539809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_161
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 523
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36504879ca3475d0800000000000000
+      internalID: -3065760809352145345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_171
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 523
+        width: 32
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5230219c24de0f0800000000000000
+      internalID: -1086138503768365653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_172
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 523
+        width: 32
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1783cf1e428391110800000000000000
+      internalID: 1232077704123922545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_173
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 523
+        width: 32
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d94977bc2fcfb90800000000000000
+      internalID: -7206618348001125114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_174
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 523
+        width: 32
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1f1581c2aa4d060800000000000000
+      internalID: 6977388829067047329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_175
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 486
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221c072e8c5d97f00800000000000000
+      internalID: 1115157441520124194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_176
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 486
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732a59253fc5cee90800000000000000
+      internalID: -6995113921080876489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_177
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 486
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da71251d2d253ca0800000000000000
+      internalID: -6037870053768987949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_178
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 486
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a944b9051f02a8e0800000000000000
+      internalID: -1683766727651604062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_179
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 486
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d23dbf993765780800000000000000
+      internalID: -8694634925400052402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_180
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 486
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aad73f5aaf3303c0800000000000000
+      internalID: -4394598810408985950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_181
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 486
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b6f9ac61acf4060800000000000000
+      internalID: 6939987750038760271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_182
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 486
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c2ac4bd3bef06a0800000000000000
+      internalID: -6480702688504173456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_192
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 453
+        width: 29
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ded4b25f7d37c4a0800000000000000
+      internalID: -6573217514066223400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_193
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 453
+        width: 28
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38095407a77e35960800000000000000
+      internalID: 7589664310105051267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_194
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 453
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acead13961d7b410800000000000000
+      internalID: 1492892051234811048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_195
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 453
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742bc40d77b23f3c0800000000000000
+      internalID: -4327067023377124793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_196
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 453
+        width: 28
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b3d0877fa0274d0800000000000000
+      internalID: -3138433932336481400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_197
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 453
+        width: 29
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5bc0d994fd7d220800000000000000
+      internalID: 2510720824542803379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_198
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 453
+        width: 30
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb39dd4a82451340800000000000000
+      internalID: 4833842936831097840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_199
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 453
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc06130cec5478c0800000000000000
+      internalID: -4002472000091714348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_200
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 416
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0059c332404666a20800000000000000
+      internalID: 3055239366151279872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_201
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 416
+        width: 27
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba04018b0f423eb60800000000000000
+      internalID: 7774097998070431915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_202
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 416
+        width: 32
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86288182db0f63a90800000000000000
+      internalID: -7334410247914093976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_203
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 416
+        width: 29
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b51c225977e37060800000000000000
+      internalID: 6950153158218487223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_204
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 416
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd1a0a01f2c381a0800000000000000
+      internalID: -6808383871142715962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_205
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 416
+        width: 27
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8768c0d0c573d5e0800000000000000
+      internalID: -1886034347941140593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_206
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 416
+        width: 32
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4681c8142524bd70800000000000000
+      internalID: 9057905587513296458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_207
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 416
+        width: 29
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaaf91f697b1c310800000000000000
+      internalID: 1423620816152537830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_217
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 383
+        width: 25
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b562751d4490bcc10800000000000000
+      internalID: 2074762244508821083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_218
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 383
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf10bb7f96b2f4ba0800000000000000
+      internalID: -6102611235935944196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_219
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 383
+        width: 27
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40957e26925e24970800000000000000
+      internalID: 8737798192967932164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_220
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 383
+        width: 28
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0e0112019c954f0800000000000000
+      internalID: -839418784416472913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_221
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 383
+        width: 24
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b744a9a144a166c0800000000000000
+      internalID: -4151856779532941385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_222
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 383
+        width: 26
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4ce97deb20ad790800000000000000
+      internalID: -7504682810374961952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_237
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 346
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccf22dc08987cf90800000000000000
+      internalID: -6933421915023147831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_238
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 346
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490106bba6a1268e0800000000000000
+      internalID: -1701768663480135532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_239
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 346
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9632bd6827826a660800000000000000
+      internalID: 7396643910356509545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_240
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 346
+        width: 20
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a4614e2e77e5a40800000000000000
+      internalID: 5358852422990449234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_241
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 346
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6620257dfaa018df0800000000000000
+      internalID: -179850759770078618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_242
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 346
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39f91cb51716dfd0800000000000000
+      internalID: -2317639576117970626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_243
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 346
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa47b12006abb84b0800000000000000
+      internalID: -5437047203604761430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_244
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 346
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a19a618c7810130800000000000000
+      internalID: 3531252876278569562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_254
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 309
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edd4f4e278979840800000000000000
+      internalID: 5230817111449066983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_255
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 309
+        width: 18
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc3e036d2da52980800000000000000
+      internalID: -8564248705928119097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_256
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 309
+        width: 18
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7b674672f5cc830800000000000000
+      internalID: 4092750784166803390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_257
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 309
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc13a4332c8aa660800000000000000
+      internalID: 7397879420744310007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_258
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 309
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1208e0fc3ddfcf80800000000000000
+      internalID: -8083999552297237990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_259
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 309
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b351eb1753911c620800000000000000
+      internalID: 2792540961278661947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_269
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 309
+        width: 19
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed7ea36aa0d69be0800000000000000
+      internalID: -1470758798054490656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_270
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 309
+        width: 19
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6254883d4d6043840800000000000000
+      internalID: 5202790980671522086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_271
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 281
+        width: 32
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddf5df41f6558040800000000000000
+      internalID: 4649217784756436434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_272
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 281
+        width: 28
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894f08369c92c7600800000000000000
+      internalID: 467294406274249880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_273
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 296
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c27d1e521bf5ee0800000000000000
+      internalID: -1270101793634309078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_274
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 296
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e561b88a1ccffc110800000000000000
+      internalID: 1283522327510455902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_275
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 296
+        width: 10
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31905466ddd45f5b0800000000000000
+      internalID: -5335272570251572973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_276
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 296
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b899caaa7bbbcb20800000000000000
+      internalID: 3155822099428907187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_277
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 294
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dee6284ef110ca30800000000000000
+      internalID: 4233403433558142681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_278
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 296
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58e8d6b09d2638a0800000000000000
+      internalID: -6325818527029073829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_279
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 296
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bedeb37e1e38120800000000000000
+      internalID: 2415022208459860829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_280
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 296
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed40ca7f42d088a0800000000000000
+      internalID: -6304808239515021842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_281
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 296
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096172cab7f214180800000000000000
+      internalID: -9132966361114929520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_282
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 296
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0dde3e103eacf30800000000000000
+      internalID: 4596735966943498464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_283
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 296
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73204ed878dda9210800000000000000
+      internalID: 1340627413366997559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_284
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 296
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32aadb3abc21b08e0800000000000000
+      internalID: -1726265366331676125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_285
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 296
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7efb22617b84bc0800000000000000
+      internalID: -3798584979986847746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_286
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 296
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c63ac4e69604dc0800000000000000
+      internalID: -3656806974971745135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_287
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 244
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2481dd473826ccd0800000000000000
+      internalID: -2538297121982806993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_288
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 244
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bbbfa1c0c77f830800000000000000
+      internalID: 4104885976805653340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_289
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 244
+        width: 31
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39904ace991d52a0800000000000000
+      internalID: -6747208496942376643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_290
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 244
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38ebc5c9002b0750800000000000000
+      internalID: 6272142132388816959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_291
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 244
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc91632c88944f60800000000000000
+      internalID: 8017700964282768592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_292
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 244
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada42e89269fded80800000000000000
+      internalID: -8219639543014208806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_293
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 244
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c5b28d85c4bae10800000000000000
+      internalID: 2209943986622913558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_294
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 244
+        width: 31
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e5d6b39e9efbef0800000000000000
+      internalID: -90096279590445549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_301
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 210
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a742e4b8bf66a8f10800000000000000
+      internalID: 2272742192521815162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_302
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 210
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93fc7557abff3e30800000000000000
+      internalID: 4485580449996665757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_303
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 210
+        width: 20
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f0f9cec018b95c0800000000000000
+      internalID: -4207627534338158713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_304
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 210
+        width: 20
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b0db5f71517d0d0800000000000000
+      internalID: -3398224201176511651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_305
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 210
+        width: 17
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b855b01b1d0c9c850800000000000000
+      internalID: 6397856752507508107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_306
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 212
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d620af90bbd93cf0800000000000000
+      internalID: -271944750840404265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_307
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 212
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab40de607960f860800000000000000
+      internalID: 7561659705971461024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_320
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 210
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d917299b0a547e0800000000000000
+      internalID: -1781841358668849874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_321
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 210
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0c7bba6cc0520b0800000000000000
+      internalID: -5754178901471936338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_322
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 211
+        width: 11
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f4b8555bc33cb80800000000000000
+      internalID: -8375784132457050340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_323
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 210
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72715b36256537b30800000000000000
+      internalID: 4283862582419592999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_324
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 197
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7766a1d78ebd4220800000000000000
+      internalID: 2471841261043476346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_325
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 178
+        width: 14
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715396e83d8fe3f30800000000000000
+      internalID: 4557353460456568087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_326
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 197
+        width: 6
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badbd5ebd453b42c0800000000000000
+      internalID: -4446401599075664469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_327
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 17
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898b1b715f8c44e00800000000000000
+      internalID: 1028167569937381528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_328
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 176
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8a63d508c44e280800000000000000
+      internalID: -9014996439885502230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_329
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 176
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abcaafde8287dfc0800000000000000
+      internalID: -3470161437716198491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_330
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 176
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace131445c73cc690800000000000000
+      internalID: -7580622752381198646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_331
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 176
+        width: 23
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e428ccc7ebbf6dd00800000000000000
+      internalID: 997261163065279054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_343
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 177
+        width: 11
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf04461a3bc272a0800000000000000
+      internalID: -6741102241878110244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_344
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 176
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36033dd9a2778aee0800000000000000
+      internalID: -1249617871675117469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_345
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 176
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660d44adb31a7b3c0800000000000000
+      internalID: -4343826037138468762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_346
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 176
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fc4e66c9e992340800000000000000
+      internalID: 4839573669164666712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_347
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 141
+        width: 26
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0758f673a9d741260800000000000000
+      internalID: 7067411816559641968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_348
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 141
+        width: 23
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb47b322ba3a95330800000000000000
+      internalID: 3700168524270630076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_349
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 141
+        width: 19
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d145d6e5694c40eb0800000000000000
+      internalID: -4754459156488039395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_350
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 141
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946a7ac725bd5bc10800000000000000
+      internalID: 2068800751171774025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_351
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 142
+        width: 30
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c06e18f95e152ee0800000000000000
+      internalID: -1286588746780745532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_352
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 153
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e270a613e25aa3c0800000000000000
+      internalID: -4347571354982124828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_360
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 141
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368d98fff7f8c2b90800000000000000
+      internalID: -7265274318944610205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_361
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 141
+        width: 26
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05adedb21909afb50800000000000000
+      internalID: 6627768754809789008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_362
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 107
+        width: 40
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfbb07117bbc2610800000000000000
+      internalID: 1597858062202027988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_363
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 106
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801836db4e380f280800000000000000
+      internalID: -9011557835915165432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_364
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 106
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58b8504c1761bb30800000000000000
+      internalID: 4301332490151835738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_365
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 106
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a61b7cc0c0142640800000000000000
+      internalID: 5054183102066923177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_366
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 106
+        width: 26
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684e1f5a84f1e5140800000000000000
+      internalID: 4710236657158317190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_367
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 106
+        width: 25
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0491cfe0f5adbc4d0800000000000000
+      internalID: -3113154615588415168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_368
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 106
+        width: 25
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7512e1953ef183140800000000000000
+      internalID: 4699541272474296663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_376
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 70
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b920370412c096b50800000000000000
+      internalID: 6586809266960794267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_377
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 70
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3492950c3c2b6acb0800000000000000
+      internalID: -4852994994629695165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_378
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 70
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ab15f9012f28a30800000000000000
+      internalID: 4216198354378537523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_379
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 70
+        width: 7
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3649b3561d41e08a0800000000000000
+      internalID: -6337104736084585373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_380
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 70
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860370ca2fa0c87e0800000000000000
+      internalID: -1762021316824190872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_381
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 70
+        width: 15
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0955371320d2684e0800000000000000
+      internalID: -1979845498739927664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_382
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 95
+        width: 6
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6fe113c4b7bab70800000000000000
+      internalID: 8911351854854502100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_383
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 70
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230c5f6ee6bf0b540800000000000000
+      internalID: 5021790038257942578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_384
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 70
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ff9ca47154ef5d0800000000000000
+      internalID: -3026905933205078251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_385
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 70
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366c27da98dfa3b00800000000000000
+      internalID: 809237850828752483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_386
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 70
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2763138be06078c0800000000000000
+      internalID: -4003593504099702998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_387
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 70
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9fa99d54bfee560800000000000000
+      internalID: 7345084319709985260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_388
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 70
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0986918b4225b5460800000000000000
+      internalID: 7231463944334436496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_399
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 85
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6b35ace92003b00800000000000000
+      internalID: 806147214321891015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_400
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 78
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ebaca427655b100800000000000000
+      internalID: 123099613703618097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_401
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 73
+        width: 6
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0a851cbf74c52d0800000000000000
+      internalID: -3288674481281130243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_402
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 35
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f1df48effb4c4f0800000000000000
+      internalID: -809310933146067172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_403
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 35
+        width: 32
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f9accce216a5d30800000000000000
+      internalID: 4420952837849784135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_404
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 35
+        width: 32
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0399acb6518da0800800000000000000
+      internalID: 579513088584882480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_405
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 35
+        width: 31
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd884392854996e0800000000000000
+      internalID: -1830355346430325257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_406
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 35
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f9a2b6a7e7fc850800000000000000
+      internalID: 6399472659765829400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_410
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 26
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb7430bee6e1e8f0800000000000000
+      internalID: -512874969710691339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_411
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1a74c4e745bab20800000000000000
+      internalID: 3146701666070798841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_412
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1
+        width: 31
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f436da64f899b0df0800000000000000
+      internalID: -212907716724825265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_413
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1
+        width: 32
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1310f8606eefc1610800000000000000
+      internalID: 1593428632088281393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_414
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71692674e129a5810800000000000000
+      internalID: 1754875663558546967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_419
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1
+        width: 32
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f330bb9b790009a0800000000000000
+      internalID: -6269000254802086926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gex_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 664
+        width: 25
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd37fa40e9424ae0800000000000000
+      internalID: -1566608492692292112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gex_181: 6939987750038760271
+      Gex_173: -7206618348001125114
+      Gex_414: 1754875663558546967
+      Gex_274: 1283522327510455902
+      Gex_205: -1886034347941140593
+      Gex_46: 4071181096425836559
+      Gex_128: -6626492694980915922
+      Gex_376: 6586809266960794267
+      Gex_19: -5928505567561862838
+      Gex_269: -1470758798054490656
+      Gex_321: -5754178901471936338
+      Gex_410: -512874969710691339
+      Gex_48: -3852262339768638454
+      Gex_24: 7461322810420017238
+      Gex_220: -839418784416472913
+      Gex_258: -8083999552297237990
+      Gex_294: -90096279590445549
+      Gex_381: -1979845498739927664
+      Gex_119: -1913407482951630118
+      Gex_259: 2792540961278661947
+      Gex_22: -8097755757684330726
+      Gex_90: 5176751566336923203
+      Gex_160: -3930074172290539809
+      Gex_193: 7589664310105051267
+      Gex_362: 1597858062202027988
+      Gex_21: 8235778627240072397
+      Gex_161: -3065760809352145345
+      Gex_378: 4216198354378537523
+      Gex_240: 5358852422990449234
+      Gex_192: -6573217514066223400
+      Gex_382: 8911351854854502100
+      Gex_278: -6325818527029073829
+      Gex_364: 4301332490151835738
+      Gex_129: -8140998414229257721
+      Gex_217: 2074762244508821083
+      Gex_145: -3675504032859630127
+      Gex_238: -1701768663480135532
+      Gex_283: 1340627413366997559
+      Gex_387: 7345084319709985260
+      Gex_290: 6272142132388816959
+      Gex_323: 4283862582419592999
+      Gex_172: 1232077704123922545
+      Gex_71: -7888312687340048357
+      Gex_171: -1086138503768365653
+      Gex_402: -809310933146067172
+      Gex_292: -8219639543014208806
+      Gex_202: -7334410247914093976
+      Gex_25: -8629824580922560620
+      Gex_177: -6037870053768987949
+      Gex_281: -9132966361114929520
+      Gex_242: -2317639576117970626
+      Gex_73: -287606221225041625
+      Gex_405: -1830355346430325257
+      Gex_286: -3656806974971745135
+      Gex_244: 3531252876278569562
+      Gex_275: -5335272570251572973
+      Gex_367: -3113154615588415168
+      Gex_386: -4003593504099702998
+      Gex_95: -1234526700078202343
+      Gex_241: -179850759770078618
+      Gex_343: -6741102241878110244
+      Gex_284: -1726265366331676125
+      Gex_329: -3470161437716198491
+      Gex_383: 5021790038257942578
+      Gex_380: -1762021316824190872
+      Gex_325: 4557353460456568087
+      Gex_49: -2116411333933906535
+      Gex_282: 4596735966943498464
+      Gex_352: -4347571354982124828
+      Gex_58: -5436914581131272204
+      Gex_102: 4152601390758453485
+      Gex_289: -6747208496942376643
+      Gex_345: -4343826037138468762
+      Gex_349: -4754459156488039395
+      Gex_330: -7580622752381198646
+      Gex_276: 3155822099428907187
+      Gex_144: -3955866414766558453
+      Gex_368: 4699541272474296663
+      Gex_18: 2335638038249133860
+      Gex_348: 3700168524270630076
+      Gex_198: 4833842936831097840
+      Gex_197: 2510720824542803379
+      Gex_4: -1566608492692292112
+      Gex_60: -242979941380066015
+      Gex_304: -3398224201176511651
+      Gex_301: 2272742192521815162
+      Gex_412: -212907716724825265
+      Gex_291: 8017700964282768592
+      Gex_2: -734109936118862539
+      Gex_72: -3515500993908275896
+      Gex_175: 1115157441520124194
+      Gex_127: -4331867204164198810
+      Gex_287: -2538297121982806993
+      Gex_81: 5056383848563004632
+      Gex_194: 1492892051234811048
+      Gex_44: -8366904188181259607
+      Gex_239: 7396643910356509545
+      Gex_413: 1593428632088281393
+      Gex_377: -4852994994629695165
+      Gex_1: -6173059834047868804
+      Gex_207: 1423620816152537830
+      Gex_360: -7265274318944610205
+      Gex_51: -5234306868155131568
+      Gex_178: -1683766727651604062
+      Gex_199: -4002472000091714348
+      Gex_365: 5054183102066923177
+      Gex_388: 7231463944334436496
+      Gex_200: 3055239366151279872
+      Gex_222: -7504682810374961952
+      Gex_255: -8564248705928119097
+      Gex_273: -1270101793634309078
+      Gex_305: 6397856752507508107
+      Gex_379: -6337104736084585373
+      Gex_324: 2471841261043476346
+      Gex_91: -616028025337997527
+      Gex_256: 4092750784166803390
+      Gex_326: -4446401599075664469
+      Gex_174: 6977388829067047329
+      Gex_126: -3878293787612975907
+      Gex_361: 6627768754809789008
+      Gex_180: -4394598810408985950
+      Gex_279: 2415022208459860829
+      Gex_271: 4649217784756436434
+      Gex_47: 4881693376312305331
+      Gex_59: -443844958560017331
+      Gex_243: -5437047203604761430
+      Gex_101: -6378623588296523573
+      Gex_303: -4207627534338158713
+      Gex_280: -6304808239515021842
+      Gex_237: -6933421915023147831
+      Gex_3: -6642497729794271068
+      Gex_158: -7956173491192454020
+      Gex_331: 997261163065279054
+      Gex_302: 4485580449996665757
+      Gex_20: 6519533566559269397
+      Gex_285: -3798584979986847746
+      Gex_399: 806147214321891015
+      Gex_419: -6269000254802086926
+      Gex_403: 4420952837849784135
+      Gex_92: 5984466818630241474
+      Gex_219: 8737798192967932164
+      Gex_351: -1286588746780745532
+      Gex_411: 3146701666070798841
+      Gex_206: 9057905587513296458
+      Gex_320: -1781841358668849874
+      Gex_179: -8694634925400052402
+      Gex_347: 7067411816559641968
+      Gex_147: 8918965386129463746
+      Gex_327: 1028167569937381528
+      Gex_93: 2736767277834983657
+      Gex_50: 7454193899642915504
+      Gex_254: 5230817111449066983
+      Gex_401: -3288674481281130243
+      Gex_257: 7397879420744310007
+      Gex_203: 6950153158218487223
+      Gex_400: 123099613703618097
+      Gex_159: 3050990801199514499
+      Gex_328: -9014996439885502230
+      Gex_306: -271944750840404265
+      Gex_272: 467294406274249880
+      Gex_277: 4233403433558142681
+      Gex_196: -3138433932336481400
+      Gex_270: 5202790980671522086
+      Gex_293: 2209943986622913558
+      Gex_94: -7241759538203616928
+      Gex_182: -6480702688504173456
+      Gex_146: -4730908969036055969
+      Gex_385: 809237850828752483
+      Gex_344: -1249617871675117469
+      Gex_350: 2068800751171774025
+      Gex_404: 579513088584882480
+      Gex_218: -6102611235935944196
+      Gex_384: -3026905933205078251
+      Gex_288: 4104885976805653340
+      Gex_322: -8375784132457050340
+      Gex_176: -6995113921080876489
+      Gex_111: 6729521715779436940
+      Gex_221: -4151856779532941385
+      Gex_406: 6399472659765829400
+      Gex_23: 284449708342394673
+      Gex_201: 7774097998070431915
+      Gex_45: -4814468907656119266
+      Gex_346: 4839573669164666712
+      Gex_0: 4689048142404631835
+      Gex_307: 7561659705971461024
+      Gex_366: 4710236657158317190
+      Gex_204: -6808383871142715962
+      Gex_195: -4327067023377124793
+      Gex_363: -9011557835915165432
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

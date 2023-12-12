@@ -1,0 +1,1910 @@
+fileFormatVersion: 2
+guid: c3efa6ff1510a8345aff4544441a2137
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2701170527373099985
+    second: Title_Sky_0
+  - first:
+      213: -2720579123082409710
+    second: Title_Sky_1
+  - first:
+      213: -2439753298307615307
+    second: Title_Sky_2
+  - first:
+      213: -2869219476579836422
+    second: Title_Sky_3
+  - first:
+      213: -8622644287211938397
+    second: Title_Sky_4
+  - first:
+      213: 8756752049712489014
+    second: Title_Sky_5
+  - first:
+      213: -2135596338963655740
+    second: Title_Sky_6
+  - first:
+      213: 1254901622468001545
+    second: Title_Sky_7
+  - first:
+      213: 7570587156305292259
+    second: Title_Sky_8
+  - first:
+      213: -4249539311463266763
+    second: Title_Sky_9
+  - first:
+      213: -4080768356515499927
+    second: Title_Sky_10
+  - first:
+      213: -9102079761253933841
+    second: Title_Sky_11
+  - first:
+      213: -2731458685101200241
+    second: Title_Sky_12
+  - first:
+      213: 4560835737029687227
+    second: Title_Sky_13
+  - first:
+      213: 8925626886304222301
+    second: Title_Sky_14
+  - first:
+      213: 3312674522538412171
+    second: Title_Sky_15
+  - first:
+      213: 2777478262257675901
+    second: Title_Sky_16
+  - first:
+      213: 4020832142522875507
+    second: Title_Sky_17
+  - first:
+      213: 8622493648367787895
+    second: Title_Sky_18
+  - first:
+      213: -6962522011898192111
+    second: Title_Sky_19
+  - first:
+      213: 1791270397951628779
+    second: Title_Sky_20
+  - first:
+      213: 458061398990271710
+    second: Title_Sky_21
+  - first:
+      213: -4846264968658854657
+    second: Title_Sky_22
+  - first:
+      213: -410455981375938725
+    second: Title_Sky_23
+  - first:
+      213: 267127724345127805
+    second: Title_Sky_24
+  - first:
+      213: 5302432828180033616
+    second: Title_Sky_25
+  - first:
+      213: 6009768217222632361
+    second: Title_Sky_26
+  - first:
+      213: 4023091929309199988
+    second: Title_Sky_27
+  - first:
+      213: -3922926760252938356
+    second: Title_Sky_28
+  - first:
+      213: 618409156782244979
+    second: Title_Sky_29
+  - first:
+      213: -5505681915045731999
+    second: Title_Sky_30
+  - first:
+      213: 4846279651160542409
+    second: Title_Sky_31
+  - first:
+      213: 4945242400035886595
+    second: Title_Sky_32
+  - first:
+      213: 1026795456701267407
+    second: Title_Sky_33
+  - first:
+      213: 3946753195145256390
+    second: Title_Sky_34
+  - first:
+      213: -2840030942058232369
+    second: Title_Sky_35
+  - first:
+      213: 7321355463393165539
+    second: Title_Sky_36
+  - first:
+      213: -1265900574088038838
+    second: Title_Sky_37
+  - first:
+      213: -5849184763872207266
+    second: Title_Sky_38
+  - first:
+      213: 3272495495336785458
+    second: Title_Sky_39
+  - first:
+      213: -2837876633323345968
+    second: Title_Sky_40
+  - first:
+      213: -7639436978312758
+    second: Title_Sky_41
+  - first:
+      213: -4094960062252548570
+    second: Title_Sky_42
+  - first:
+      213: 4985494025403868591
+    second: Title_Sky_43
+  - first:
+      213: 877372525298353173
+    second: Title_Sky_44
+  - first:
+      213: -1609045258991040025
+    second: Title_Sky_45
+  - first:
+      213: -1502842800475173986
+    second: Title_Sky_46
+  - first:
+      213: -6588921880697352276
+    second: Title_Sky_47
+  - first:
+      213: 4286787775963780491
+    second: Title_Sky_48
+  - first:
+      213: 8228667941143079051
+    second: Title_Sky_49
+  - first:
+      213: 5115631726388733038
+    second: Title_Sky_50
+  - first:
+      213: -8627033100884582002
+    second: Title_Sky_51
+  - first:
+      213: 8039750033456103794
+    second: Title_Sky_52
+  - first:
+      213: 2131614515853485676
+    second: Title_Sky_53
+  - first:
+      213: -5781698008837326742
+    second: Title_Sky_54
+  - first:
+      213: 1826120535431436724
+    second: Title_Sky_55
+  - first:
+      213: 7965078524246262504
+    second: Title_Sky_56
+  - first:
+      213: 268496254343026578
+    second: Title_Sky_57
+  - first:
+      213: 946954932717865892
+    second: Title_Sky_58
+  - first:
+      213: -7850207961213896547
+    second: Title_Sky_59
+  - first:
+      213: 7272824879710589099
+    second: Title_Sky_60
+  - first:
+      213: 7711842184563117626
+    second: Title_Sky_61
+  - first:
+      213: 5862895099896269331
+    second: Title_Sky_62
+  - first:
+      213: -5955977132962216644
+    second: Title_Sky_63
+  - first:
+      213: -5268728997390050174
+    second: Title_Sky_64
+  - first:
+      213: 8606724505845436951
+    second: Title_Sky_65
+  - first:
+      213: -1648780716462007141
+    second: Title_Sky_66
+  - first:
+      213: -1697652762920693323
+    second: Title_Sky_67
+  - first:
+      213: -8655537638356191898
+    second: Title_Sky_68
+  - first:
+      213: -7220129778855073652
+    second: Title_Sky_69
+  - first:
+      213: 1868136311672362822
+    second: Title_Sky_70
+  - first:
+      213: 5682865954635314800
+    second: Title_Sky_71
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 38
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Title_Sky_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4290
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cfb2e77b3838ad0800000000000000
+      internalID: -2701170527373099985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_1
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 4290
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2194459a3bf8e3ad0800000000000000
+      internalID: -2720579123082409710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_2
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 4290
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b579c23d41442ed0800000000000000
+      internalID: -2439753298307615307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_3
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 4290
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd93db761c7e28d0800000000000000
+      internalID: -2869219476579836422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_4
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 4290
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad5e2c94b6365880800000000000000
+      internalID: -8622644287211938397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_5
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 4290
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632694d089b368970800000000000000
+      internalID: 8756752049712489014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3900
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c35270d176dc52e0800000000000000
+      internalID: -2135596338963655740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_7
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 3900
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f344b706e4a6110800000000000000
+      internalID: 1254901622468001545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_8
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 3900
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb26b078e0201960800000000000000
+      internalID: 7570587156305292259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_9
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 3900
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5368c21e28a9605c0800000000000000
+      internalID: -4249539311463266763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_10
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 3900
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9603d33fcc23e57c0800000000000000
+      internalID: -4080768356515499927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_11
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 3900
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecdf299eaaeea180800000000000000
+      internalID: -9102079761253933841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3510
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c23eb3cc8e71ad0800000000000000
+      internalID: -2731458685101200241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_13
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 3510
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7bf8040f75b4f30800000000000000
+      internalID: 4560835737029687227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_14
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 3510
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cc6d3fc523edb70800000000000000
+      internalID: 8925626886304222301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_15
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 3510
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88836c4debf8fd20800000000000000
+      internalID: 3312674522538412171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_16
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 3510
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7eec3983c59b8620800000000000000
+      internalID: 2777478262257675901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_17
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 3510
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e7c84c78ddcc730800000000000000
+      internalID: 4020832142522875507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3120
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f160d0a4049a770800000000000000
+      internalID: 8622493648367787895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_19
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 3120
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f58f38e17206f90800000000000000
+      internalID: -6962522011898192111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_20
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 3120
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be55496bfeedbd810800000000000000
+      internalID: 1791270397951628779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_21
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 3120
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4322c5a6c5b5600800000000000000
+      internalID: 458061398990271710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_22
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 3120
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc5ba700bb9ebcb0800000000000000
+      internalID: -4846264968658854657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_23
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 3120
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f172aa574cd4af0800000000000000
+      internalID: -410455981375938725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2730
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73ff3fff3705b300800000000000000
+      internalID: 267127724345127805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_25
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2730
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0507a015096069940800000000000000
+      internalID: 5302432828180033616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_26
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 2730
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3dcf93a5cf66350800000000000000
+      internalID: 6009768217222632361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_27
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 2730
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e37316bc4e4d730800000000000000
+      internalID: 4023091929309199988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_28
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 2730
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87ef3765e6fe89c0800000000000000
+      internalID: -3922926760252938356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_29
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 2730
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374cad30ad7059800800000000000000
+      internalID: 618409156782244979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2340
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1612867f773e793b0800000000000000
+      internalID: -5505681915045731999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_31
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2340
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccc0a18aa1714340800000000000000
+      internalID: 4846279651160542409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_32
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 2340
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306d65603c701a440800000000000000
+      internalID: 4945242400035886595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_33
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 2340
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdf9a51709ef3e00800000000000000
+      internalID: 1026795456701267407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_34
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 2340
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd55c4ce1fa5c630800000000000000
+      internalID: 3946753195145256390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_35
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 2340
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc54083c7ee2698d0800000000000000
+      internalID: -2840030942058232369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1950
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e04ae5f00eaa9560800000000000000
+      internalID: 7321355463393165539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_37
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1950
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46f488822e9e6ee0800000000000000
+      internalID: -1265900574088038838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_38
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1950
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e15c3927583dea0800000000000000
+      internalID: -5849184763872207266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_39
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1950
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2367d98805d3a6d20800000000000000
+      internalID: 3272495495336785458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_40
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1950
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7616adc36dd98d0800000000000000
+      internalID: -2837876633323345968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_41
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 1950
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9af98f8fbd4eff0800000000000000
+      internalID: -7639436978312758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1560
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e7608f487cb27c0800000000000000
+      internalID: -4094960062252548570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_43
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1560
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5a70ed668003540800000000000000
+      internalID: 4985494025403868591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_44
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1560
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514881ac9ad0d2c00800000000000000
+      internalID: 877372525298353173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_45
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1560
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9005eacd58ba9e0800000000000000
+      internalID: -1609045258991040025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_46
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1560
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b8c647f64d42be0800000000000000
+      internalID: -1502842800475173986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_47
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 1560
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf4c3885727f84a0800000000000000
+      internalID: -6588921880697352276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1170
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85dec515cabd7b30800000000000000
+      internalID: 4286787775963780491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_49
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1170
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b886a7625e9123270800000000000000
+      internalID: 8228667941143079051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_50
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1170
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e646e1d83ff5ef640800000000000000
+      internalID: 5115631726388733038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_51
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1170
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81ec3c4a1f964880800000000000000
+      internalID: -8627033100884582002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_52
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1170
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271061b1f0ee29f60800000000000000
+      internalID: 8039750033456103794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_53
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 1170
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66638fbb14059d10800000000000000
+      internalID: 2131614515853485676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68faa03b4843cfa0800000000000000
+      internalID: -5781698008837326742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_55
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 780
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9df67a3fea75910800000000000000
+      internalID: 1826120535431436724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_56
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 780
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e28acd87b4a98e60800000000000000
+      internalID: 7965078524246262504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_57
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 780
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29793a7bbe3e9b300800000000000000
+      internalID: 268496254343026578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_58
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 780
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abc3fe7e72442d00800000000000000
+      internalID: 946954932717865892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_59
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 780
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98f6e293757e0390800000000000000
+      internalID: -7850207961213896547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0d5cce1b34ee460800000000000000
+      internalID: 7272824879710589099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_61
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 390
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ec1c69b97f50b60800000000000000
+      internalID: 7711842184563117626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_62
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 390
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a02b8c7003d5150800000000000000
+      internalID: 5862895099896269331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_63
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 390
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35007b8a5e185da0800000000000000
+      internalID: -5955977132962216644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_64
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 390
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c14cc44e6b1e6b0800000000000000
+      internalID: -5268728997390050174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_65
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 390
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7121192765a317770800000000000000
+      internalID: 8606724505845436951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c94ca8caa5e19e0800000000000000
+      internalID: -1648780716462007141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_67
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 0
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1d6228ec9b078e0800000000000000
+      internalID: -1697652762920693323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_68
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 0
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66571cd706a51e780800000000000000
+      internalID: -8655537638356191898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_69
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 0
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88af135832fccb90800000000000000
+      internalID: -7220129778855073652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_70
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 0
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6475d31e314fce910800000000000000
+      internalID: 1868136311672362822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Sky_71
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 0
+        width: 690
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076f2340a789dde40800000000000000
+      internalID: 5682865954635314800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Title_Sky_56: 7965078524246262504
+      Title_Sky_7: 1254901622468001545
+      Title_Sky_68: -8655537638356191898
+      Title_Sky_46: -1502842800475173986
+      Title_Sky_55: 1826120535431436724
+      Title_Sky_3: -2869219476579836422
+      Title_Sky_23: -410455981375938725
+      Title_Sky_33: 1026795456701267407
+      Title_Sky_6: -2135596338963655740
+      Title_Sky_13: 4560835737029687227
+      Title_Sky_1: -2720579123082409710
+      Title_Sky_18: 8622493648367787895
+      Title_Sky_17: 4020832142522875507
+      Title_Sky_2: -2439753298307615307
+      Title_Sky_20: 1791270397951628779
+      Title_Sky_71: 5682865954635314800
+      Title_Sky_12: -2731458685101200241
+      Title_Sky_41: -7639436978312758
+      Title_Sky_10: -4080768356515499927
+      Title_Sky_28: -3922926760252938356
+      Title_Sky_47: -6588921880697352276
+      Title_Sky_49: 8228667941143079051
+      Title_Sky_60: 7272824879710589099
+      Title_Sky_16: 2777478262257675901
+      Title_Sky_54: -5781698008837326742
+      Title_Sky_32: 4945242400035886595
+      Title_Sky_35: -2840030942058232369
+      Title_Sky_45: -1609045258991040025
+      Title_Sky_43: 4985494025403868591
+      Title_Sky_51: -8627033100884582002
+      Title_Sky_52: 8039750033456103794
+      Title_Sky_65: 8606724505845436951
+      Title_Sky_69: -7220129778855073652
+      Title_Sky_53: 2131614515853485676
+      Title_Sky_27: 4023091929309199988
+      Title_Sky_19: -6962522011898192111
+      Title_Sky_31: 4846279651160542409
+      Title_Sky_64: -5268728997390050174
+      Title_Sky_9: -4249539311463266763
+      Title_Sky_11: -9102079761253933841
+      Title_Sky_5: 8756752049712489014
+      Title_Sky_37: -1265900574088038838
+      Title_Sky_26: 6009768217222632361
+      Title_Sky_39: 3272495495336785458
+      Title_Sky_29: 618409156782244979
+      Title_Sky_34: 3946753195145256390
+      Title_Sky_30: -5505681915045731999
+      Title_Sky_62: 5862895099896269331
+      Title_Sky_42: -4094960062252548570
+      Title_Sky_4: -8622644287211938397
+      Title_Sky_58: 946954932717865892
+      Title_Sky_70: 1868136311672362822
+      Title_Sky_59: -7850207961213896547
+      Title_Sky_0: -2701170527373099985
+      Title_Sky_67: -1697652762920693323
+      Title_Sky_8: 7570587156305292259
+      Title_Sky_21: 458061398990271710
+      Title_Sky_57: 268496254343026578
+      Title_Sky_24: 267127724345127805
+      Title_Sky_63: -5955977132962216644
+      Title_Sky_48: 4286787775963780491
+      Title_Sky_25: 5302432828180033616
+      Title_Sky_61: 7711842184563117626
+      Title_Sky_38: -5849184763872207266
+      Title_Sky_15: 3312674522538412171
+      Title_Sky_44: 877372525298353173
+      Title_Sky_40: -2837876633323345968
+      Title_Sky_66: -1648780716462007141
+      Title_Sky_50: 5115631726388733038
+      Title_Sky_22: -4846264968658854657
+      Title_Sky_14: 8925626886304222301
+      Title_Sky_36: 7321355463393165539
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,6 +15,7 @@ func _ready():
 	Global.P2_HP = hp
 func _physics_process(delta):
 	Global.P2_HP = hp
+	Global.update_hp()
 	velocity.y += gravity * delta + 150
 	if direction < 0 and not $Sprite2D.flip_h: $Sprite2D.flip_h = true
 	if direction > 0 and $Sprite2D.flip_h: $Sprite2D.flip_h = false

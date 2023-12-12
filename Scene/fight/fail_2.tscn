@@ -1,9 +1,9 @@
 [gd_scene load_steps=32 format=3 uid="uid://b2tkqqrn34ucu"]
 
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Fail_2.gd" id="1_cgjp8"]
-[ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://Assets/Sprites/FailBattle_SbF_3.png" id="2_yyqnh"]
-[ext_resource type="Texture2D" uid="uid://bg7qa5tpbhhu" path="res://Assets/Sprites/player_indicator.png" id="3_chky0"]
+[ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://SBF-WIP/Assets/Sprites/FailBattle_SbF_3.png" id="2_dk5tb"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/hurt.gd" id="3_tmvlq"]
+[ext_resource type="Texture2D" uid="uid://bg7qa5tpbhhu" path="res://SBF-WIP/Assets/Sprites/player_indicator.png" id="4_b5kia"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/StateMachine.gd" id="4_kdlsi"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/Idle2.gd" id="5_nv5lv"]
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/Moving2.gd" id="6_0rfn0"]
@@ -33,74 +33,62 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("damage/damage:position")
+tracks/1/path = NodePath("Flip_Container/hurt/x:build_mode")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.44426),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector2(8, -8), Vector2(8, -8)]
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Flip_Container/hurt/x:build_mode")
+tracks/2/path = NodePath("Flip_Container/hurt/x:polygon")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [1]
+"values": [PackedVector2Array(184, 376, 200, 392, 200, 432, 184, 456, 192, 488, 192, 512, 200, 544, 208, 552, 208, 560, 208, 560, 192, 568, 176, 568, 168, 528, 144, 560, 104, 560, 120, 520, 120, 472, 112, 448, 112, 408, 120, 384, 136, 360, 168, 368)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
 tracks/3/enabled = true
-tracks/3/path = NodePath("Flip_Container/hurt/x:polygon")
+tracks/3/path = NodePath("Flip_Container/hurt/x:position")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [PackedVector2Array(184, 376, 200, 392, 200, 432, 184, 456, 192, 488, 192, 512, 200, 544, 208, 552, 208, 560, 208, 560, 192, 568, 176, 568, 168, 528, 144, 560, 104, 560, 120, 520, 120, 472, 112, 448, 112, 408, 120, 384, 136, 360, 168, 368)]
+"update": 0,
+"values": [Vector2(-168, -432)]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Flip_Container/hurt/x:position")
+tracks/4/path = NodePath("Flip_Container/hurt/x:scale")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(-168, -432)]
+"values": [Vector2(1, 1)]
 }
 tracks/5/type = "value"
 tracks/5/imported = false
 tracks/5/enabled = true
-tracks/5/path = NodePath("Flip_Container/hurt/x:scale")
+tracks/5/path = NodePath("Flip_Container/damage/Damage:position")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
+"times": PackedFloat32Array(0, 0.7, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
-"values": [Vector2(1, 1)]
-}
-tracks/6/type = "value"
-tracks/6/imported = false
-tracks/6/enabled = true
-tracks/6/path = NodePath("Flip_Container/damage/Damage:position")
-tracks/6/interp = 1
-tracks/6/loop_wrap = true
-tracks/6/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(0, 8)]
+"values": [Vector2(0, 8), Vector2(0, 8), Vector2(0, 8)]
 }
 
 [sub_resource type="Animation" id="Animation_opmpo"]
@@ -120,70 +108,58 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("damage/damage:position")
+tracks/1/path = NodePath("Flip_Container/hurt/x:build_mode")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(0, 0)]
+"update": 1,
+"values": [1]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Flip_Container/hurt/x:build_mode")
+tracks/2/path = NodePath("Flip_Container/hurt/x:polygon")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [1]
+"values": [PackedVector2Array(184, 376, 200, 392, 200, 432, 184, 456, 192, 488, 192, 512, 200, 544, 208, 552, 208, 560, 208, 560, 192, 568, 176, 568, 168, 528, 144, 560, 104, 560, 120, 520, 120, 472, 112, 448, 112, 408, 120, 384, 136, 360, 168, 368)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
 tracks/3/enabled = true
-tracks/3/path = NodePath("Flip_Container/hurt/x:polygon")
+tracks/3/path = NodePath("Flip_Container/hurt/x:position")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [PackedVector2Array(184, 376, 200, 392, 200, 432, 184, 456, 192, 488, 192, 512, 200, 544, 208, 552, 208, 560, 208, 560, 192, 568, 176, 568, 168, 528, 144, 560, 104, 560, 120, 520, 120, 472, 112, 448, 112, 408, 120, 384, 136, 360, 168, 368)]
+"update": 0,
+"values": [Vector2(-168, -432)]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Flip_Container/hurt/x:position")
+tracks/4/path = NodePath("Flip_Container/hurt/x:scale")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(-168, -432)]
+"values": [Vector2(1, 1)]
 }
 tracks/5/type = "value"
 tracks/5/imported = false
 tracks/5/enabled = true
-tracks/5/path = NodePath("Flip_Container/hurt/x:scale")
+tracks/5/path = NodePath("Flip_Container/damage/Damage:position")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(1, 1)]
-}
-tracks/6/type = "value"
-tracks/6/imported = false
-tracks/6/enabled = true
-tracks/6/path = NodePath("Flip_Container/damage/Damage:position")
-tracks/6/interp = 1
-tracks/6/loop_wrap = true
-tracks/6/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
@@ -707,11 +683,11 @@ _data = {
 }
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ngc5l"]
-atlas = ExtResource("3_chky0")
+atlas = ExtResource("4_b5kia")
 region = Rect2(0, 0, 14, 14)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_68j0a"]
-atlas = ExtResource("2_yyqnh")
+atlas = ExtResource("2_dk5tb")
 region = Rect2(2772, 3696, 308, 308)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_n75gt"]
@@ -745,7 +721,7 @@ script = ExtResource("1_cgjp8")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(176, 464)
-texture = ExtResource("2_yyqnh")
+texture = ExtResource("2_dk5tb")
 hframes = 12
 vframes = 13
 frame = 145
@@ -775,6 +751,10 @@ script = ExtResource("3_tmvlq")
 position = Vector2(-168, -432)
 build_mode = 1
 polygon = PackedVector2Array(184, 376, 200, 392, 200, 432, 184, 456, 192, 488, 192, 512, 200, 544, 208, 552, 208, 560, 208, 560, 192, 568, 176, 568, 168, 528, 144, 560, 104, 560, 120, 520, 120, 472, 112, 448, 112, 408, 120, 384, 136, 360, 168, 368)
+
+[node name="Stagger_Window" type="Timer" parent="Flip_Container/hurt"]
+wait_time = 0.3
+one_shot = true
 
 [node name="indicator" type="AnimatedSprite2D" parent="Flip_Container"]
 texture_filter = 1
@@ -820,6 +800,6 @@ one_shot = true
 one_shot = true
 
 [connection signal="area_entered" from="Flip_Container/damage" to="." method="_on_damage_area_entered"]
-[connection signal="area_exited" from="Flip_Container/damage" to="." method="_on_damage_area_exited"]
+[connection signal="timeout" from="Flip_Container/hurt/Stagger_Window" to="Flip_Container/hurt" method="_on_stagger_window_timeout"]
 [connection signal="timeout" from="Combo" to="StateMachine/Jab" method="_on_combo_timeout"]
 [connection signal="timeout" from="Hit_Window" to="." method="_on_hit_window_timeout"]

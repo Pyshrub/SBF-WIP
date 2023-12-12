@@ -1,8 +1,8 @@
 [gd_scene load_steps=53 format=3 uid="uid://cd4crmci7o2ev"]
 
 [ext_resource type="Script" path="res://SBF-WIP/Scene/fight/sandbag.gd" id="1_itf7g"]
-[ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://Assets/Sprites/FailBattle_SbF_3.png" id="2_04o1b"]
-[ext_resource type="Texture2D" uid="uid://bg7qa5tpbhhu" path="res://Assets/Sprites/player_indicator.png" id="3_pensf"]
+[ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://SBF-WIP/Assets/Sprites/FailBattle_SbF_3.png" id="2_04o1b"]
+[ext_resource type="Texture2D" uid="uid://bg7qa5tpbhhu" path="res://SBF-WIP/Assets/Sprites/player_indicator.png" id="3_pensf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f45rq"]
 atlas = ExtResource("2_04o1b")

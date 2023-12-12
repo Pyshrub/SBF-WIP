@@ -1,0 +1,3488 @@
+fileFormatVersion: 2
+guid: e8e926ab1d6f86140b78f8024f7eefce
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3696
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2a01155d4614e48a3ec5ae2156307e
+      internalID: -789048638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 3696
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ba2ea0f688cc845bdd56260d218064
+      internalID: 1167239137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 3696
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a800d96c2f6fb4f4aaf3455ca487af64
+      internalID: 1902306712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_3
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 3696
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e7d6c096c2ec6439d8c0bd7499cac7
+      internalID: 344576805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_4
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 3696
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5c5459ddf7b7c4eb5f3507064afe6a
+      internalID: 2043297361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_5
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3696
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ae0df96b4e51a4db48dd8cd39550f7
+      internalID: 1527553663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_6
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 3696
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f87288de180dd4a8178f532dfab09a
+      internalID: 474512884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_7
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 3696
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a959332b5e4f074b8b04e9e2ba441fe
+      internalID: -316021949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_8
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 3696
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1069a939bd59d7d43aa4920945ed61d7
+      internalID: -603705587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_9
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 3696
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5f80e51ba2ae04daacb3ebb68e7989
+      internalID: -1425620561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_10
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3696
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd287c2d2e4c454db21d1b04206eaf6
+      internalID: -1456960459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_11
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 3696
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc5b34a642e45945b8cd7de5be8e133
+      internalID: -1300319209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3388
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f796ef287a50ae245b73634cdf1a5afb
+      internalID: -1465132224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 3388
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dc832292a9f904f9a97268bd552ca6
+      internalID: 1033889695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_14
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 3388
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fee4aba7675254ba95731e0958ba94
+      internalID: 1605866987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_15
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 3388
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5891c67e3c9962a4aaee4564d7b893f9
+      internalID: 1207476237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_16
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 3388
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96868b762dccc043859325962b7b76a
+      internalID: -1960813795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_17
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3388
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cec466171cf934f9e995893c4bbaed
+      internalID: -1935285266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_18
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 3388
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bb223d71a242643a75ca39c4fdfba3
+      internalID: -1391381465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_19
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 3388
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89296453d52a56468ad5d83e1061b1c
+      internalID: -1946773446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_20
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 3388
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d70fc742375d1d49b30abf6199166f4
+      internalID: 1882427421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_21
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 3388
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bf8ffd5e55a1e4eb0bce8e774fab42
+      internalID: -1971011559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_22
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3388
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9211ab59bc12aa44b38f5d918065de4
+      internalID: -753629741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_23
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 3388
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2608c0080e07e4190bebd84f4d0c48
+      internalID: -1525296286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3080
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343d78732a6a1464b9b60836d35d4ee6
+      internalID: -1436539921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_25
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 3080
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9716d00adaf0ce543a76948bdd632608
+      internalID: 842771474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_26
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 3080
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620c99efd9d7cd544ad58cdd75cc2ef5
+      internalID: 73614464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_27
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 3080
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719a5fc26d6e6aa43a87e6fe3c06c402
+      internalID: 1194447089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_28
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 3080
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11669ae2f496809419cd5997b59a2860
+      internalID: 1130621924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_29
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3080
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976231e41d7cf9741bed1f9d2a0aecaa
+      internalID: 753208947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_30
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 3080
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8774ddf2e3c12e4479cde4c4eef3e113
+      internalID: 1892937035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_31
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 3080
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d4f14b6670e174e9bd5edbaa9c1467
+      internalID: -1776040753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_32
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 3080
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa10136f679e18468a67516a6de97ab
+      internalID: -1820840972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_33
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 3080
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91996a114f4e42429725f2166fcf154
+      internalID: -862471234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_34
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3080
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b4dbe167bb7be4a8e475056baa8405
+      internalID: 1298604944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_35
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 3080
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc89c1a9722201d409efe30657725066
+      internalID: -1830853226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2772
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d914597bcdf9b468fe98e46c9c511d
+      internalID: -1805526324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_37
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2772
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e127aea93daaaf148bb7f63c9d8816ef
+      internalID: -1514862580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_38
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 2772
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2c43dd1512c3649ae7595d40024d0f
+      internalID: -459835011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_39
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 2772
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00331860eee4b1b4681e22f2596b00ec
+      internalID: 2074066117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_40
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 2772
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076b86989ff366249ab1f78f0e3202c2
+      internalID: -1891474420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_41
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2772
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488c76470c92b2e4daa0f3ca2f758fa0
+      internalID: -536557369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_42
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 2772
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a497c2673e5cf41b6f1d7e832be555
+      internalID: 1830717792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_43
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 2772
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12aa7099ce1c8604da1ff2e214eddc43
+      internalID: -917536991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_44
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 2772
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9aeb6039f8c0184c82fbf776066f62b
+      internalID: -1910613744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_45
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 2772
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d430d38a3318f1c43a78e72daa9acf76
+      internalID: -991741609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_46
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2772
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bf9e80b30c88b42a8091a0f2b67686
+      internalID: -840632460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_47
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 2772
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431119a2147c03c4592ecda583e58464
+      internalID: 1768016924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2464
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d111b7a0e7ab444b4141d192ac935c
+      internalID: 702103163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_49
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2464
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dc9b1d669e7db43812669173ade6a6
+      internalID: -1982213714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_50
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 2464
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cb197a15e899346bec67339b98bf0c
+      internalID: -908228301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_51
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 2464
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ab37ddd75b0b64ebf5134bf24c2fb8
+      internalID: 698760355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_52
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 2464
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4024b7ab9edf6404b86b9992f3bf470c
+      internalID: -2059335243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_53
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2464
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce509112f6b9c244ba21a07751595f0a
+      internalID: 1742784953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_54
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 2464
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b57bdb46fcca794ba29a69c8bb68d6b
+      internalID: 92602952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_55
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 2464
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4546cbe491acdc94face597e321d77a2
+      internalID: -912217667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_56
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 2464
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb44d618118ed784d95490485cabacc2
+      internalID: -452816303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_57
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 2464
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bc2e3e98102814897fc1939cb5f451
+      internalID: -1037928501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_58
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2464
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6925ceef0eea23499a66e6376478cde
+      internalID: 1191723339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_59
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 2464
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480b3fa950063b5419c9e6d4e5c99ed9
+      internalID: -2110637150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2156
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6903af88635d74f4abef88d167d90aaf
+      internalID: 10656252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_61
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2156
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0175c282a4fd5fc43aaf08a46b29b67a
+      internalID: 1586208139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_62
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 2156
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c75018df1ff72478869700c7e73e1c
+      internalID: -247158777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_63
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 2156
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db98d38d5fb71d344bad0b336f4e511d
+      internalID: 1759906654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_64
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 2156
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88085e99277c3345b9dff5a2c1fa1b3
+      internalID: 1798836112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_65
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2156
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c29fb5e6005c74c99f7d188cbe2254
+      internalID: 1013358144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_66
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 2156
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64750aef8946814d9f9ce403c8eef70
+      internalID: -1103464422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_67
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 2156
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf66be145a002a42ad3e1d590052151
+      internalID: 941792300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_68
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 2156
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f613c11f7f693ad4b8d4d70316dc241f
+      internalID: 744781282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_69
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 2156
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb54889f101e5144bf764e1bd166715
+      internalID: -1153984236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_70
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2156
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54a206804773ea48b11e8d0c5bf873d
+      internalID: 610891359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_71
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 2156
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee52332c5be7764da33393b5e50586c
+      internalID: -1745062690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1848
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8cbcd281df57045b160d7321e3327f
+      internalID: 404199800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_73
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1848
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85edfdc287dcc4a4fa3e189f7729d4f8
+      internalID: -2099441388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_74
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1848
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed82634a5a698c04eaaa5303e2a6f51a
+      internalID: 886669371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_75
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1848
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69d352db872bd54599173286c196568
+      internalID: 1106579659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_76
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1848
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b302e7aa0a48e5c438674aa94d7ec70c
+      internalID: -2058253884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_77
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1848
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cf190055974614aa1c9398926925ea
+      internalID: -614910790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_78
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1848
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766c09117a0ff4345a2dc9cc229d456b
+      internalID: -224416617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_79
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1848
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4264b1f6d940e154ab0c1f4489e809b8
+      internalID: 394120539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_80
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1848
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e69a9bd038080478fb115d7fb33eaa
+      internalID: -1694547924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_81
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 1848
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6de19bf7db6a31408f679f555497ba2
+      internalID: -51631781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_82
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1848
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9b31f341584d24c8209016f7f637bc
+      internalID: 1536943527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_83
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 1848
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77be005e92f873249b37c6c3d2f490f0
+      internalID: -1715817462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a799a9ae6a6144343953c7057c434c79
+      internalID: -1451459732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_85
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1540
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739afa9c52c6ef841af64797cb5f5585
+      internalID: 511669751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_86
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1540
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b1ebef4eca78749ab92e44ea4df06f
+      internalID: 1296328579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_87
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1540
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2c08d5056f83047840841617e97320
+      internalID: 146912787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_88
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1540
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a41853d205d61c4490440dc3c74aebf
+      internalID: -1937281407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_89
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1540
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5cecbaac45dcb40bb5475625302ed4
+      internalID: -907452862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_90
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1540
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b979002c742968d468854e09104e3e9d
+      internalID: 342942887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_91
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1540
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f86caceeefe1f24dab09277d6650eff
+      internalID: 753119639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_92
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1540
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5138849832b434f9bfafaf27edf970
+      internalID: -777714238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_93
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 1540
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c657b1169dc33de49932f258aaacf598
+      internalID: -946462542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_94
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1540
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e7a13b0dbe1c141aa4a08086599e48
+      internalID: -634139782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_95
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 1540
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4e683f2d518b54b8be6bb748f60bc6
+      internalID: 753467017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3f7f11765d22f408b83ae6b54591c8
+      internalID: 1326703366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_97
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1232
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265941260282aaa4fa6855cdf114c6c6
+      internalID: -2017712122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_98
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1232
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e31e6115660e6b47a40c23027b39ee0
+      internalID: -940367335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_99
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1232
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefe4c76450b58746b26cbe485ba4f54
+      internalID: 2130822320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_100
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1232
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f7d617bc0d510438220e96efd957b9
+      internalID: -1055568309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_101
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1232
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b992e157685eae4caf5acd21864c4d6
+      internalID: 1341756000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_102
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1232
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4014be26b418fda4991c72a89a5a1058
+      internalID: 1532240587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_103
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1232
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd30dc69f88bff547ab70cacc5092b9a
+      internalID: 1191418265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_104
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1232
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415180910f5794b4592ca8683b85572e
+      internalID: 1983873550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_105
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 1232
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6933315f35894c74d971ab46ad2cbfcd
+      internalID: 1904776254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_106
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1232
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2754fa5f0907dda4badc842841eb4abb
+      internalID: -559523983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_107
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 1232
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498473dea3d467340b5251a2dde4fe80
+      internalID: 2090059715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cda7ffaedfdea488062e33cff5cff7
+      internalID: 1660662696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_109
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 924
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bc83188808f02468ed72746598d3db
+      internalID: -2052976678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_110
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 924
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6c93a3bdf5fff4dbe863e1bfa0843b
+      internalID: 1783510005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_111
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 924
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8105ca8a8e7094541bd863c8cf294197
+      internalID: -882208047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_112
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 924
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f51170093e0174c9ab390307c4cc2a
+      internalID: -468951941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_113
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 924
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b15d865ba1bd17418a8237c94821b9b
+      internalID: -1658362801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_114
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 924
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22154597cc80bcd49892b783606e954a
+      internalID: 1660765325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_115
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 924
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d166986b56f97f40842593da0ae31f5
+      internalID: 680289338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_116
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 924
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47e41b4b0f6a8f429a8f9f4acf1f52d
+      internalID: 78216965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_117
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 924
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845d3e436a95a8c4282d6e50295cb30d
+      internalID: 286194998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_118
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 924
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9988bf695b19c404e8f91150eedab691
+      internalID: -477291448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_119
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 924
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042ca0337d1d79340bc634fd7a31e12e
+      internalID: 2106188280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9477b27331709945b6de8188b9bd819
+      internalID: -1529691968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_121
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 616
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6402812a6bec25448904ead4c6f10e00
+      internalID: 993856556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_122
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 616
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f8b495fbfb03a419a2ad01bbb27421
+      internalID: -1738183360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_123
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 616
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1726b615d2e5b59458f89a2e39d1a80e
+      internalID: 380576322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_124
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 616
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f1cf1174e3f964f9e5b1a5c1e798d7
+      internalID: 1321173216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_125
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 616
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f149228a262c6f5419a5da1362551e1e
+      internalID: 1464615066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_126
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 616
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9ca4a5136bd494dbffdd4561dfa6ca
+      internalID: -437299886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_127
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 616
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8ba9d7870f9d84bbb388fef37a88dd
+      internalID: 883089082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_128
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 616
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4b6abce401f694595bec92470a630b
+      internalID: 1853325537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_129
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 616
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f4e4858f8866c4192b586042cba383
+      internalID: 690337483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_130
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 616
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87dfba24fc11d94cad251545e93a59e
+      internalID: -1165292654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_131
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 616
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88999488795a9ab4c9adb205044c34bc
+      internalID: -1174703005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ae379b1253dce48a73bf59dafd356f
+      internalID: -521583266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_133
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 308
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd06e0e65de7c254c968e0c81fb34efb
+      internalID: 769147995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_134
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 308
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e871e026a495674d9cb99bcdb2fccba
+      internalID: -540147534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_135
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 308
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce1d7462e8cfd24cba0c4af6bef18e5
+      internalID: -276487843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_136
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 308
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0717550f18ab3ea4cb476d55bc367d23
+      internalID: -1454562298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_137
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 308
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422c6e5520f5d634aa52d73ac1320496
+      internalID: 1398596856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_138
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 308
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e556443cf195a438a641e08e56c9ce
+      internalID: 1761761584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_139
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 308
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb94fe825bc1414c97e8cc925884376
+      internalID: 210124176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_140
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 308
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362201b7b9a6851478686df2054d81bc
+      internalID: -349807041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_141
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 308
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dd963eedc320848a0005ac811de372
+      internalID: 1328874295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_142
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 308
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651af6f9ad7792e48b6f3c735c870358
+      internalID: 696772953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_143
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 308
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76428187aca847a44877fa3b771beaaf
+      internalID: -1368632174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab09efd38391a44da09fe83aad6f2fa
+      internalID: 139867946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_145
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ebb849e450dfc42939615fd13aac29
+      internalID: -649867585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_146
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adce48d3df21fe42b75e029519f6580
+      internalID: -354861254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_147
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 0
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556ed0078247bc141b075cf09a0fcaa1
+      internalID: -861058003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_148
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 0
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22f13ad3b797a24ca7dd49eb5026211
+      internalID: 1052020573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_149
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 0
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549caccd88c9f4a49b2ed5d35054ddbb
+      internalID: -1393585319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_150
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 0
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33369078160014048b2ad6e55b0bb8bc
+      internalID: 1636145723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_151
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 0
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801b6d988e946214fad5dfd3b18fb37b
+      internalID: 444538872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailBattle_SbF_3_152
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 0
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68e3907794335d408dfaad81be4802c
+      internalID: 1703611145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FailBattle_SbF_3_7: -316021949
+      FailBattle_SbF_3_100: -1055568309
+      FailBattle_SbF_3_126: -437299886
+      FailBattle_SbF_3_146: -354861254
+      FailBattle_SbF_3_51: 698760355
+      FailBattle_SbF_3_113: -1658362801
+      FailBattle_SbF_3_136: -1454562298
+      FailBattle_SbF_3_9: -1425620561
+      FailBattle_SbF_3_62: -247158777
+      FailBattle_SbF_3_87: 146912787
+      FailBattle_SbF_3_76: -2058253884
+      FailBattle_SbF_3_1: 1167239137
+      FailBattle_SbF_3_2: 1902306712
+      FailBattle_SbF_3_103: 1191418265
+      FailBattle_SbF_3_21: -1971011559
+      FailBattle_SbF_3_56: -452816303
+      FailBattle_SbF_3_57: -1037928501
+      FailBattle_SbF_3_111: -882208047
+      FailBattle_SbF_3_144: 139867946
+      FailBattle_SbF_3_29: 753208947
+      FailBattle_SbF_3_36: -1805526324
+      FailBattle_SbF_3_125: 1464615066
+      FailBattle_SbF_3_75: 1106579659
+      FailBattle_SbF_3_6: 474512884
+      FailBattle_SbF_3_67: 941792300
+      FailBattle_SbF_3_133: 769147995
+      FailBattle_SbF_3_18: -1391381465
+      FailBattle_SbF_3_120: -1529691968
+      FailBattle_SbF_3_85: 511669751
+      FailBattle_SbF_3_83: -1715817462
+      FailBattle_SbF_3_3: 344576805
+      FailBattle_SbF_3_98: -940367335
+      FailBattle_SbF_3_38: -459835011
+      FailBattle_SbF_3_42: 1830717792
+      FailBattle_SbF_3_55: -912217667
+      FailBattle_SbF_3_8: -603705587
+      FailBattle_SbF_3_37: -1514862580
+      FailBattle_SbF_3_31: -1776040753
+      FailBattle_SbF_3_80: -1694547924
+      FailBattle_SbF_3_34: 1298604944
+      FailBattle_SbF_3_78: -224416617
+      FailBattle_SbF_3_10: -1456960459
+      FailBattle_SbF_3_102: 1532240587
+      FailBattle_SbF_3_81: -51631781
+      FailBattle_SbF_3_35: -1830853226
+      FailBattle_SbF_3_39: 2074066117
+      FailBattle_SbF_3_93: -946462542
+      FailBattle_SbF_3_116: 78216965
+      FailBattle_SbF_3_25: 842771474
+      FailBattle_SbF_3_147: -861058003
+      FailBattle_SbF_3_89: -907452862
+      FailBattle_SbF_3_4: 2043297361
+      FailBattle_SbF_3_68: 744781282
+      FailBattle_SbF_3_19: -1946773446
+      FailBattle_SbF_3_150: 1636145723
+      FailBattle_SbF_3_115: 680289338
+      FailBattle_SbF_3_43: -917536991
+      FailBattle_SbF_3_49: -1982213714
+      FailBattle_SbF_3_60: 10656252
+      FailBattle_SbF_3_22: -753629741
+      FailBattle_SbF_3_86: 1296328579
+      FailBattle_SbF_3_101: 1341756000
+      FailBattle_SbF_3_66: -1103464422
+      FailBattle_SbF_3_124: 1321173216
+      FailBattle_SbF_3_32: -1820840972
+      FailBattle_SbF_3_52: -2059335243
+      FailBattle_SbF_3_14: 1605866987
+      FailBattle_SbF_3_5: 1527553663
+      FailBattle_SbF_3_97: -2017712122
+      FailBattle_SbF_3_47: 1768016924
+      FailBattle_SbF_3_0: -789048638
+      FailBattle_SbF_3_63: 1759906654
+      FailBattle_SbF_3_24: -1436539921
+      FailBattle_SbF_3_107: 2090059715
+      FailBattle_SbF_3_46: -840632460
+      FailBattle_SbF_3_58: 1191723339
+      FailBattle_SbF_3_91: 753119639
+      FailBattle_SbF_3_95: 753467017
+      FailBattle_SbF_3_15: 1207476237
+      FailBattle_SbF_3_145: -649867585
+      FailBattle_SbF_3_20: 1882427421
+      FailBattle_SbF_3_11: -1300319209
+      FailBattle_SbF_3_118: -477291448
+      FailBattle_SbF_3_90: 342942887
+      FailBattle_SbF_3_106: -559523983
+      FailBattle_SbF_3_69: -1153984236
+      FailBattle_SbF_3_72: 404199800
+      FailBattle_SbF_3_123: 380576322
+      FailBattle_SbF_3_94: -634139782
+      FailBattle_SbF_3_16: -1960813795
+      FailBattle_SbF_3_13: 1033889695
+      FailBattle_SbF_3_74: 886669371
+      FailBattle_SbF_3_88: -1937281407
+      FailBattle_SbF_3_84: -1451459732
+      FailBattle_SbF_3_64: 1798836112
+      FailBattle_SbF_3_104: 1983873550
+      FailBattle_SbF_3_109: -2052976678
+      FailBattle_SbF_3_119: 2106188280
+      FailBattle_SbF_3_131: -1174703005
+      FailBattle_SbF_3_128: 1853325537
+      FailBattle_SbF_3_134: -540147534
+      FailBattle_SbF_3_132: -521583266
+      FailBattle_SbF_3_137: 1398596856
+      FailBattle_SbF_3_61: 1586208139
+      FailBattle_SbF_3_12: -1465132224
+      FailBattle_SbF_3_50: -908228301
+      FailBattle_SbF_3_92: -777714238
+      FailBattle_SbF_3_114: 1660765325
+      FailBattle_SbF_3_139: 210124176
+      FailBattle_SbF_3_40: -1891474420
+      FailBattle_SbF_3_17: -1935285266
+      FailBattle_SbF_3_112: -468951941
+      FailBattle_SbF_3_77: -614910790
+      FailBattle_SbF_3_44: -1910613744
+      FailBattle_SbF_3_96: 1326703366
+      FailBattle_SbF_3_73: -2099441388
+      FailBattle_SbF_3_110: 1783510005
+      FailBattle_SbF_3_141: 1328874295
+      FailBattle_SbF_3_143: -1368632174
+      FailBattle_SbF_3_121: 993856556
+      FailBattle_SbF_3_54: 92602952
+      FailBattle_SbF_3_30: 1892937035
+      FailBattle_SbF_3_108: 1660662696
+      FailBattle_SbF_3_79: 394120539
+      FailBattle_SbF_3_53: 1742784953
+      FailBattle_SbF_3_135: -276487843
+      FailBattle_SbF_3_151: 444538872
+      FailBattle_SbF_3_140: -349807041
+      FailBattle_SbF_3_127: 883089082
+      FailBattle_SbF_3_59: -2110637150
+      FailBattle_SbF_3_28: 1130621924
+      FailBattle_SbF_3_45: -991741609
+      FailBattle_SbF_3_65: 1013358144
+      FailBattle_SbF_3_82: 1536943527
+      FailBattle_SbF_3_129: 690337483
+      FailBattle_SbF_3_33: -862471234
+      FailBattle_SbF_3_148: 1052020573
+      FailBattle_SbF_3_149: -1393585319
+      FailBattle_SbF_3_142: 696772953
+      FailBattle_SbF_3_23: -1525296286
+      FailBattle_SbF_3_41: -536557369
+      FailBattle_SbF_3_27: 1194447089
+      FailBattle_SbF_3_117: 286194998
+      FailBattle_SbF_3_105: 1904776254
+      FailBattle_SbF_3_152: 1703611145
+      FailBattle_SbF_3_48: 702103163
+      FailBattle_SbF_3_99: 2130822320
+      FailBattle_SbF_3_71: -1745062690
+      FailBattle_SbF_3_130: -1165292654
+      FailBattle_SbF_3_70: 610891359
+      FailBattle_SbF_3_122: -1738183360
+      FailBattle_SbF_3_138: 1761761584
+      FailBattle_SbF_3_26: 73614464
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

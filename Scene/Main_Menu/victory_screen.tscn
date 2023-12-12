@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cdalawh7d4f6r"]
 
 [ext_resource type="Script" path="res://SBF-WIP/Scene/Main_Menu/Victory_Screen.gd" id="1_d82l7"]
-[ext_resource type="Texture2D" uid="uid://swjiqqhho5q4" path="res://Assets/Character Portraits/Failboat-1.png.png" id="2_tikpc"]
+[ext_resource type="Texture2D" uid="uid://swjiqqhho5q4" path="res://SBF-WIP/Assets/Character Portraits/Failboat-1.png.png" id="2_7s0ob"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_i3vs8"]
 font_size = 30
@@ -22,6 +22,7 @@ offset_bottom = 648.0
 color = Color(1, 0.87451, 0.301961, 1)
 
 [node name="ColorRect2" type="ColorRect" parent="."]
+layout_mode = 0
 offset_left = 416.0
 offset_top = 147.0
 offset_right = 752.0
@@ -39,7 +40,7 @@ text = "Play Again?"
 [node name="Fail_Preview" type="Sprite2D" parent="."]
 position = Vector2(592, 344)
 scale = Vector2(0.1825, 0.1975)
-texture = ExtResource("2_tikpc")
+texture = ExtResource("2_7s0ob")
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0

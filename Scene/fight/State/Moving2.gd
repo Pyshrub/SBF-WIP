@@ -14,7 +14,8 @@ func physics_process(_delta):
 		SM.set_state("Falling")
 	if Input.is_action_pressed("Up_2"):
 		SM.set_state("Jumping")
-
+	if Input.is_action_just_pressed("Left_2") or Input.is_action_just_pressed("Right_2"):
+		SM.set_state("Moving")
 	var direction = Input.get_axis("Left_2", "Right_2")
 	player.set_direction(direction)
 	if direction:
