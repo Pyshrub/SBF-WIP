@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqsoecd3ensjc"
-path="res://.godot/imported/Circle.png-ee357b9781253182d1c21ed8860b898b.ctex"
+path="res://.godot/imported/Circle.png-c4d0e87a511c6329583e9664f485844c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Sprites/Circle.png"
-dest_files=["res://.godot/imported/Circle.png-ee357b9781253182d1c21ed8860b898b.ctex"]
+source_file="res://Assets/Sprites/Circle.png"
+dest_files=["res://.godot/imported/Circle.png-c4d0e87a511c6329583e9664f485844c.ctex"]
 
 [params]
 

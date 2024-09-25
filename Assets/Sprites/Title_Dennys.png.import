@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwwuwqy3jp01g"
-path="res://.godot/imported/Title_Dennys.png-fbe5732f3a09e7d53649cdd545fdbc63.ctex"
+path="res://.godot/imported/Title_Dennys.png-b8dccb9871ea67a5a2e33c195e9ed840.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Sprites/Title_Dennys.png"
-dest_files=["res://.godot/imported/Title_Dennys.png-fbe5732f3a09e7d53649cdd545fdbc63.ctex"]
+source_file="res://Assets/Sprites/Title_Dennys.png"
+dest_files=["res://.godot/imported/Title_Dennys.png-b8dccb9871ea67a5a2e33c195e9ed840.ctex"]
 
 [params]
 

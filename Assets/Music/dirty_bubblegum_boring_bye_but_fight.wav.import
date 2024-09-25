@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://djuf7fxeyaq1l"
-path="res://.godot/imported/dirty_bubblegum_boring_bye_but_fight.wav-eaace4e068840790ed9380399c97e2b7.sample"
+path="res://.godot/imported/dirty_bubblegum_boring_bye_but_fight.wav-dcaa168d471c665bea8e0ee6d0f3c057.sample"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Music/dirty_bubblegum_boring_bye_but_fight.wav"
-dest_files=["res://.godot/imported/dirty_bubblegum_boring_bye_but_fight.wav-eaace4e068840790ed9380399c97e2b7.sample"]
+source_file="res://Assets/Music/dirty_bubblegum_boring_bye_but_fight.wav"
+dest_files=["res://.godot/imported/dirty_bubblegum_boring_bye_but_fight.wav-dcaa168d471c665bea8e0ee6d0f3c057.sample"]
 
 [params]
 

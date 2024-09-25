@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crsuo5ic88plv"
-path="res://.godot/imported/Damage_Test.png-8c4f183fd7afa57ca6023979c1e937a1.ctex"
+path="res://.godot/imported/Damage_Test.png-a250c28adbde5b55ef4ac1aed8e5e048.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Sprites/Damage_Test.png"
-dest_files=["res://.godot/imported/Damage_Test.png-8c4f183fd7afa57ca6023979c1e937a1.ctex"]
+source_file="res://Assets/Sprites/Damage_Test.png"
+dest_files=["res://.godot/imported/Damage_Test.png-a250c28adbde5b55ef4ac1aed8e5e048.ctex"]
 
 [params]
 

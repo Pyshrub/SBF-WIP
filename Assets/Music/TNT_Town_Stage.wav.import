@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://lb3mqgduvhoq"
-path="res://.godot/imported/TNT_Town_Stage.wav-2ca7bab73019477d331b3dc5ce6b7b9d.sample"
+path="res://.godot/imported/TNT_Town_Stage.wav-156c93d4a4f19733a3f3c339e2fed288.sample"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Music/TNT_Town_Stage.wav"
-dest_files=["res://.godot/imported/TNT_Town_Stage.wav-2ca7bab73019477d331b3dc5ce6b7b9d.sample"]
+source_file="res://Assets/Music/TNT_Town_Stage.wav"
+dest_files=["res://.godot/imported/TNT_Town_Stage.wav-156c93d4a4f19733a3f3c339e2fed288.sample"]
 
 [params]
 

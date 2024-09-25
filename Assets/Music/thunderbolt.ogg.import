@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://c50t58mx2iksd"
-path="res://.godot/imported/thunderbolt.ogg-32d93792f6b94ac29992c52038282049.oggvorbisstr"
+path="res://.godot/imported/thunderbolt.ogg-ffd6980ab9000a4be7b9c2496bd93b9f.oggvorbisstr"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Music/thunderbolt.ogg"
-dest_files=["res://.godot/imported/thunderbolt.ogg-32d93792f6b94ac29992c52038282049.oggvorbisstr"]
+source_file="res://Assets/Music/thunderbolt.ogg"
+dest_files=["res://.godot/imported/thunderbolt.ogg-ffd6980ab9000a4be7b9c2496bd93b9f.oggvorbisstr"]
 
 [params]
 

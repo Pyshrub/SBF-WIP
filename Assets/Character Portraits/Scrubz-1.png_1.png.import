@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yq34pf52jaua"
-path="res://.godot/imported/Scrubz-1.png_1.png-2f05d3731b8e2fa39f4df9c5eae1ffdf.ctex"
+path="res://.godot/imported/Scrubz-1.png_1.png-f85a322c386daf06d1eae9a6011625b7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Character Portraits/Scrubz-1.png_1.png"
-dest_files=["res://.godot/imported/Scrubz-1.png_1.png-2f05d3731b8e2fa39f4df9c5eae1ffdf.ctex"]
+source_file="res://Assets/Character Portraits/Scrubz-1.png_1.png"
+dest_files=["res://.godot/imported/Scrubz-1.png_1.png-f85a322c386daf06d1eae9a6011625b7.ctex"]
 
 [params]
 

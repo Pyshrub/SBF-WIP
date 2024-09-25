@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5f2d6nb1kv2y"
-path="res://.godot/imported/Title_Adventure.png-9b1c6c343e7b1268ae83ec78b7f37c7a.ctex"
+path="res://.godot/imported/Title_Adventure.png-96dfae4242f6eb5ab440ed40b9023359.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Sprites/Title_Adventure.png"
-dest_files=["res://.godot/imported/Title_Adventure.png-9b1c6c343e7b1268ae83ec78b7f37c7a.ctex"]
+source_file="res://Assets/Sprites/Title_Adventure.png"
+dest_files=["res://.godot/imported/Title_Adventure.png-96dfae4242f6eb5ab440ed40b9023359.ctex"]
 
 [params]
 

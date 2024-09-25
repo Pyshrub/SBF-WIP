@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bmo1c0j3eisk3"
-path="res://.godot/imported/Andrew_Stage.ogg-bca7ad5fd5ea3c414980d9f7532b2d7a.oggvorbisstr"
+path="res://.godot/imported/Andrew_Stage.ogg-0816792e0b3a522df478818c7ae3b380.oggvorbisstr"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Music/Andrew_Stage.ogg"
-dest_files=["res://.godot/imported/Andrew_Stage.ogg-bca7ad5fd5ea3c414980d9f7532b2d7a.oggvorbisstr"]
+source_file="res://Assets/Music/Andrew_Stage.ogg"
+dest_files=["res://.godot/imported/Andrew_Stage.ogg-0816792e0b3a522df478818c7ae3b380.oggvorbisstr"]
 
 [params]
 

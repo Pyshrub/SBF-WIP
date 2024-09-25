@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcu35xunoyuij"
-path="res://.godot/imported/AssistBar_SbF_2.png-efe040330867bdaaf8d6687ca6acad6b.ctex"
+path="res://.godot/imported/AssistBar_SbF_2.png-b382a81987b3743bd1f90189f6c3e97c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Sprites/AssistBar_SbF_2.png"
-dest_files=["res://.godot/imported/AssistBar_SbF_2.png-efe040330867bdaaf8d6687ca6acad6b.ctex"]
+source_file="res://Assets/Sprites/AssistBar_SbF_2.png"
+dest_files=["res://.godot/imported/AssistBar_SbF_2.png-b382a81987b3743bd1f90189f6c3e97c.ctex"]
 
 [params]
 

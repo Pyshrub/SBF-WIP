@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fbcxqk6isby"
-path="res://.godot/imported/not_dennys_BG_3.png-cbfa7971bd1c26b55afe645936975c15.ctex"
+path="res://.godot/imported/not_dennys_BG_3.png-3558f6395e2f1027eb50724a68d9cc36.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Sprites/not_dennys_BG_3.png"
-dest_files=["res://.godot/imported/not_dennys_BG_3.png-cbfa7971bd1c26b55afe645936975c15.ctex"]
+source_file="res://Assets/Sprites/not_dennys_BG_3.png"
+dest_files=["res://.godot/imported/not_dennys_BG_3.png-3558f6395e2f1027eb50724a68d9cc36.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://du5h0ifuq5870"
-path="res://.godot/imported/FailBattle_SbF_7.png-d6a75c5048feba62564ca11a60d5e812.ctex"
+path="res://.godot/imported/FailBattle_SbF_7.png-19601f1058bcb544177e268b0d32b34c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Sprites/FailBattle_SbF_7.png"
-dest_files=["res://.godot/imported/FailBattle_SbF_7.png-d6a75c5048feba62564ca11a60d5e812.ctex"]
+source_file="res://Assets/Sprites/FailBattle_SbF_7.png"
+dest_files=["res://.godot/imported/FailBattle_SbF_7.png-19601f1058bcb544177e268b0d32b34c.ctex"]
 
 [params]
 

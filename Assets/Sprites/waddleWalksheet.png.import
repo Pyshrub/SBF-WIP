@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bu7v8arba3eel"
-path="res://.godot/imported/waddleWalksheet.png-e46bbf6525e5553beb24478b5e15d104.ctex"
+path="res://.godot/imported/waddleWalksheet.png-58932399d3306f0b53ddb8fa3c555d3a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Sprites/waddleWalksheet.png"
-dest_files=["res://.godot/imported/waddleWalksheet.png-e46bbf6525e5553beb24478b5e15d104.ctex"]
+source_file="res://Assets/Sprites/waddleWalksheet.png"
+dest_files=["res://.godot/imported/waddleWalksheet.png-58932399d3306f0b53ddb8fa3c555d3a.ctex"]
 
 [params]
 
