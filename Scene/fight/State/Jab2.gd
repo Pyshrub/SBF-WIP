@@ -27,4 +27,3 @@ func _on_combo_timeout():
 	player.combo = false
 	player.attack_type = "Idle"
 	SM.set_state("Idle")
-

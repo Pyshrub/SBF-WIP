@@ -11,15 +11,15 @@ func start():
 
 func physics_process(delta):
 	player.velocity.y += player.gravity * delta + 100
-	if Input.is_action_pressed("Left"):
+	if Input.is_action_pressed("Left"+str(player.player_num)):
 		direction = -1
-		if Input.is_action_pressed("Right"):
+		if Input.is_action_pressed("Right"+str(player.player_num)):
 			direction = 1
-	if Input.is_action_pressed("Right"):
+	if Input.is_action_pressed("Right"+str(player.player_num)):
 		direction = 1
-		if Input.is_action_pressed("Left"):
+		if Input.is_action_pressed("Left"+str(player.player_num)):
 			direction = -1
-	if not Input.is_action_pressed("Left") and not Input.is_action_pressed("Right"):
+	if not Input.is_action_pressed("Left"+str(player.player_num)) and not Input.is_action_pressed("Right"+str(player.player_num)):
 		direction = 0
 	player.set_direction(direction)
 	if direction:

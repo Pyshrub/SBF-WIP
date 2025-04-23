@@ -1,12 +1,11 @@
-[gd_scene load_steps=13 format=3 uid="uid://dupqylxues7mx"]
+[gd_scene load_steps=12 format=3 uid="uid://dupqylxues7mx"]
 
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/StateMachine.gd" id="1_2apyb"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/sandy.gd" id="1_q1qdv"]
-[ext_resource type="Texture2D" uid="uid://wc4pf3p4rqsb" path="res://SBF-WIP/Assets/Sprites/BagSpriteSheet.png" id="2_u2qkk"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Sandy_Idle.gd" id="4_j2qnx"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Sandy_falls.gd" id="5_6mw8r"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Sandy_Damage.gd" id="6_kt76w"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/character_select/Characters/Hitbox.gd" id="7_6836h"]
+[ext_resource type="Script" uid="uid://ds5puc3fy0k6q" path="res://Scene/character_select/Characters/sandy.gd" id="1_avqnp"]
+[ext_resource type="Texture2D" uid="uid://wc4pf3p4rqsb" path="res://Assets/Sprites/BagSpriteSheet.png" id="2_u2qkk"]
+[ext_resource type="Script" uid="uid://baai33yat2ovw" path="res://Scene/adventure/enemies/StateMachine.gd" id="3_v8tao"]
+[ext_resource type="Script" uid="uid://beuunciw8by3" path="res://Scene/character_select/Characters/Sandy_Idle.gd" id="4_03c24"]
+[ext_resource type="Script" uid="uid://basuvdl3xmti5" path="res://Scene/character_select/Characters/Sandy_falls.gd" id="5_fl5so"]
+[ext_resource type="Script" uid="uid://bc3tno0lxc5hw" path="res://Scene/character_select/Characters/Sandy_Damage.gd" id="6_c0t7x"]
 
 [sub_resource type="Animation" id="Animation_kjikl"]
 resource_name = "Damage"
@@ -93,20 +92,20 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ctc6m"]
 _data = {
-"Damage": SubResource("Animation_kjikl"),
-"Idle": SubResource("Animation_q2kki"),
-"RESET": SubResource("Animation_3tt05")
+&"Damage": SubResource("Animation_kjikl"),
+&"Idle": SubResource("Animation_q2kki"),
+&"RESET": SubResource("Animation_3tt05")
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k8g6x"]
 size = Vector2(92.5, 140)
 
 [node name="Sandy" type="CharacterBody2D"]
-script = ExtResource("1_q1qdv")
+script = ExtResource("1_avqnp")
 
 [node name="Anima" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_ctc6m")
+&"": SubResource("AnimationLibrary_ctc6m")
 }
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -117,16 +116,16 @@ hframes = 2
 vframes = 2
 
 [node name="StateMachine" type="Node" parent="."]
-script = ExtResource("1_2apyb")
+script = ExtResource("3_v8tao")
 
 [node name="Idle" type="Node" parent="StateMachine"]
-script = ExtResource("4_j2qnx")
+script = ExtResource("4_03c24")
 
 [node name="Falling" type="Node" parent="StateMachine"]
-script = ExtResource("5_6mw8r")
+script = ExtResource("5_fl5so")
 
 [node name="Damage" type="Node" parent="StateMachine"]
-script = ExtResource("6_kt76w")
+script = ExtResource("6_c0t7x")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(40, 24)
@@ -136,7 +135,6 @@ shape = SubResource("RectangleShape2D_k8g6x")
 visible = false
 collision_layer = 4
 collision_mask = 4
-script = ExtResource("7_6836h")
 
 [node name="HitboxC" type="CollisionShape2D" parent="Hitbox"]
 position = Vector2(40, 24)

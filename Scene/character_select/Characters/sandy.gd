@@ -6,6 +6,7 @@ const SPEED = 500.0
 const JUMP_VELOCITY = -1000.0
 const MAX_JUMP = -2000.0
 @onready var hp = 500
+@onready var max_hp = 500
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var direction = 1
@@ -13,6 +14,7 @@ var direction = 1
 func _ready():
 	up_direction = Vector2.UP
 	Global.P2_HP = hp
+	Global.P2_Max = hp
 func _physics_process(delta):
 	Global.P2_HP = hp
 	Global.update_hp()
@@ -28,7 +30,9 @@ func set_animation(anim):
 	if $Anima.has_animation(anim): $Anima.play(anim)
 	else: $Anima.play()
 
+func damage(num):
+	print(hp)
+	hp -= num
 func _on_hitbox_area_entered(area):
 	Global.update_hp()
 	SM.set_state("Damage")
-

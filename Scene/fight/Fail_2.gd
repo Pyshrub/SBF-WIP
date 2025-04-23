@@ -18,6 +18,7 @@ var hitting = false
 func _ready():
 	up_direction = Vector2.UP
 	Global.P2_HP = hp
+	Global.P2_Max = hp
 func _physics_process(delta):
 	Global.P2_HP = hp
 	Global.update_hp()
@@ -47,23 +48,22 @@ func _on_damage_area_entered(area):
 		hit_window.wait_time = .4
 		hit_window.start()
 		hitting = true
-		var target = area
+		var target = area.owner
 		if target.has_method("damage"):
 			if attack_type == "jab":
 				target.damage(7.5)
-				if area.get_place() < position.x:
-					print("hi")
-					print(area.get_place())
-					print(global_position.x)
-					
-				else:
-					pass
 			if attack_type == "Strong Attack":
 				target.damage(20)
 		if target.hp <= 0:
 			target.die()
 	else:
 		pass
+func damage(num):
+	if attack_type == "Defending":
+		hp = hp - (num*0.5)
+		print(hp)
+	else:
+		hp -= num
 func die():
 	queue_free()
 func _on_hit_window_timeout():

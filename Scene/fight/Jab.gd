@@ -15,7 +15,7 @@ func start():
 func _on_anima_animation_finished(anim_name):
 	pass
 func physics_process(_delta):
-	if Input.is_action_just_pressed("Jab") and player.combo == true:
+	if Input.is_action_just_pressed("Jab"+str(player.player_num)) and player.combo == true:
 		player.timing.wait_time = .8
 		player.timing.start()
 		player.set_animation("jab2")
@@ -26,4 +26,3 @@ func _on_combo_timeout():
 	player.attack_type = ""
 	player.combo = false
 	SM.set_state("Idle")
-

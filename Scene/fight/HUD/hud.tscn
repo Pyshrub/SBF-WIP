@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bew5wh1ls31pa"]
 
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/HUD/hud.gd" id="1_pdjg2"]
+[ext_resource type="Script" uid="uid://miiabvs72ipc" path="res://Scene/fight/HUD/hud.gd" id="1_uytym"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_13nrh"]
 bg_color = Color(1, 0, 0, 1)
@@ -15,7 +15,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_pdjg2")
+script = ExtResource("1_uytym")
 
 [node name="P1_Health" type="ProgressBar" parent="."]
 layout_mode = 0

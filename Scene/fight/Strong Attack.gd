@@ -13,7 +13,7 @@ func start():
 func _on_anima_animation_finished(anim_name):
 	pass
 func physics_process(_delta):
-	if Input.is_action_just_pressed("Strong Attack") and player.combo == true:
+	if Input.is_action_just_pressed("Strong Attack"+str(player.player_num)) and player.combo == true:
 		player.timing.wait_time = 1.2
 		player.timing.start()
 		player.set_animation("strong_atk2")
