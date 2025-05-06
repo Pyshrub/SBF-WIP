@@ -25,9 +25,8 @@ func physics_process(_delta):
 			direction = -1
 	if not Input.is_action_pressed("Left"+str(player.player_num)) and not Input.is_action_pressed("Right"+str(player.player_num)):
 		direction = 0
-	player.set_direction(direction)
 	if direction:
-		player.velocity.x = player.direction * player.SPEED
+		player.velocity.x = direction * player.SPEED
 	else:
 		player.velocity.x = move_toward(player.velocity.x, 0, player.SPEED)
 	player.move_and_slide()

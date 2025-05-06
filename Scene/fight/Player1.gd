@@ -18,8 +18,10 @@ var combo = false
 @onready var max_hp = 100
 var hitting = false
 var player_num = 1
+var stun_level
 func _ready():
 	up_direction = Vector2.UP
+	$StateMachine/Damaged/Stun_Window.start()
 	if Arena_Check.type == "wave":
 		$Camera2D.enabled = true
 	else:
@@ -66,22 +68,26 @@ func set_animation(anim):
 	
 func get_animation():
 	return $Anima.current_animation
+func queue_animation(anim):
+	$Anima.queue(anim)
 
 func _on_damage_area_entered(area):
-	if hitting == false:
-		hit_window.wait_time = .4
-		hit_window.start()
-		hitting = true
-		var target = area.owner
-		if target.has_method("damage"):
-			if attack_type == "jab":
-				target.damage(7.5)
-			if attack_type == "Strong Attack":
-				target.damage(20)
-		if target.hp <= 0:
-			target.die()
-	else:
-		pass
+	var target = area.owner
+	if target.has_method("damage"):
+		if attack_type == "jab":
+			target.damage(7.5)
+			target.knockback("small")
+		if attack_type == "up_jab":
+			target.damage(7.5)
+			target.knockback("up_small")
+		if attack_type == "down_jab":
+			target.damage(7.5)
+			target.knockback("up_small")
+		if attack_type == "Strong Attack":
+			target.damage(20)
+			target.knockback("Medium")
+	if target.hp <= 0:
+		target.die()
 func damage(num):
 	if attack_type == "Defending":
 		hp = hp - (num*0.5)
@@ -92,3 +98,6 @@ func die():
 	queue_free()
 func _on_hit_window_timeout():
 	hitting = false
+func knockback(k_level):
+	stun_level = k_level
+	$StateMachine.set_state("Damaged")

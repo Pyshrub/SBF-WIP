@@ -19,3 +19,10 @@ func star():
 		player2 = load("res://Scene/character_select/Characters/sandy.tscn").instantiate()
 		player2.position = Vector2(900,0)
 	add_child(player2)
+func _process(delta):
+	if player1.position.x > player2.position.x:
+		player1.direction = -1
+		player2.direction = 1
+	elif player2.position.x > player1.position.x:
+		player1.direction = 1
+		player2.direction = -1

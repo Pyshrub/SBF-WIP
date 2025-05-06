@@ -5,7 +5,7 @@ var stand_buffer = false
 func _ready():
 	await player.ready
 func start():
-	player.attack_type = "jab"
+	player.attack_type = "down_jab"
 	player.set_animation("down_jab")
 func _on_anima_animation_finished(anim_name):
 	if anim_name == "down_jab":

@@ -10,7 +10,7 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if p_1_clicks == 1 and p_2_clicks == 1:
-		if Global.play_two != "":	
+		if Global.play_two != "":
 			get_tree().change_scene_to_file("res://Scene/fight/fight.tscn")
 			p_1_clicks = 0
 			p_2_clicks = 0
