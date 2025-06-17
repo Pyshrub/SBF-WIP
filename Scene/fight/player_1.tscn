@@ -170,6 +170,18 @@ tracks/7/keys = {
 "update": 0,
 "values": [PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464)]
 }
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Flip_Container/damage/damage:disabled")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
 
 [sub_resource type="Animation" id="Animation_ffnbl"]
 length = 0.001
@@ -282,6 +294,33 @@ tracks/8/keys = {
 "values": [false]
 }
 
+[sub_resource type="Animation" id="Animation_5h4o0"]
+resource_name = "damaged"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [144]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip_Container/damage/damage:disabled")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
 [sub_resource type="Animation" id="Animation_smgkl"]
 resource_name = "defend"
 loop_mode = 1
@@ -344,6 +383,18 @@ tracks/4/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 0,
 "values": [Vector2(1, 1)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Flip_Container/damage/damage:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
 }
 
 [sub_resource type="Animation" id="Animation_2pbw2"]
@@ -445,6 +496,18 @@ tracks/7/keys = {
 "update": 0,
 "values": [PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464)]
 }
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Flip_Container/damage/damage:disabled")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
 
 [sub_resource type="Animation" id="Animation_ym1sn"]
 resource_name = "down_air"
@@ -499,6 +562,18 @@ tracks/3/keys = {
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
 "update": 0,
 "values": [Vector2(1, 1), Vector2(1, 1), Vector2(1, 1), Vector2(1, 1), Vector2(1, 1), Vector2(1, 1), Vector2(1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Flip_Container/damage/damage:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
 }
 
 [sub_resource type="Animation" id="Animation_k3nr5"]
@@ -603,6 +678,18 @@ tracks/6/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 0,
 "values": [PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Flip_Container/damage/damage:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
 }
 
 [sub_resource type="Animation" id="Animation_6o3uc"]
@@ -756,6 +843,18 @@ tracks/4/keys = {
 "update": 0,
 "values": [Vector2(1, 1)]
 }
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Flip_Container/damage/damage:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
 
 [sub_resource type="Animation" id="Animation_4qy4w"]
 resource_name = "run"
@@ -820,6 +919,18 @@ tracks/4/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 0,
 "values": [Vector2(1, 1)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Flip_Container/damage/damage:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
 }
 
 [sub_resource type="Animation" id="Animation_50g5q"]
@@ -920,6 +1031,18 @@ tracks/7/keys = {
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
 "values": [PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(176, 464, 176, 504, 151, 526, 108, 524, 136, 464), PackedVector2Array(176, 464, 176, 504, 151, 526, 108, 524, 136, 464)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Flip_Container/damage/damage:disabled")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
 }
 
 [sub_resource type="Animation" id="Animation_4mol1"]
@@ -1233,20 +1356,17 @@ tracks/3/keys = {
 "update": 0,
 "values": [Vector2(1, 1), Vector2(1, 1), Vector2(6.38666, 2.40449), Vector2(7.00085, 3.1206)]
 }
-
-[sub_resource type="Animation" id="Animation_5h4o0"]
-resource_name = "damaged"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Flip_Container/damage/damage:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [144]
+"update": 1,
+"values": [false]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_r5as0"]
@@ -1276,7 +1396,7 @@ _data = {
 size = Vector2(48, 196)
 
 [node name="player_1" type="CharacterBody2D"]
-collision_layer = 3
+collision_layer = 2
 collision_mask = 3
 safe_margin = 0.001
 script = ExtResource("1_ramds")
@@ -1291,8 +1411,8 @@ frame = 145
 [node name="Flip_Container" type="Node2D" parent="."]
 
 [node name="damage" type="Area2D" parent="Flip_Container"]
-collision_layer = 4
-collision_mask = 4
+collision_layer = 0
+collision_mask = 6
 
 [node name="damage" type="CollisionPolygon2D" parent="Flip_Container/damage"]
 polygon = PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464)
@@ -1388,6 +1508,7 @@ shape = SubResource("RectangleShape2D_57e20")
 one_shot = true
 
 [connection signal="area_entered" from="Flip_Container/damage" to="." method="_on_damage_area_entered"]
+[connection signal="area_entered" from="Flip_Container/hurt" to="." method="_on_hurt_area_entered"]
 [connection signal="timeout" from="Flip_Container/hurt/Stagger_Window" to="Flip_Container/hurt" method="_on_stagger_window_timeout"]
 [connection signal="animation_changed" from="Anima" to="StateMachine/Up_Jab" method="_on_anima_animation_changed"]
 [connection signal="animation_finished" from="Anima" to="StateMachine/Jab" method="_on_anima_animation_finished"]

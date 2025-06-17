@@ -124,8 +124,12 @@ script = ExtResource("4_03c24")
 [node name="Falling" type="Node" parent="StateMachine"]
 script = ExtResource("5_fl5so")
 
-[node name="Damage" type="Node" parent="StateMachine"]
+[node name="Damaged" type="Node" parent="StateMachine"]
 script = ExtResource("6_c0t7x")
+
+[node name="Stun_Window" type="Timer" parent="StateMachine/Damaged"]
+wait_time = 0.5
+one_shot = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(40, 24)
@@ -140,5 +144,11 @@ collision_mask = 4
 position = Vector2(40, 24)
 shape = SubResource("RectangleShape2D_k8g6x")
 
-[connection signal="animation_finished" from="Anima" to="StateMachine/Damage" method="_on_anima_animation_finished"]
+[node name="Reset" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[connection signal="animation_finished" from="Anima" to="StateMachine/Damaged" method="_on_anima_animation_finished"]
+[connection signal="timeout" from="StateMachine/Damaged/Stun_Window" to="StateMachine/Damaged" method="_on_stun_window_timeout"]
 [connection signal="area_entered" from="Hitbox" to="." method="_on_hitbox_area_entered"]
+[connection signal="timeout" from="Reset" to="." method="_on_reset_timeout"]

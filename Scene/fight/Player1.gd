@@ -73,21 +73,25 @@ func queue_animation(anim):
 
 func _on_damage_area_entered(area):
 	var target = area.owner
-	if target.has_method("damage"):
-		if attack_type == "jab":
-			target.damage(7.5)
-			target.knockback("small")
-		if attack_type == "up_jab":
-			target.damage(7.5)
-			target.knockback("up_small")
-		if attack_type == "down_jab":
-			target.damage(7.5)
-			target.knockback("up_small")
-		if attack_type == "Strong Attack":
-			target.damage(20)
-			target.knockback("Medium")
-	if target.hp <= 0:
-		target.die()
+	if area.has_method("damage") == false:
+		if target != self:
+			if target.has_method("damage"):
+				if attack_type == "jab":
+					target.damage(7.5)
+					target.knockback("small")
+				if attack_type == "up_jab":
+					target.damage(7.5)
+					target.knockback("up_small")
+				if attack_type == "down_jab":
+					target.damage(7.5)
+					target.knockback("up_small")
+				if attack_type == "Strong Attack":
+					target.damage(20)
+					target.knockback("Medium")
+		if target.hp <= 0:
+			target.die()
+	print(target)
+
 func damage(num):
 	if attack_type == "Defending":
 		hp = hp - (num*0.5)
@@ -101,3 +105,7 @@ func _on_hit_window_timeout():
 func knockback(k_level):
 	stun_level = k_level
 	$StateMachine.set_state("Damaged")
+
+
+func _on_hurt_area_entered(area: Area2D) -> void:
+	print()
