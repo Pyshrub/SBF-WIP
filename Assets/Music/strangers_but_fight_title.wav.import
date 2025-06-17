@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://btre0du6f1kiw"
-path="res://.godot/imported/strangers_but_fight_title.wav-eb3e007a8992937286037e178f01bd9b.sample"
+path="res://.godot/imported/strangers_but_fight_title.wav-c1b6c92f5f79d75a569300c50036e8e8.sample"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Music/strangers_but_fight_title.wav"
-dest_files=["res://.godot/imported/strangers_but_fight_title.wav-eb3e007a8992937286037e178f01bd9b.sample"]
+source_file="res://Assets/Music/strangers_but_fight_title.wav"
+dest_files=["res://.godot/imported/strangers_but_fight_title.wav-c1b6c92f5f79d75a569300c50036e8e8.sample"]
 
 [params]
 

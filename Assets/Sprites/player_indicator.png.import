@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bg7qa5tpbhhu"
-path="res://.godot/imported/player_indicator.png-c7fd540840b63dead0d3f83105dcd9cd.ctex"
+path="res://.godot/imported/player_indicator.png-04e9aa2238f8f886b4707a435e410e8d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Sprites/player_indicator.png"
-dest_files=["res://.godot/imported/player_indicator.png-c7fd540840b63dead0d3f83105dcd9cd.ctex"]
+source_file="res://Assets/Sprites/player_indicator.png"
+dest_files=["res://.godot/imported/player_indicator.png-04e9aa2238f8f886b4707a435e410e8d.ctex"]
 
 [params]
 

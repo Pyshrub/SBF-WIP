@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://q172kpt850me"
-path="res://.godot/imported/manrane_victory.ogg-4aa82f3717c28738b8e815631f1abb25.oggvorbisstr"
+path="res://.godot/imported/manrane_victory.ogg-4be65306428ed17e8fbafe4136fc7cf3.oggvorbisstr"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Music/Victory Themes/manrane_victory.ogg"
-dest_files=["res://.godot/imported/manrane_victory.ogg-4aa82f3717c28738b8e815631f1abb25.oggvorbisstr"]
+source_file="res://Assets/Music/Victory Themes/manrane_victory.ogg"
+dest_files=["res://.godot/imported/manrane_victory.ogg-4be65306428ed17e8fbafe4136fc7cf3.oggvorbisstr"]
 
 [params]
 

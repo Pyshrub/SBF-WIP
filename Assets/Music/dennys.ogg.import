@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://b0g7ubpsxehn3"
-path="res://.godot/imported/dennys.ogg-bf0d6a9ac94dfeef4a24409077771f77.oggvorbisstr"
+path="res://.godot/imported/dennys.ogg-4eccf7153bb979eead6668592dce6acd.oggvorbisstr"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Music/dennys.ogg"
-dest_files=["res://.godot/imported/dennys.ogg-bf0d6a9ac94dfeef4a24409077771f77.oggvorbisstr"]
+source_file="res://Assets/Music/dennys.ogg"
+dest_files=["res://.godot/imported/dennys.ogg-4eccf7153bb979eead6668592dce6acd.oggvorbisstr"]
 
 [params]
 

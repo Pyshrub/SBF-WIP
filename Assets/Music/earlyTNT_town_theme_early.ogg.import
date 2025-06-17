@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://ce4usvi80i445"
-path="res://.godot/imported/earlyTNT_town_theme_early.ogg-7073c495c6c8673ae8f9fe763bf196c7.oggvorbisstr"
+path="res://.godot/imported/earlyTNT_town_theme_early.ogg-313f4eef19e9d276d9f9641deed36cb8.oggvorbisstr"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Music/earlyTNT_town_theme_early.ogg"
-dest_files=["res://.godot/imported/earlyTNT_town_theme_early.ogg-7073c495c6c8673ae8f9fe763bf196c7.oggvorbisstr"]
+source_file="res://Assets/Music/earlyTNT_town_theme_early.ogg"
+dest_files=["res://.godot/imported/earlyTNT_town_theme_early.ogg-313f4eef19e9d276d9f9641deed36cb8.oggvorbisstr"]
 
 [params]
 

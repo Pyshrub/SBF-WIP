@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c86vtqus6j6l6"
-path="res://.godot/imported/SBFCharacterSelect-1.png_1.png-eae3720035b51e151bc123f75bbc0ae0.ctex"
+path="res://.godot/imported/SBFCharacterSelect-1.png_1.png-83270ed49c7e9af7ebe3e912e7a4a913.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Sprites/SBFCharacterSelect-1.png_1.png"
-dest_files=["res://.godot/imported/SBFCharacterSelect-1.png_1.png-eae3720035b51e151bc123f75bbc0ae0.ctex"]
+source_file="res://Assets/Sprites/SBFCharacterSelect-1.png_1.png"
+dest_files=["res://.godot/imported/SBFCharacterSelect-1.png_1.png-83270ed49c7e9af7ebe3e912e7a4a913.ctex"]
 
 [params]
 

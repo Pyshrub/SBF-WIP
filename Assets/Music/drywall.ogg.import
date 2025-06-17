@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://damiiyef8tmhi"
-path="res://.godot/imported/drywall.ogg-a4c94b6d55902bc82190437e96f1dcd9.oggvorbisstr"
+path="res://.godot/imported/drywall.ogg-399a38c33cd0055649124d1a78bf5562.oggvorbisstr"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Music/drywall.ogg"
-dest_files=["res://.godot/imported/drywall.ogg-a4c94b6d55902bc82190437e96f1dcd9.oggvorbisstr"]
+source_file="res://Assets/Music/drywall.ogg"
+dest_files=["res://.godot/imported/drywall.ogg-399a38c33cd0055649124d1a78bf5562.oggvorbisstr"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6o41pbpgdt68"
-path="res://.godot/imported/Bagel-2.png.png-ee90f37072286b2779cd4d8a5e579be3.ctex"
+path="res://.godot/imported/Bagel-2.png.png-0a6cee5fc4c6cf72b311f591826f6d63.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Character Portraits/Bagel-2.png.png"
-dest_files=["res://.godot/imported/Bagel-2.png.png-ee90f37072286b2779cd4d8a5e579be3.ctex"]
+source_file="res://Assets/Character Portraits/Bagel-2.png.png"
+dest_files=["res://.godot/imported/Bagel-2.png.png-0a6cee5fc4c6cf72b311f591826f6d63.ctex"]
 
 [params]
 

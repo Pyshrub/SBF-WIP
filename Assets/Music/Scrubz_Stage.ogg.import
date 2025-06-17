@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://dnrkq2orrjls8"
-path="res://.godot/imported/Scrubz_Stage.ogg-20ce19b89c9a782efef0500232a6e3dd.oggvorbisstr"
+path="res://.godot/imported/Scrubz_Stage.ogg-26a6287a98286f25affa7a575ac7339d.oggvorbisstr"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Music/Scrubz_Stage.ogg"
-dest_files=["res://.godot/imported/Scrubz_Stage.ogg-20ce19b89c9a782efef0500232a6e3dd.oggvorbisstr"]
+source_file="res://Assets/Music/Scrubz_Stage.ogg"
+dest_files=["res://.godot/imported/Scrubz_Stage.ogg-26a6287a98286f25affa7a575ac7339d.oggvorbisstr"]
 
 [params]
 

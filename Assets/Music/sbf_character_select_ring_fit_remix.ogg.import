@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://fw2tlk725j3b"
-path="res://.godot/imported/sbf_character_select_ring_fit_remix.ogg-b24fbbc09c29200e207a5a146e82d1c3.oggvorbisstr"
+path="res://.godot/imported/sbf_character_select_ring_fit_remix.ogg-20a1bbf05886bcb521351c6836603ed2.oggvorbisstr"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Music/sbf_character_select_ring_fit_remix.ogg"
-dest_files=["res://.godot/imported/sbf_character_select_ring_fit_remix.ogg-b24fbbc09c29200e207a5a146e82d1c3.oggvorbisstr"]
+source_file="res://Assets/Music/sbf_character_select_ring_fit_remix.ogg"
+dest_files=["res://.godot/imported/sbf_character_select_ring_fit_remix.ogg-20a1bbf05886bcb521351c6836603ed2.oggvorbisstr"]
 
 [params]
 

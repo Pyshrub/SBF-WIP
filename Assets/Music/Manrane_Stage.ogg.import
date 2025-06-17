@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://chvpouyx7kg5x"
-path="res://.godot/imported/Manrane_Stage.ogg-f815c367677267d5a778aec9fa214745.oggvorbisstr"
+path="res://.godot/imported/Manrane_Stage.ogg-2218d5e87849473a7f3ae25cd47be7be.oggvorbisstr"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Music/Manrane_Stage.ogg"
-dest_files=["res://.godot/imported/Manrane_Stage.ogg-f815c367677267d5a778aec9fa214745.oggvorbisstr"]
+source_file="res://Assets/Music/Manrane_Stage.ogg"
+dest_files=["res://.godot/imported/Manrane_Stage.ogg-2218d5e87849473a7f3ae25cd47be7be.oggvorbisstr"]
 
 [params]
 

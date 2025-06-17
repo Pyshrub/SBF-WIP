@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://cg1wwf4fctp8r"
-path="res://.godot/imported/Chats_domain.ogg-5d8d70a08198e2b6b11e35d31031d853.oggvorbisstr"
+path="res://.godot/imported/Chats_domain.ogg-c94264444e322c15cad528f746838ea2.oggvorbisstr"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Music/Chats_domain.ogg"
-dest_files=["res://.godot/imported/Chats_domain.ogg-5d8d70a08198e2b6b11e35d31031d853.oggvorbisstr"]
+source_file="res://Assets/Music/Chats_domain.ogg"
+dest_files=["res://.godot/imported/Chats_domain.ogg-c94264444e322c15cad528f746838ea2.oggvorbisstr"]
 
 [params]
 

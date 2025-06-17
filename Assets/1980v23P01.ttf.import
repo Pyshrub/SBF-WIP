@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://bshv7fqape0a1"
-path="res://.godot/imported/1980v23P01.ttf-e776e9a24d34b5c07d7d67a7b71ec5bd.fontdata"
+path="res://.godot/imported/1980v23P01.ttf-54b0314f35874433baa1bb2c816ce06e.fontdata"
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/1980v23P01.ttf"
-dest_files=["res://.godot/imported/1980v23P01.ttf-e776e9a24d34b5c07d7d67a7b71ec5bd.fontdata"]
+source_file="res://Assets/1980v23P01.ttf"
+dest_files=["res://.godot/imported/1980v23P01.ttf-54b0314f35874433baa1bb2c816ce06e.fontdata"]
 
 [params]
 

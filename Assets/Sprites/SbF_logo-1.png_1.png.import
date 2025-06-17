@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cw3wpvh1nf0vm"
-path="res://.godot/imported/SbF_logo-1.png_1.png-12d77e9821bcbc8c597cd599de8c9322.ctex"
+path="res://.godot/imported/SbF_logo-1.png_1.png-c2370637e48cd301a41855121ff1fb04.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SBF-WIP/Assets/Sprites/SbF_logo-1.png_1.png"
-dest_files=["res://.godot/imported/SbF_logo-1.png_1.png-12d77e9821bcbc8c597cd599de8c9322.ctex"]
+source_file="res://Assets/Sprites/SbF_logo-1.png_1.png"
+dest_files=["res://.godot/imported/SbF_logo-1.png_1.png-c2370637e48cd301a41855121ff1fb04.ctex"]
 
 [params]
 
