@@ -1,36 +1,36 @@
-[gd_scene load_steps=43 format=3 uid="uid://ja5ty68paj2m"]
+[gd_scene load_steps=43 format=3 uid="uid://dutr63exynkmm"]
 
-[ext_resource type="Script" uid="uid://fecj1sed1766" path="res://Scene/fight/Player1.gd" id="1_ramds"]
-[ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://Assets/Sprites/FailBattle_SbF_3.png" id="2_wvas8"]
-[ext_resource type="Script" uid="uid://32dm7fthxxm2" path="res://Scene/fight/State/StateMachine.gd" id="4_al31w"]
-[ext_resource type="Texture2D" uid="uid://bg7qa5tpbhhu" path="res://Assets/Sprites/player_indicator.png" id="4_it53e"]
-[ext_resource type="Script" uid="uid://balicn73wm6hx" path="res://Scene/fight/hurt.gd" id="4_mqr38"]
-[ext_resource type="Script" uid="uid://c01pg4rg3levd" path="res://Scene/fight/State/Idle.gd" id="5_qji01"]
-[ext_resource type="Script" uid="uid://btgjp0djukx14" path="res://Scene/fight/State/Moving.gd" id="6_4gmim"]
-[ext_resource type="Script" uid="uid://dimugd78vspld" path="res://Scene/fight/State/Jumping.gd" id="7_c6752"]
-[ext_resource type="Script" uid="uid://cxxmancskpwj0" path="res://Scene/fight/State/Falling.gd" id="8_jrflp"]
-[ext_resource type="Script" uid="uid://dq16pabnkx66c" path="res://Scene/fight/Jab.gd" id="10_jje1n"]
-[ext_resource type="Script" uid="uid://cdwslwfcod0u1" path="res://Scene/fight/Strong Attack.gd" id="12_dgpgv"]
-[ext_resource type="Script" uid="uid://bgn13okdw2vtj" path="res://Scene/fight/Down.gd" id="13_0dd56"]
-[ext_resource type="Script" uid="uid://ijl1ovvg0eca" path="res://Scene/fight/State/down_jab.gd" id="14_50uny"]
-[ext_resource type="Script" uid="uid://d0dq1d3aw5e3y" path="res://Scene/fight/Defend.gd" id="14_yxxf5"]
-[ext_resource type="Script" uid="uid://b62kjqkyicfn2" path="res://Scene/fight/State/up_jab.gd" id="15_im2ls"]
-[ext_resource type="Script" uid="uid://mgg3lm1nc5jp" path="res://Scene/fight/State/damaged.gd" id="16_nyqvp"]
+[ext_resource type="Script" uid="uid://fecj1sed1766" path="res://Scene/fight/Fighters/F_Boat/Failboat.gd" id="1_r85jw"]
+[ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://Assets/Sprites/FailBattle_SbF_3.png" id="2_c6n4i"]
+[ext_resource type="Script" uid="uid://balicn73wm6hx" path="res://Scene/fight/Fighters/F_Boat/States/hurt.gd" id="3_c6n4i"]
+[ext_resource type="Texture2D" uid="uid://bg7qa5tpbhhu" path="res://Assets/Sprites/player_indicator.png" id="4_crc2n"]
+[ext_resource type="Script" uid="uid://32dm7fthxxm2" path="res://Scene/fight/Fighters/F_Boat/States/StateMachine.gd" id="5_a07h0"]
+[ext_resource type="Script" uid="uid://c01pg4rg3levd" path="res://Scene/fight/Fighters/F_Boat/States/Idle.gd" id="6_crc2n"]
+[ext_resource type="Script" uid="uid://btgjp0djukx14" path="res://Scene/fight/Fighters/F_Boat/States/Moving.gd" id="7_0ows1"]
+[ext_resource type="Script" uid="uid://dimugd78vspld" path="res://Scene/fight/Fighters/F_Boat/States/Jumping.gd" id="8_srmjk"]
+[ext_resource type="Script" uid="uid://cxxmancskpwj0" path="res://Scene/fight/Fighters/F_Boat/States/Falling.gd" id="9_uht81"]
+[ext_resource type="Script" uid="uid://dq16pabnkx66c" path="res://Scene/fight/Fighters/F_Boat/States/Jab.gd" id="10_g87cg"]
+[ext_resource type="Script" uid="uid://cdwslwfcod0u1" path="res://Scene/fight/Fighters/F_Boat/States/Strong Attack.gd" id="11_da3kw"]
+[ext_resource type="Script" uid="uid://bgn13okdw2vtj" path="res://Scene/fight/Fighters/F_Boat/States/Down.gd" id="12_bat5g"]
+[ext_resource type="Script" uid="uid://d0dq1d3aw5e3y" path="res://Scene/fight/Fighters/F_Boat/States/Defend.gd" id="13_gbxd8"]
+[ext_resource type="Script" uid="uid://ijl1ovvg0eca" path="res://Scene/fight/Fighters/F_Boat/States/down_jab.gd" id="14_o7qih"]
+[ext_resource type="Script" uid="uid://b62kjqkyicfn2" path="res://Scene/fight/Fighters/F_Boat/States/up_jab.gd" id="15_mmq7y"]
+[ext_resource type="Script" uid="uid://mgg3lm1nc5jp" path="res://Scene/fight/Fighters/F_Boat/States/damaged.gd" id="16_avufh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1g0n5"]
-atlas = ExtResource("4_it53e")
+atlas = ExtResource("4_crc2n")
 region = Rect2(14, 0, 13, 14)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_68j0a"]
-atlas = ExtResource("2_wvas8")
+atlas = ExtResource("2_c6n4i")
 region = Rect2(2772, 3696, 308, 308)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_o4t1w"]
-atlas = ExtResource("4_it53e")
+atlas = ExtResource("4_crc2n")
 region = Rect2(0, 0, 13, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_50uny"]
-atlas = ExtResource("4_it53e")
+atlas = ExtResource("4_crc2n")
 region = Rect2(0, 0, 13, 16)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_mb2uk"]
@@ -1395,15 +1395,15 @@ _data = {
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_57e20"]
 size = Vector2(48, 196)
 
-[node name="player_1" type="CharacterBody2D"]
+[node name="Failboat" type="CharacterBody2D"]
 collision_layer = 2
 collision_mask = 3
 safe_margin = 0.001
-script = ExtResource("1_ramds")
+script = ExtResource("1_r85jw")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(176, 464)
-texture = ExtResource("2_wvas8")
+texture = ExtResource("2_c6n4i")
 hframes = 12
 vframes = 13
 frame = 145
@@ -1421,7 +1421,7 @@ polygon = PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464)
 position = Vector2(168, 456)
 collision_layer = 2
 collision_mask = 2
-script = ExtResource("4_mqr38")
+script = ExtResource("3_c6n4i")
 
 [node name="x" type="CollisionPolygon2D" parent="Flip_Container/hurt"]
 position = Vector2(-168, -432)
@@ -1446,40 +1446,40 @@ libraries = {
 }
 
 [node name="StateMachine" type="Node" parent="."]
-script = ExtResource("4_al31w")
+script = ExtResource("5_a07h0")
 
 [node name="Idle" type="Node" parent="StateMachine"]
-script = ExtResource("5_qji01")
+script = ExtResource("6_crc2n")
 
 [node name="Moving" type="Node" parent="StateMachine"]
-script = ExtResource("6_4gmim")
+script = ExtResource("7_0ows1")
 
 [node name="Jumping" type="Node" parent="StateMachine"]
-script = ExtResource("7_c6752")
+script = ExtResource("8_srmjk")
 
 [node name="Falling" type="Node" parent="StateMachine"]
-script = ExtResource("8_jrflp")
+script = ExtResource("9_uht81")
 
 [node name="Jab" type="Node" parent="StateMachine"]
-script = ExtResource("10_jje1n")
+script = ExtResource("10_g87cg")
 
 [node name="Strong Attack" type="Node" parent="StateMachine"]
-script = ExtResource("12_dgpgv")
+script = ExtResource("11_da3kw")
 
 [node name="Down" type="Node" parent="StateMachine"]
-script = ExtResource("13_0dd56")
+script = ExtResource("12_bat5g")
 
 [node name="Defend" type="Node" parent="StateMachine"]
-script = ExtResource("14_yxxf5")
+script = ExtResource("13_gbxd8")
 
 [node name="Down_Jab" type="Node" parent="StateMachine"]
-script = ExtResource("14_50uny")
+script = ExtResource("14_o7qih")
 
 [node name="Up_Jab" type="Node" parent="StateMachine"]
-script = ExtResource("15_im2ls")
+script = ExtResource("15_mmq7y")
 
 [node name="Damaged" type="Node" parent="StateMachine"]
-script = ExtResource("16_nyqvp")
+script = ExtResource("16_avufh")
 
 [node name="Stun_Window" type="Timer" parent="StateMachine/Damaged"]
 wait_time = 0.5

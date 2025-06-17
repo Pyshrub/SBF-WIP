@@ -39,7 +39,8 @@ func knockback(k_level):
 	stun_level = k_level
 	$StateMachine.set_state("Damaged")
 
-
+func die():
+	queue_free()
 func _on_reset_timeout() -> void:
 	hp = max_hp
 	global_position.x = 700

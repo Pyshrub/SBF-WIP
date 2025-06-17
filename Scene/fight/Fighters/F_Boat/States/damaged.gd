@@ -10,7 +10,7 @@ func start():
 		$Stun_Window.start(.2)
 	if player.stun_level == "up_small":
 		player.velocity.x = player.direction * -1 * 600
-		player.velocity.y = -1000
+		player.velocity.y += -1000
 		SM.set_state("Falling")
 	if player.stun_level == "Medium":
 		player.velocity.x = player.direction * -1 * 1000
