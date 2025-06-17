@@ -1,18 +1,18 @@
 [gd_scene load_steps=32 format=3 uid="uid://b2tkqqrn34ucu"]
 
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Fail_2.gd" id="1_cgjp8"]
-[ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://SBF-WIP/Assets/Sprites/FailBattle_SbF_3.png" id="2_dk5tb"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/hurt.gd" id="3_tmvlq"]
-[ext_resource type="Texture2D" uid="uid://bg7qa5tpbhhu" path="res://SBF-WIP/Assets/Sprites/player_indicator.png" id="4_b5kia"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/StateMachine.gd" id="4_kdlsi"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/Idle2.gd" id="5_nv5lv"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/Moving2.gd" id="6_0rfn0"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/Jumping2.gd" id="7_svj6u"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/Falling2.gd" id="8_5gqdf"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/State/Jab2.gd" id="9_nlq11"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Strong Attack2.gd" id="11_os3tv"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Down2.gd" id="12_lded6"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/fight/Defend2.gd" id="13_xxwe5"]
+[ext_resource type="Script" uid="uid://66g6sui3ql2k" path="res://Scene/fight/fail_2.gd" id="1_ukudr"]
+[ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://Assets/Sprites/FailBattle_SbF_3.png" id="2_dk5tb"]
+[ext_resource type="Script" uid="uid://balicn73wm6hx" path="res://Scene/fight/hurt.gd" id="3_myivr"]
+[ext_resource type="Texture2D" uid="uid://bg7qa5tpbhhu" path="res://Assets/Sprites/player_indicator.png" id="4_b5kia"]
+[ext_resource type="Script" uid="uid://32dm7fthxxm2" path="res://Scene/fight/State/StateMachine.gd" id="5_qbu15"]
+[ext_resource type="Script" uid="uid://dgwdmnd8fntys" path="res://Scene/fight/State/Idle2.gd" id="6_o2gtj"]
+[ext_resource type="Script" uid="uid://dxx472ncqaulh" path="res://Scene/fight/State/Moving2.gd" id="7_00avb"]
+[ext_resource type="Script" uid="uid://5qor4tk5uy16" path="res://Scene/fight/State/Jumping2.gd" id="8_tfoet"]
+[ext_resource type="Script" uid="uid://ddftgbbydiejy" path="res://Scene/fight/State/Falling2.gd" id="9_2vg53"]
+[ext_resource type="Script" uid="uid://bew61b8usluv2" path="res://Scene/fight/State/Jab2.gd" id="10_08jyg"]
+[ext_resource type="Script" uid="uid://c11meelkfh186" path="res://Scene/fight/Strong Attack2.gd" id="11_5cufn"]
+[ext_resource type="Script" uid="uid://cx25sxjhwie8o" path="res://Scene/fight/Down2.gd" id="12_kpav6"]
+[ext_resource type="Script" uid="uid://bqndpoarmfgwd" path="res://Scene/fight/Defend2.gd" id="13_40x51"]
 
 [sub_resource type="Animation" id="Animation_xy8hs"]
 resource_name = "Idle"
@@ -667,19 +667,19 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_3sct8"]
 _data = {
-"Idle": SubResource("Animation_xy8hs"),
-"RESET": SubResource("Animation_opmpo"),
-"defend": SubResource("Animation_d7gry"),
-"down": SubResource("Animation_q3rxr"),
-"down_air": SubResource("Animation_5af5e"),
-"down_jab": SubResource("Animation_1jns0"),
-"down_strong": SubResource("Animation_gn2a6"),
-"jab": SubResource("Animation_45sph"),
-"jab2": SubResource("Animation_qfdaq"),
-"jump": SubResource("Animation_psckh"),
-"run": SubResource("Animation_i2wow"),
-"strong_atk": SubResource("Animation_14f00"),
-"strong_atk2": SubResource("Animation_vx12u")
+&"Idle": SubResource("Animation_xy8hs"),
+&"RESET": SubResource("Animation_opmpo"),
+&"defend": SubResource("Animation_d7gry"),
+&"down": SubResource("Animation_q3rxr"),
+&"down_air": SubResource("Animation_5af5e"),
+&"down_jab": SubResource("Animation_1jns0"),
+&"down_strong": SubResource("Animation_gn2a6"),
+&"jab": SubResource("Animation_45sph"),
+&"jab2": SubResource("Animation_qfdaq"),
+&"jump": SubResource("Animation_psckh"),
+&"run": SubResource("Animation_i2wow"),
+&"strong_atk": SubResource("Animation_14f00"),
+&"strong_atk2": SubResource("Animation_vx12u")
 }
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ngc5l"]
@@ -714,10 +714,9 @@ animations = [{
 size = Vector2(48, 196)
 
 [node name="Fail_2" type="CharacterBody2D"]
-position = Vector2(-168, -456)
 collision_layer = 7
 collision_mask = 6
-script = ExtResource("1_cgjp8")
+script = ExtResource("1_ukudr")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(176, 464)
@@ -727,9 +726,9 @@ vframes = 13
 frame = 145
 
 [node name="Anima" type="AnimationPlayer" parent="."]
-playback_process_mode = 0
+callback_mode_process = 0
 libraries = {
-"": SubResource("AnimationLibrary_3sct8")
+&"": SubResource("AnimationLibrary_3sct8")
 }
 
 [node name="Flip_Container" type="Node2D" parent="."]
@@ -745,7 +744,7 @@ polygon = PackedVector2Array(176, 464, 176, 504, 133, 504, 134.816, 474.949, 136
 position = Vector2(168, 456)
 collision_layer = 4
 collision_mask = 4
-script = ExtResource("3_tmvlq")
+script = ExtResource("3_myivr")
 
 [node name="x" type="CollisionPolygon2D" parent="Flip_Container/hurt"]
 position = Vector2(-168, -432)
@@ -763,31 +762,31 @@ scale = Vector2(4.80769, 5.07143)
 sprite_frames = SubResource("SpriteFrames_n75gt")
 
 [node name="StateMachine" type="Node" parent="."]
-script = ExtResource("4_kdlsi")
+script = ExtResource("5_qbu15")
 
 [node name="Idle" type="Node" parent="StateMachine"]
-script = ExtResource("5_nv5lv")
+script = ExtResource("6_o2gtj")
 
 [node name="Moving" type="Node" parent="StateMachine"]
-script = ExtResource("6_0rfn0")
+script = ExtResource("7_00avb")
 
 [node name="Jumping" type="Node" parent="StateMachine"]
-script = ExtResource("7_svj6u")
+script = ExtResource("8_tfoet")
 
 [node name="Falling" type="Node" parent="StateMachine"]
-script = ExtResource("8_5gqdf")
+script = ExtResource("9_2vg53")
 
 [node name="Jab" type="Node" parent="StateMachine"]
-script = ExtResource("9_nlq11")
+script = ExtResource("10_08jyg")
 
 [node name="Strong Attack" type="Node" parent="StateMachine"]
-script = ExtResource("11_os3tv")
+script = ExtResource("11_5cufn")
 
 [node name="Down" type="Node" parent="StateMachine"]
-script = ExtResource("12_lded6")
+script = ExtResource("12_kpav6")
 
 [node name="Defend" type="Node" parent="StateMachine"]
-script = ExtResource("13_xxwe5")
+script = ExtResource("13_40x51")
 
 [node name="Body" type="CollisionShape2D" parent="."]
 position = Vector2(160, 486)

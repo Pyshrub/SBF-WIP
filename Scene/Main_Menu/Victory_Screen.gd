@@ -11,4 +11,5 @@ func _process(delta):
 
 
 func _on_button_pressed():
-	get_tree().change_scene_to_file("res://SBF-WIP/Scene/character_select/Char-select.tscn")
+	Global.Winner = ""
+	get_tree().change_scene_to_file("res://Scene/character_select/Char-select.tscn")

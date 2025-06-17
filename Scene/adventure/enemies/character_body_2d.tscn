@@ -1,12 +1,9 @@
 [gd_scene load_steps=33 format=3 uid="uid://dwn0m5tqp18i3"]
 
-[ext_resource type="Script" path="res://SBF-WIP/Scene/adventure/enemies/SFAIL.gd" id="1_ufwgg"]
-[ext_resource type="Texture2D" uid="uid://du5h0ifuq5870" path="res://SBF-WIP/Assets/Sprites/FailBattle_SbF_7.png" id="2_4kds8"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/adventure/enemies/StateMachine.gd" id="3_qaovg"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/adventure/enemies/Idle.gd" id="4_6lpnl"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/adventure/enemies/Move.gd" id="5_lmpfh"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/adventure/enemies/Attack.gd" id="6_8ihuc"]
-[ext_resource type="Script" path="res://SBF-WIP/Scene/adventure/enemies/Die.gd" id="7_arow8"]
+[ext_resource type="Texture2D" uid="uid://du5h0ifuq5870" path="res://Assets/Sprites/FailBattle_SbF_7.png" id="2_4kds8"]
+
+[sub_resource type="Resource" id="Resource_ma757"]
+metadata/__load_path__ = "res://SBF-WIP/Scene/adventure/enemies/SFAIL.gd"
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8xx0x"]
 atlas = ExtResource("2_4kds8")
@@ -188,13 +185,28 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ga6vf"]
 size = Vector2(71.5, 130.5)
 
+[sub_resource type="Resource" id="Resource_ocx7k"]
+metadata/__load_path__ = "res://SBF-WIP/Scene/adventure/enemies/StateMachine.gd"
+
+[sub_resource type="Resource" id="Resource_sqctb"]
+metadata/__load_path__ = "res://SBF-WIP/Scene/adventure/enemies/Idle.gd"
+
+[sub_resource type="Resource" id="Resource_8ns14"]
+metadata/__load_path__ = "res://SBF-WIP/Scene/adventure/enemies/Move.gd"
+
+[sub_resource type="Resource" id="Resource_iuc15"]
+metadata/__load_path__ = "res://SBF-WIP/Scene/adventure/enemies/Attack.gd"
+
+[sub_resource type="Resource" id="Resource_dwjh7"]
+metadata/__load_path__ = "res://SBF-WIP/Scene/adventure/enemies/Die.gd"
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_e1lwj"]
 size = Vector2(72, 2.5)
 
 [node name="ShadowFail" type="CharacterBody2D"]
 collision_layer = 3
 collision_mask = 3
-script = ExtResource("1_ufwgg")
+script = SubResource("Resource_ma757")
 
 [node name="Anima" type="AnimatedSprite2D" parent="."]
 position = Vector2(-1.90735e-06, -1.52588e-05)
@@ -216,22 +228,22 @@ target_position = Vector2(1232, 0)
 target_position = Vector2(80, -40)
 
 [node name="StateMachine" type="Node" parent="."]
-script = ExtResource("3_qaovg")
+script = SubResource("Resource_ocx7k")
 
 [node name="Idle" type="Node" parent="StateMachine"]
-script = ExtResource("4_6lpnl")
+script = SubResource("Resource_sqctb")
 
 [node name="Move" type="Node" parent="StateMachine"]
-script = ExtResource("5_lmpfh")
+script = SubResource("Resource_8ns14")
 
 [node name="Attack" type="Node" parent="StateMachine"]
-script = ExtResource("6_8ihuc")
+script = SubResource("Resource_iuc15")
 
 [node name="Timer" type="Timer" parent="StateMachine/Attack"]
 one_shot = true
 
 [node name="Die" type="Node" parent="StateMachine"]
-script = ExtResource("7_arow8")
+script = SubResource("Resource_dwjh7")
 
 [node name="Above_and_Below" type="Area2D" parent="."]
 

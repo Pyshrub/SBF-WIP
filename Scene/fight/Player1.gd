@@ -15,17 +15,35 @@ var direction = 1
 @onready var hit_window = $Hit_Window
 var combo = false
 @onready var hp = 100
+@onready var max_hp = 100
 var hitting = false
+var player_num = 1
+var stun_level
 func _ready():
 	up_direction = Vector2.UP
+	$StateMachine/Damaged/Stun_Window.start()
 	if Arena_Check.type == "wave":
 		$Camera2D.enabled = true
 	else:
 		$Camera2D.enabled = false
+	if player_num == 1:
+		direction = 1
+	elif player_num == 2:
+		direction = -1
+	if player_num == 1:
+		Global.P1_HP = hp
+	elif player_num == 2:
+		Global.P2_HP = hp
 func _physics_process(_delta):
-	Global.P1_HP = hp
+	if player_num == 1:
+		Global.P1_HP = hp
+	elif player_num == 2:
+		Global.P2_HP = hp
 	Global.update_hp()
-	$Flip_Container/indicator.play("default")
+	if player_num == 1:	
+		$Flip_Container/indicator.play("play1")
+	elif player_num == 2:
+		$Flip_Container/indicator.play("play2")
 	if direction < 0 and not $Sprite2D.flip_h: 
 		$Sprite2D.flip_h = true
 		$Flip_Container.transform.x.x = -1
@@ -47,27 +65,47 @@ func set_animation(anim):
 	if $Anima.current_animation == anim: return
 	if $Anima.has_animation(anim): $Anima.play(anim)
 	else: $Anima.play()
+	
+func get_animation():
+	return $Anima.current_animation
+func queue_animation(anim):
+	$Anima.queue(anim)
 
 func _on_damage_area_entered(area):
-	if hitting == false:
-		hit_window.wait_time = .4
-		hit_window.start()
-		hitting = true
-		var target = area
-		if target.has_method("damage"):
-			if attack_type == "jab":
-				target.damage(7.5)
-				if area.get_place() < position.x:
-					pass
-				else:
-					area.knockback(5)
-			if attack_type == "Strong Attack":
-				target.damage(20)
+	var target = area.owner
+	if area.has_method("damage") == false:
+		if target != self:
+			if target.has_method("damage"):
+				if attack_type == "jab":
+					target.damage(7.5)
+					target.knockback("small")
+				if attack_type == "up_jab":
+					target.damage(7.5)
+					target.knockback("up_small")
+				if attack_type == "down_jab":
+					target.damage(7.5)
+					target.knockback("up_small")
+				if attack_type == "Strong Attack":
+					target.damage(20)
+					target.knockback("Medium")
 		if target.hp <= 0:
 			target.die()
+	print(target)
+
+func damage(num):
+	if attack_type == "Defending":
+		hp = hp - (num*0.5)
+		print(hp)
 	else:
-		pass
+		hp -= num
 func die():
 	queue_free()
 func _on_hit_window_timeout():
 	hitting = false
+func knockback(k_level):
+	stun_level = k_level
+	$StateMachine.set_state("Damaged")
+
+
+func _on_hurt_area_entered(area: Area2D) -> void:
+	print()
