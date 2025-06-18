@@ -16,4 +16,5 @@ func _on_anima_animation_finished(anim_name):
 func physics_process(_delta):
 	if Input.is_action_just_pressed("Jab"+str(player.player_num)) and queued == false:
 		player.queue_animation("jab2")
+		player.attack_type = "jab_2"
 		queued = true

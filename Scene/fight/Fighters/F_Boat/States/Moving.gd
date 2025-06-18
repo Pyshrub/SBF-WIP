@@ -29,6 +29,9 @@ func physics_process(_delta):
 		player.velocity.x = direction * player.SPEED
 	else:
 		player.velocity.x = move_toward(player.velocity.x, 0, player.SPEED)
+	if player.Arena_Check.type == "wave":
+		player.direction = direction
+	else: pass
 	player.move_and_slide()
 	if direction == 0:
 		SM.set_state("Idle")

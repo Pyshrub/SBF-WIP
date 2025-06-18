@@ -1,0 +1,62 @@
+[gd_scene load_steps=3 format=3 uid="uid://b8a3elk7075rb"]
+
+[ext_resource type="Script" uid="uid://biihdp6ke6fos" path="res://Scene/Options_Menu/options.gd" id="1_qirgr"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_f0ypn"]
+
+[node name="Options" type="Control"]
+process_mode = 2
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qirgr")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1151.0
+offset_bottom = 648.0
+color = Color(0.141176, 0.258824, 1, 0.313726)
+
+[node name="Volume_Slider" type="HSlider" parent="."]
+layout_mode = 0
+offset_left = 641.0
+offset_top = 64.0
+offset_right = 1045.0
+offset_bottom = 115.0
+max_value = 1.0
+step = 0.01
+value = 0.5
+ticks_on_borders = true
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 439.0
+offset_top = 74.0
+offset_right = 616.0
+offset_bottom = 106.0
+text = "Master Volume"
+label_settings = SubResource("LabelSettings_f0ypn")
+horizontal_alignment = 1
+
+[node name="Apply_Settings" type="Button" parent="."]
+layout_mode = 0
+offset_left = 103.0
+offset_top = 69.0
+offset_right = 286.0
+offset_bottom = 107.0
+text = "Apply Changes"
+
+[node name="Return" type="Button" parent="."]
+offset_left = 105.0
+offset_top = 131.0
+offset_right = 288.0
+offset_bottom = 169.0
+text = "Return
+"
+
+[connection signal="value_changed" from="Volume_Slider" to="." method="_on_volume_slider_value_changed"]
+[connection signal="pressed" from="Apply_Settings" to="." method="_on_apply_settings_pressed"]
+[connection signal="pressed" from="Return" to="." method="_on_return_pressed"]

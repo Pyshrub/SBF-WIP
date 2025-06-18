@@ -1,9 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://dxpowyogjspir"]
+[gd_scene load_steps=11 format=3 uid="uid://dxpowyogjspir"]
 
+[ext_resource type="Script" uid="uid://c68qk8glkkdu3" path="res://Scene/adventure/enemies/waddle_dee.gd" id="1_kspr5"]
 [ext_resource type="Texture2D" uid="uid://bu7v8arba3eel" path="res://Assets/Sprites/waddleWalksheet.png" id="1_ng71m"]
-
-[sub_resource type="Resource" id="Resource_xqqma"]
-metadata/__load_path__ = "res://SBF-WIP/Scene/adventure/enemies/waddle_dee.gd"
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eiypw"]
 atlas = ExtResource("1_ng71m")
@@ -51,18 +49,47 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kspr5"]
+size = Vector2(115, 76)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kspr5"]
+radius = 75.06
+
 [node name="Waddle_Dee" type="CharacterBody2D"]
-collision_layer = 5
-collision_mask = 5
-script = SubResource("Resource_xqqma")
+collision_layer = 2
+collision_mask = 3
+script = ExtResource("1_kspr5")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(42.5, -41.75)
 scale = Vector2(3.23684, 3.03659)
 sprite_frames = SubResource("SpriteFrames_22ij3")
 animation = &"walk"
+frame_progress = 0.255499
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 position = Vector2(40, -40)
 scale = Vector2(2.53125, 2.6875)
-polygon = PackedVector2Array(8, -8, 16, 0, 16, 0, 16, 8, 16, 16, -16, 16, -16, 0, -8, -8)
+polygon = PackedVector2Array(23.7037, -15.6279, 23.3086, -0.372093, 23.3086, 4.83721, 23.3086, 8.18605, 23.3086, 16.3721, -16, 16, -16, 0, -15.8025, -15.6279)
+
+[node name="damage" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 6
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="damage"]
+position = Vector2(49.5, -37)
+shape = SubResource("RectangleShape2D_kspr5")
+
+[node name="hurt" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hurt"]
+position = Vector2(47, -39)
+shape = SubResource("CircleShape2D_kspr5")
+
+[node name="Stun_Window" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="area_entered" from="damage" to="." method="_on_damage_area_entered"]
+[connection signal="area_entered" from="hurt" to="." method="_on_hurt_area_entered"]

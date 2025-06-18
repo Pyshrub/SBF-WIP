@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=4 uid="uid://f8nopwi7wxvy"]
+[gd_scene load_steps=9 format=4 uid="uid://f8nopwi7wxvy"]
 
 [ext_resource type="Script" uid="uid://dw28vg7ugojaq" path="res://Scene/character_select/character_select.gd" id="1_naj2x"]
 [ext_resource type="Texture2D" uid="uid://54kjy3sbwe6" path="res://Assets/Sprites/SBFCharacterSelect-2.png.png" id="2_kn3hc"]
 [ext_resource type="Texture2D" uid="uid://swjiqqhho5q4" path="res://Assets/Character Portraits/Failboat-1.png.png" id="3_s4oep"]
 [ext_resource type="Texture2D" uid="uid://hfoe1caps8o1" path="res://Assets/Sprites/BagHurt.png" id="4_77yj8"]
+[ext_resource type="Texture2D" uid="uid://c6o41pbpgdt68" path="res://Assets/Character Portraits/Bagel-2.png.png" id="4_gp16q"]
 [ext_resource type="Texture2D" uid="uid://c86vtqus6j6l6" path="res://Assets/Sprites/SBFCharacterSelect-1.png_1.png" id="5_i0mmk"]
 
 [sub_resource type="OggPacketSequence" id="OggPacketSequence_6vgpd"]
@@ -28,25 +29,41 @@ grow_vertical = 2
 script = ExtResource("1_naj2x")
 
 [node name="SbfCharacterSelect-2_png" type="Sprite2D" parent="."]
-position = Vector2(596, 324)
-scale = Vector2(0.4576, 0.421333)
+position = Vector2(601, 317)
+scale = Vector2(0.4576, 0.429333)
 texture = ExtResource("2_kn3hc")
 
 [node name="Failboat-1_png2" type="Sprite2D" parent="."]
 modulate = Color(0, 0, 0, 0.360784)
-position = Vector2(656, 320)
+position = Vector2(675, 320)
 scale = Vector2(0.137, 0.118)
 texture = ExtResource("3_s4oep")
 
+[node name="Bagel-2_png" type="Sprite2D" parent="."]
+modulate = Color(0, 0, 0, 0.270588)
+position = Vector2(317.125, 111.75)
+scale = Vector2(0.0919318, 0.0925)
+texture = ExtResource("4_gp16q")
+
 [node name="Fail2" type="TextureButton" parent="."]
 layout_mode = 0
-offset_left = 568.0
-offset_top = 206.0
-offset_right = 760.0
-offset_bottom = 430.0
+offset_left = 588.0
+offset_top = 205.0
+offset_right = 780.0
+offset_bottom = 429.0
 texture_normal = ExtResource("3_s4oep")
 texture_pressed = ExtResource("3_s4oep")
 texture_hover = ExtResource("3_s4oep")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Bagel" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 227.0
+offset_top = 7.0
+offset_right = 443.0
+offset_bottom = 246.0
+texture_normal = ExtResource("4_gp16q")
 ignore_texture_size = true
 stretch_mode = 0
 
@@ -68,6 +85,12 @@ texture_hover = ExtResource("3_s4oep")
 ignore_texture_size = true
 stretch_mode = 0
 
+[node name="Bagelpng" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(147, 454)
+scale = Vector2(0.18468, 0.204733)
+texture = ExtResource("4_gp16q")
+
 [node name="Fail_Preview2" type="Sprite2D" parent="."]
 visible = false
 position = Vector2(1066, 448)
@@ -87,8 +110,8 @@ scale = Vector2(0.1825, 0.1975)
 texture = ExtResource("3_s4oep")
 
 [node name="SbfCharacterSelect-1_png1" type="Sprite2D" parent="."]
-position = Vector2(591.5, 318)
-scale = Vector2(0.4612, 0.429333)
+position = Vector2(600.5, 318)
+scale = Vector2(0.4588, 0.429333)
 texture = ExtResource("5_i0mmk")
 
 [node name="Sandy" type="TextureButton" parent="."]
@@ -103,14 +126,16 @@ texture_hover = ExtResource("4_77yj8")
 ignore_texture_size = true
 stretch_mode = 0
 
-[node name="music" type="AudioStreamPlayer" parent="."]
+[node name="music_player" type="AudioStreamPlayer" parent="."]
 stream = SubResource("AudioStreamOggVorbis_5ve8i")
-volume_db = -6.559
 autoplay = true
 
 [connection signal="mouse_entered" from="Fail2" to="." method="_on_fail_2_mouse_entered"]
 [connection signal="mouse_exited" from="Fail2" to="." method="_on_fail_2_mouse_exited"]
 [connection signal="pressed" from="Fail2" to="." method="_on_fail_2_pressed"]
+[connection signal="mouse_entered" from="Bagel" to="." method="_on_bagel_mouse_entered"]
+[connection signal="mouse_exited" from="Bagel" to="." method="_on_bagel_mouse_exited"]
+[connection signal="pressed" from="Bagel" to="." method="_on_bagel_pressed"]
 [connection signal="mouse_entered" from="Fail" to="." method="_on_fail_mouse_entered"]
 [connection signal="mouse_exited" from="Fail" to="." method="_on_fail_mouse_exited"]
 [connection signal="pressed" from="Fail" to="." method="_on_fail_pressed"]

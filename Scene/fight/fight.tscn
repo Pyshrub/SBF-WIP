@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=4 uid="uid://cce48mcsbibgf"]
+[gd_scene load_steps=19 format=4 uid="uid://cce48mcsbibgf"]
 
 [ext_resource type="Script" uid="uid://dw6s6wmvrqyk8" path="res://Scene/fight/fight.gd" id="1_21p48"]
 [ext_resource type="Texture2D" uid="uid://4wd2fyfaaynk" path="res://Assets/Sprites/Streaming_SbF-1.png.png" id="2_hdvww"]
@@ -6,6 +6,9 @@
 [ext_resource type="Script" uid="uid://hykbje2iu2dw" path="res://Scene/fight/floor.gd" id="3_6mqjw"]
 [ext_resource type="Script" uid="uid://c4ajsu1440u32" path="res://Scene/fight/Player_Container.gd" id="4_4qbg7"]
 [ext_resource type="Script" uid="uid://miiabvs72ipc" path="res://Scene/fight/HUD/hud.gd" id="6_41rlg"]
+[ext_resource type="Theme" uid="uid://bopm1cy01s5jd" path="res://Scene/fight/HUD/sp_bar.tres" id="7_msf4v"]
+[ext_resource type="Script" uid="uid://ckryv7fsmxlqb" path="res://Scene/fight/pause_screen.gd" id="8_yanjw"]
+[ext_resource type="Script" uid="uid://biihdp6ke6fos" path="res://Scene/Options_Menu/options.gd" id="9_yanjw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_e0rum"]
 size = Vector2(122, 578)
@@ -28,7 +31,17 @@ bg_color = Color(1, 0, 0, 1)
 [sub_resource type="Theme" id="Theme_g066k"]
 ProgressBar/styles/fill = SubResource("StyleBoxFlat_13nrh")
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_opec2"]
+bg_color = Color(0, 0, 0.823529, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_uuefb"]
+font_size = 28
+font_color = Color(1, 0.827451, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_f0ypn"]
+
 [node name="fight" type="Node2D"]
+process_mode = 1
 script = ExtResource("1_21p48")
 
 [node name="TextureRect" type="TextureRect" parent="."]
@@ -45,6 +58,7 @@ texture = ExtResource("3_3x4q4")
 script = ExtResource("3_6mqjw")
 
 [node name="Player_Container" type="Node2D" parent="."]
+process_mode = 1
 script = ExtResource("4_4qbg7")
 
 [node name="Floor" type="StaticBody2D" parent="."]
@@ -82,9 +96,9 @@ collision_layer = 3
 position = Vector2(1648, 46)
 shape = SubResource("RectangleShape2D_e0rum")
 
-[node name="music" type="AudioStreamPlayer2D" parent="."]
+[node name="music_player" type="AudioStreamPlayer2D" parent="."]
+process_mode = 3
 stream = SubResource("AudioStreamOggVorbis_6jmoj")
-volume_db = -6.245
 autoplay = true
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
@@ -95,6 +109,7 @@ position = Vector2(579, 0)
 shape = SubResource("RectangleShape2D_4r8lo")
 
 [node name="HUD" type="Control" parent="."]
+process_mode = 1
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -124,3 +139,144 @@ scale = Vector2(-0.45, 0.412)
 theme = SubResource("Theme_g066k")
 fill_mode = 1
 show_percentage = false
+
+[node name="P1_SP" type="ProgressBar" parent="HUD"]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 576.0
+offset_right = 657.0
+offset_bottom = 662.0
+scale = Vector2(0.450037, 0.411599)
+theme = ExtResource("7_msf4v")
+theme_override_styles/fill = SubResource("StyleBoxFlat_opec2")
+max_value = 20.0
+allow_greater = true
+show_percentage = false
+
+[node name="P2_SP" type="ProgressBar" parent="HUD"]
+layout_mode = 0
+offset_left = 824.0
+offset_top = 576.0
+offset_right = 1417.0
+offset_bottom = 662.0
+scale = Vector2(0.450037, 0.411599)
+theme = ExtResource("7_msf4v")
+max_value = 20.0
+allow_greater = true
+fill_mode = 1
+show_percentage = false
+
+[node name="Pause_Screen" type="Control" parent="."]
+process_mode = 2
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("8_yanjw")
+
+[node name="ColorRect" type="ColorRect" parent="Pause_Screen"]
+layout_mode = 0
+offset_left = -47.0
+offset_top = -41.0
+offset_right = 1198.0
+offset_bottom = 689.0
+color = Color(0, 0, 0, 0.635294)
+
+[node name="Resume" type="Button" parent="Pause_Screen"]
+layout_mode = 0
+offset_left = 512.0
+offset_top = 248.0
+offset_right = 644.0
+offset_bottom = 272.0
+text = "Continue"
+
+[node name="Option_Button" type="Button" parent="Pause_Screen"]
+layout_mode = 0
+offset_left = 512.0
+offset_top = 296.0
+offset_right = 644.0
+offset_bottom = 320.0
+text = "Options"
+
+[node name="MM_Button" type="Button" parent="Pause_Screen"]
+layout_mode = 0
+offset_left = 512.0
+offset_top = 344.0
+offset_right = 644.0
+offset_bottom = 368.0
+text = "Main Menu
+"
+
+[node name="Label" type="Label" parent="Pause_Screen"]
+layout_mode = 0
+offset_left = 512.0
+offset_top = 192.0
+offset_right = 640.0
+offset_bottom = 240.0
+text = "PAUSED"
+label_settings = SubResource("LabelSettings_uuefb")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Options" type="Control" parent="."]
+process_mode = 2
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("9_yanjw")
+
+[node name="ColorRect" type="ColorRect" parent="Options"]
+layout_mode = 0
+offset_right = 1151.0
+offset_bottom = 648.0
+color = Color(0.141176, 0.258824, 1, 0.313726)
+
+[node name="Volume_Slider" type="HSlider" parent="Options"]
+layout_mode = 0
+offset_left = 641.0
+offset_top = 64.0
+offset_right = 1045.0
+offset_bottom = 115.0
+max_value = 1.0
+step = 0.01
+value = 0.5
+ticks_on_borders = true
+
+[node name="Label" type="Label" parent="Options"]
+layout_mode = 0
+offset_left = 439.0
+offset_top = 74.0
+offset_right = 616.0
+offset_bottom = 106.0
+text = "Master Volume"
+label_settings = SubResource("LabelSettings_f0ypn")
+horizontal_alignment = 1
+
+[node name="Apply_Settings" type="Button" parent="Options"]
+layout_mode = 0
+offset_left = 103.0
+offset_top = 69.0
+offset_right = 286.0
+offset_bottom = 107.0
+text = "Apply Changes"
+
+[node name="Return" type="Button" parent="Options"]
+layout_mode = 0
+offset_left = 104.0
+offset_top = 136.0
+offset_right = 287.0
+offset_bottom = 174.0
+text = "Return
+"
+
+[connection signal="pressed" from="Pause_Screen/Resume" to="Pause_Screen" method="_on_resume_pressed"]
+[connection signal="pressed" from="Pause_Screen/Option_Button" to="Pause_Screen" method="_on_option_button_pressed"]
+[connection signal="pressed" from="Pause_Screen/MM_Button" to="Pause_Screen" method="_on_mm_button_pressed"]
+[connection signal="value_changed" from="Options/Volume_Slider" to="Options" method="_on_volume_slider_value_changed"]
+[connection signal="pressed" from="Options/Apply_Settings" to="Options" method="_on_apply_settings_pressed"]
+[connection signal="pressed" from="Options/Return" to="Options" method="_on_return_pressed"]

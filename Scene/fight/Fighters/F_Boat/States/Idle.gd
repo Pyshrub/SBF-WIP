@@ -30,6 +30,8 @@ func physics_process(_delta):
 			SM.set_state("Down")
 		if Input.is_action_pressed("defend"+str(player.player_num)):
 			SM.set_state("Defend")
+		if Input.is_action_pressed("Left"+str(player.player_num)) or Input.is_action_pressed("Right"+str(player.player_num)):
+			SM.set_state("Moving")
 
 		#if Input.is_action_just_pressed("Jab2"):
 			#SM.set_state("Jab")

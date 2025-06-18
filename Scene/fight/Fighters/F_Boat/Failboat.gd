@@ -19,6 +19,8 @@ var combo = false
 var hitting = false
 var player_num = 1
 var stun_level
+var type = "Player"
+@onready var special_val = 0
 func _ready():
 	up_direction = Vector2.UP
 	$StateMachine/Damaged/Stun_Window.start()
@@ -37,9 +39,12 @@ func _ready():
 func _physics_process(_delta):
 	if player_num == 1:
 		Global.P1_HP = hp
+		Global.P1_SP = special_val
 	elif player_num == 2:
 		Global.P2_HP = hp
+		Global.P2_SP = special_val
 	Global.update_hp()
+	Global.update_sp()
 	if player_num == 1:	
 		$Flip_Container/indicator.play("play1")
 	elif player_num == 2:
@@ -58,6 +63,9 @@ func _physics_process(_delta):
 		$Body.position.x -= 30
 	else:
 		pass
+	if Input.is_action_pressed("Special"+str(player_num)) and special_val >= 20:
+		self.modulate = Color(0, 0, 1)
+		special_val = 0
 func set_direction(d):
 	direction = d
 
@@ -78,26 +86,32 @@ func _on_damage_area_entered(area):
 			if target.has_method("damage"):
 				if attack_type == "jab":
 					target.damage(7.5)
+					special_val += 5
+				if attack_type == "jab_2":
+					target.damage(7.5)
 					target.knockback("small")
+					special_val += 5
 				if attack_type == "up_jab":
 					target.damage(7.5)
 					target.knockback("up_small")
+					special_val += 5
 				if attack_type == "down_jab":
 					target.damage(7.5)
 					target.knockback("up_small")
+					special_val += 5
 				if attack_type == "Strong Attack":
 					target.damage(20)
 					target.knockback("Medium")
+					special_val += 5
 		if target.hp <= 0:
 			target.die()
-	print(target)
 
 func damage(num):
 	if attack_type == "Defending":
 		hp = hp - (num*0.5)
-		print(hp)
 	else:
 		hp -= num
+	special_val += num/2
 func die():
 	queue_free()
 func _on_hit_window_timeout():
@@ -108,4 +122,4 @@ func knockback(k_level):
 
 
 func _on_hurt_area_entered(area: Area2D) -> void:
-	print()
+	pass

@@ -6,7 +6,10 @@ var P2_HP = get_hp("p2")
 var P1_Max = 0
 var P2_Max = 0
 var Winner
-
+var P1_SP = 0
+var P2_SP= 0
+var Gamemode
+var Music_Volume = .5
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	process_mode = Node.PROCESS_MODE_ALWAYS
@@ -38,10 +41,18 @@ func update_hp():
 	var HUD = get_node_or_null("/root/fight/HUD")
 	if HUD != null:
 		HUD.update_health()
+	if Gamemode == "Standard":
+		if P1_HP <= 0:
+			Winner = "Player 2"
+			get_tree().change_scene_to_file("res://Scene/Main_Menu/victory_screen.tscn")
+		elif P2_HP <= 0:
+			Winner = "Player 1"
+			get_tree().change_scene_to_file("res://Scene/Main_Menu/victory_screen.tscn")
+	elif Gamemode == "wave":
+		if P1_HP <= 0:
+			get_tree().change_scene_to_file("res://Scene/character_select/Char-select.tscn")
+func update_sp():
+	var HUD = get_node_or_null("/root/fight/HUD")
+	if HUD != null:
+		HUD.update_SP()
 	
-	if P1_HP <= 0:
-		Winner = "Player 2"
-		get_tree().change_scene_to_file("res://Scene/Main_Menu/victory_screen.tscn")
-	elif P2_HP <= 0:
-		Winner = "Player 1"
-		get_tree().change_scene_to_file("res://Scene/Main_Menu/victory_screen.tscn")

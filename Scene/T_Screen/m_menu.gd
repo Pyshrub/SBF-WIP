@@ -19,3 +19,9 @@ func _on_fight_pressed():
 
 func _on_texture_button_3_pressed():
 	get_tree().change_scene_to_file("res://Scene/adventure/Wave_Battle.tscn")
+
+
+func _on_options_button_pressed() -> void:
+	get_tree().paused = true
+	get_parent().show_options()
+	

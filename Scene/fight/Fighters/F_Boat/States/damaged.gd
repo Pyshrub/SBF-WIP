@@ -23,5 +23,4 @@ func physics_process(_delta):
 
 
 func _on_stun_window_timeout() -> void:
-	print("check")
 	SM.set_state("Idle")

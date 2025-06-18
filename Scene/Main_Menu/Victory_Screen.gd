@@ -4,7 +4,7 @@ extends Control
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	$Label.text = "The Winner is: " + Global.Winner
-
+	$music_player.volume_linear = Global.Music_Volume
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass

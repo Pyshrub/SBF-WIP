@@ -26,3 +26,4 @@ func _process(delta):
 	elif player2.position.x > player1.position.x:
 		player1.direction = 1
 		player2.direction = -1
+	

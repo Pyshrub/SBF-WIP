@@ -4,7 +4,7 @@ var p_2_clicks = 0
 var fight = load("res://Scene/fight/fight.tscn")
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	$music_player.volume_linear = Global.Music_Volume
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -19,17 +19,11 @@ func _process(delta):
 	if Input.is_action_just_pressed("Menu"):
 		get_tree().change_scene_to_file("res://Scene/T_Screen/control.tscn")
 
-	
-
 func _on_fail_pressed():
 	Global.play_one = "Fail"
 	Global.P1_Max = 100
 	p_1_clicks = 1
-
 	
-
-
-
 func _on_fail_mouse_entered():
 	if p_1_clicks == 0:
 		$Fail_Preview.show()
@@ -58,9 +52,6 @@ func _on_sandy_mouse_exited():
 	if p_2_clicks == 0:
 		$Sandy_Preview.hide()
 
-
-
-
 func _on_fail_2_mouse_entered():
 	if p_2_clicks == 0:
 		$Fail_Preview2.show()
@@ -68,3 +59,19 @@ func _on_fail_2_mouse_entered():
 func _on_fail_2_mouse_exited():
 	if p_2_clicks == 0:
 		$Fail_Preview2.hide()
+
+
+func _on_bagel_pressed() -> void:
+	Global.play_one = "Fail"
+	Global.P1_Max = 100
+	p_1_clicks = 1
+
+
+func _on_bagel_mouse_entered() -> void:
+	if p_1_clicks == 0:
+		$Bagelpng.show()
+
+
+func _on_bagel_mouse_exited() -> void:
+	if p_1_clicks == 0:
+		$Bagelpng.hide()
