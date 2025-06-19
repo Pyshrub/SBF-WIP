@@ -50,6 +50,7 @@ offset_bottom = 107.0
 text = "Apply Changes"
 
 [node name="Return" type="Button" parent="."]
+layout_mode = 0
 offset_left = 105.0
 offset_top = 131.0
 offset_right = 288.0

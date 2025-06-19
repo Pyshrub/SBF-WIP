@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbmts0ayns51u"]
+
+[ext_resource type="Texture2D" uid="uid://4wd2fyfaaynk" path="res://Assets/Sprites/Streaming_SbF-1.png.png" id="1_vonm6"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_8yv2c"]
+diffuse_texture = ExtResource("1_vonm6")
+normal_texture = ExtResource("1_vonm6")
+specular_color = Color(1, 1, 0, 1)
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+_import_path = NodePath("")
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 0
+auto_translate_mode = 0
+editor_description = ""
+transform = Transform3D(0.855021, 0.343726, -0.38832, 0, 0.748794, 0.662803, 0.518594, -0.56671, 0.640234, -76.0077, 59.6033, 89.0442)
+rotation_edit_mode = 0
+rotation_order = 2
+top_level = false
+visible = true
+visibility_parent = NodePath("")
+keep_aspect = 1
+cull_mask = 1048575
+environment = null
+attributes = null
+compositor = null
+h_offset = 0.0
+v_offset = 0.0
+doppler_tracking = 0
+projection = 0
+current = false
+fov = 75.0
+size = 1.0
+frustum_offset = Vector2(0, 0)
+near = 0.05
+far = 4000.0
+script = null
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(7.72689, 0, 0, 0, -4.62744e-07, -10.6427, 0, 10.5863, -4.65208e-07, 0, 0, 0)
+modulate = Color(0, 0, 0, 1)
+texture = SubResource("CanvasTexture_8yv2c")

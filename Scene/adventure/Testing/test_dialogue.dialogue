@@ -1,0 +1,17 @@
+~ start
+#Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
+#Nathan: Here are some choices.
+#- First one
+#	Nathan: You picked the first one.
+#- Second one
+#	Nathan: You picked the second one.
+#- Start again => start
+#- End the conversation => END
+#Nathan: For more information see the online documentation.
+Shrub: If you're seeing this, either you're not supposed to be here, or you're me. Hi me!
+Me: I have no clue which one I am.
+Shrub: I could setup an identifier to let you pick... but advanced dialogue like that is not my strong suit. But if you've seen something like that in the game, then you definitely aren't me!
+Me: Is anything your strong suit?
+Shrub: Procrastination!
+do unpause()
+=> END

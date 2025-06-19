@@ -33,6 +33,7 @@ packet_sequence = SubResource("OggPacketSequence_qfnd5")
 loop = true
 
 [node name="Wave_Battle" type="Node2D"]
+process_mode = 3
 script = ExtResource("1_67cj4")
 metadata/_edit_horizontal_guides_ = []
 
@@ -56,9 +57,11 @@ expand_mode = 1
 metadata/_edit_use_anchors_ = true
 
 [node name="Player_Container" type="Node2D" parent="."]
+process_mode = 1
 script = ExtResource("3_ltiww")
 
 [node name="Enemy_Container" type="Node2D" parent="."]
+process_mode = 1
 script = ExtResource("4_67cj4")
 
 [node name="ShadowFail" parent="Enemy_Container" instance=ExtResource("5_5761w")]
@@ -118,6 +121,7 @@ position = Vector2(2536, 129)
 shape = SubResource("RectangleShape2D_1cxf3")
 
 [node name="Timer" type="Timer" parent="."]
+process_mode = 1
 wait_time = 2.0
 autostart = true
 
@@ -138,6 +142,7 @@ shape = SubResource("RectangleShape2D_yyu71")
 one_way_collision = true
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+process_mode = 3
 stream = SubResource("AudioStreamOggVorbis_ltiww")
 autoplay = true
 
