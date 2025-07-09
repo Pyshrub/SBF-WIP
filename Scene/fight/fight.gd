@@ -17,5 +17,6 @@ func _process(_delta):
 		
 func show_pause():
 	$Pause_Screen.show()
+	$Pause_Screen/Resume.grab_focus()
 func show_options():
 	$Options.show()

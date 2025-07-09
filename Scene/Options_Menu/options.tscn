@@ -20,44 +20,77 @@ offset_right = 1151.0
 offset_bottom = 648.0
 color = Color(0.141176, 0.258824, 1, 0.313726)
 
-[node name="Volume_Slider" type="HSlider" parent="."]
+[node name="Main Buttons" type="VBoxContainer" parent="."]
 layout_mode = 0
-offset_left = 641.0
-offset_top = 64.0
-offset_right = 1045.0
-offset_bottom = 115.0
+offset_left = 37.0
+offset_top = 45.0
+offset_right = 228.0
+offset_bottom = 161.0
+theme_override_constants/separation = 12
+alignment = 1
+
+[node name="Apply_Settings" type="Button" parent="Main Buttons"]
+layout_mode = 2
+focus_neighbor_right = NodePath("../../Options_container/Options_buttons_container/Volume_Slider")
+focus_neighbor_bottom = NodePath("../Return")
+focus_next = NodePath("../Return")
+text = "Apply Changes"
+
+[node name="Return" type="Button" parent="Main Buttons"]
+layout_mode = 2
+focus_neighbor_top = NodePath("../Apply_Settings")
+focus_neighbor_right = NodePath("../../Options_container/Options_buttons_container/CheckButton")
+text = "Return
+"
+
+[node name="Options_container" type="HSplitContainer" parent="."]
+layout_mode = 0
+offset_left = 540.0
+offset_top = 25.0
+offset_right = 1123.0
+offset_bottom = 134.0
+theme_override_constants/separation = 52
+split_offset = 10
+drag_area_highlight_in_editor = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Options_container"]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Label" type="Label" parent="Options_container/VBoxContainer"]
+layout_mode = 2
+text = "Master Volume"
+label_settings = SubResource("LabelSettings_f0ypn")
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="Options_container/VBoxContainer"]
+layout_mode = 2
+text = "Fullscreen"
+label_settings = SubResource("LabelSettings_f0ypn")
+horizontal_alignment = 1
+
+[node name="Options_buttons_container" type="VBoxContainer" parent="Options_container"]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Volume_Slider" type="HSlider" parent="Options_container/Options_buttons_container"]
+layout_mode = 2
+focus_neighbor_left = NodePath("../../../Main Buttons/Apply_Settings")
+focus_neighbor_bottom = NodePath("../CheckButton")
 max_value = 1.0
 step = 0.01
 value = 0.5
 ticks_on_borders = true
 
-[node name="Label" type="Label" parent="."]
-layout_mode = 0
-offset_left = 439.0
-offset_top = 74.0
-offset_right = 616.0
-offset_bottom = 106.0
-text = "Master Volume"
-label_settings = SubResource("LabelSettings_f0ypn")
-horizontal_alignment = 1
+[node name="CheckButton" type="CheckButton" parent="Options_container/Options_buttons_container"]
+layout_mode = 2
+focus_neighbor_left = NodePath("../../../Main Buttons/Return")
+focus_neighbor_top = NodePath("../Volume_Slider")
 
-[node name="Apply_Settings" type="Button" parent="."]
-layout_mode = 0
-offset_left = 103.0
-offset_top = 69.0
-offset_right = 286.0
-offset_bottom = 107.0
-text = "Apply Changes"
-
-[node name="Return" type="Button" parent="."]
-layout_mode = 0
-offset_left = 105.0
-offset_top = 131.0
-offset_right = 288.0
-offset_bottom = 169.0
-text = "Return
-"
-
-[connection signal="value_changed" from="Volume_Slider" to="." method="_on_volume_slider_value_changed"]
-[connection signal="pressed" from="Apply_Settings" to="." method="_on_apply_settings_pressed"]
-[connection signal="pressed" from="Return" to="." method="_on_return_pressed"]
+[connection signal="visibility_changed" from="." to="." method="_on_visibility_changed"]
+[connection signal="pressed" from="Main Buttons/Apply_Settings" to="." method="_on_apply_settings_pressed"]
+[connection signal="pressed" from="Main Buttons/Return" to="." method="_on_return_pressed"]
+[connection signal="value_changed" from="Options_container/Options_buttons_container/Volume_Slider" to="." method="_on_volume_slider_value_changed"]
+[connection signal="toggled" from="Options_container/Options_buttons_container/CheckButton" to="." method="_on_check_button_toggled"]

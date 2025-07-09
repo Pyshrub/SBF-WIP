@@ -10,6 +10,7 @@ var P1_SP = 0
 var P2_SP= 0
 var Gamemode
 var Music_Volume = .5
+var Selected_Stage = ""
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	process_mode = Node.PROCESS_MODE_ALWAYS

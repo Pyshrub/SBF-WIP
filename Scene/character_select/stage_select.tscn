@@ -1,0 +1,63 @@
+[gd_scene load_steps=6 format=3 uid="uid://bwbs6jeeacd61"]
+
+[ext_resource type="Script" uid="uid://c8nglaclh155w" path="res://Scene/character_select/stage_select.gd" id="1_5y6nr"]
+[ext_resource type="Texture2D" uid="uid://4wd2fyfaaynk" path="res://Assets/Sprites/Streaming_SbF-1.png.png" id="1_qib3r"]
+[ext_resource type="Texture2D" uid="uid://fbcxqk6isby" path="res://Assets/Sprites/not_dennys_BG_3.png" id="2_stgtg"]
+[ext_resource type="Texture2D" uid="uid://bnhaxubi5rvua" path="res://Assets/Sprites/SBFCharacterSelect-10.png.png" id="3_5y6nr"]
+[ext_resource type="Texture2D" uid="uid://dtlf83iisvyia" path="res://Assets/Sprites/SBFCharacterSelect-3.png_1.png" id="5_osfm7"]
+
+[node name="Stage_Select" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5y6nr")
+
+[node name="Streaming_Stage_Button" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 10.0
+offset_right = 276.0
+offset_bottom = 210.0
+focus_neighbor_left = NodePath("../Back_Button")
+focus_neighbor_right = NodePath("../Not_Dennys_Button")
+texture_normal = ExtResource("1_qib3r")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Not_Dennys_Button" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 276.0
+offset_top = 11.0
+offset_right = 572.0
+offset_bottom = 208.0
+focus_neighbor_left = NodePath("../Streaming_Stage_Button")
+focus_neighbor_right = NodePath("../Back_Button")
+texture_normal = ExtResource("2_stgtg")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="SbfCharacterSelect-10_png" type="Sprite2D" parent="."]
+position = Vector2(575.5, 323)
+scale = Vector2(4.612, 4.30667)
+texture = ExtResource("3_5y6nr")
+
+[node name="Fight_Button" type="TextureButton" parent="."]
+visible = false
+layout_mode = 0
+offset_right = 1150.0
+offset_bottom = 649.0
+texture_normal = ExtResource("5_osfm7")
+stretch_mode = 0
+
+[node name="Back_Button" type="Button" parent="."]
+layout_mode = 0
+offset_right = 48.0
+offset_bottom = 48.0
+focus_neighbor_right = NodePath("../Streaming_Stage_Button")
+
+[connection signal="pressed" from="Streaming_Stage_Button" to="." method="_on_streaming_stage_button_pressed"]
+[connection signal="pressed" from="Not_Dennys_Button" to="." method="_on_not_dennys_button_pressed"]
+[connection signal="pressed" from="Fight_Button" to="." method="_on_fight_button_pressed"]
