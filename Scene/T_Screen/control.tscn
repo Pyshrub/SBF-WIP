@@ -538,6 +538,7 @@ autoplay = true
 
 [node name="Skybox" type="AnimatedSprite2D" parent="."]
 process_mode = 3
+texture_filter = 3
 position = Vector2(576, 329)
 scale = Vector2(3.32754, 3.38462)
 sprite_frames = SubResource("SpriteFrames_xqqun")

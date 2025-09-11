@@ -11,4 +11,5 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="sky" type="AnimatedSprite2D" parent="."]
+texture_filter = 3
 sprite_frames = SubResource("SpriteFrames_qyv4p")

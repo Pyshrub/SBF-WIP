@@ -1,74 +1,22 @@
-[gd_scene load_steps=43 format=3 uid="uid://ja5ty68paj2m"]
+[gd_scene load_steps=45 format=3 uid="uid://ja5ty68paj2m"]
 
-[ext_resource type="Script" uid="uid://fecj1sed1766" path="res://Scene/fight/Failboat.gd" id="1_r85jw"]
+[ext_resource type="Script" uid="uid://fecj1sed1766" path="res://Scene/fight/Fighters/F_Boat/Failboat.gd" id="1_r85jw"]
 [ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://Assets/Sprites/FailBattle_SbF_3.png" id="2_c6n4i"]
-[ext_resource type="Script" uid="uid://balicn73wm6hx" path="res://Scene/fight/hurt.gd" id="3_a07h0"]
+[ext_resource type="Script" uid="uid://balicn73wm6hx" path="res://Scene/fight/Fighters/F_Boat/States/hurt.gd" id="3_a07h0"]
 [ext_resource type="Texture2D" uid="uid://bg7qa5tpbhhu" path="res://Assets/Sprites/player_indicator.png" id="4_crc2n"]
-[ext_resource type="Script" uid="uid://32dm7fthxxm2" path="res://Scene/fight/State/StateMachine.gd" id="5_0ows1"]
-[ext_resource type="Script" uid="uid://c01pg4rg3levd" path="res://Scene/fight/State/Idle.gd" id="6_srmjk"]
-[ext_resource type="Script" uid="uid://btgjp0djukx14" path="res://Scene/fight/State/Moving.gd" id="7_uht81"]
-[ext_resource type="Script" uid="uid://dimugd78vspld" path="res://Scene/fight/State/Jumping.gd" id="8_g87cg"]
-[ext_resource type="Script" uid="uid://cxxmancskpwj0" path="res://Scene/fight/State/Falling.gd" id="9_da3kw"]
-[ext_resource type="Script" uid="uid://dq16pabnkx66c" path="res://Scene/fight/Jab.gd" id="10_bat5g"]
-[ext_resource type="Script" uid="uid://cdwslwfcod0u1" path="res://Scene/fight/Strong Attack.gd" id="11_gbxd8"]
-[ext_resource type="Script" uid="uid://bgn13okdw2vtj" path="res://Scene/fight/Down.gd" id="12_o7qih"]
-[ext_resource type="Script" uid="uid://d0dq1d3aw5e3y" path="res://Scene/fight/Defend.gd" id="13_mmq7y"]
-[ext_resource type="Script" uid="uid://ijl1ovvg0eca" path="res://Scene/fight/State/down_jab.gd" id="14_avufh"]
-[ext_resource type="Script" uid="uid://b62kjqkyicfn2" path="res://Scene/fight/State/up_jab.gd" id="15_0ya40"]
-[ext_resource type="Script" uid="uid://mgg3lm1nc5jp" path="res://Scene/fight/State/damaged.gd" id="16_22t5v"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_1g0n5"]
-atlas = ExtResource("4_crc2n")
-region = Rect2(14, 0, 13, 14)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_68j0a"]
-atlas = ExtResource("2_c6n4i")
-region = Rect2(2772, 3696, 308, 308)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_o4t1w"]
-atlas = ExtResource("4_crc2n")
-region = Rect2(0, 0, 13, 16)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_50uny"]
-atlas = ExtResource("4_crc2n")
-region = Rect2(0, 0, 13, 16)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_mb2uk"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_1g0n5")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_68j0a")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_1g0n5")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_68j0a")
-}],
-"loop": true,
-"name": &"play1",
-"speed": 2.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_o4t1w")
-}, {
-"duration": 1.0,
-"texture": null
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_50uny")
-}, {
-"duration": 1.0,
-"texture": null
-}],
-"loop": true,
-"name": &"play2",
-"speed": 2.0
-}]
+[ext_resource type="Script" uid="uid://32dm7fthxxm2" path="res://Scene/fight/Fighters/F_Boat/States/StateMachine.gd" id="5_0ows1"]
+[ext_resource type="Script" uid="uid://c01pg4rg3levd" path="res://Scene/fight/Fighters/F_Boat/States/Idle.gd" id="6_srmjk"]
+[ext_resource type="Script" uid="uid://btgjp0djukx14" path="res://Scene/fight/Fighters/F_Boat/States/Moving.gd" id="7_uht81"]
+[ext_resource type="Script" uid="uid://dimugd78vspld" path="res://Scene/fight/Fighters/F_Boat/States/Jumping.gd" id="8_g87cg"]
+[ext_resource type="Script" uid="uid://cxxmancskpwj0" path="res://Scene/fight/Fighters/F_Boat/States/Falling.gd" id="9_da3kw"]
+[ext_resource type="Script" uid="uid://dq16pabnkx66c" path="res://Scene/fight/Fighters/F_Boat/States/Jab.gd" id="10_bat5g"]
+[ext_resource type="Script" uid="uid://cdwslwfcod0u1" path="res://Scene/fight/Fighters/F_Boat/States/Strong Attack.gd" id="11_gbxd8"]
+[ext_resource type="Script" uid="uid://dr3g2o4ajd01h" path="res://Scene/fight/Fighters/F_Boat/States/Neutral_Air.gd" id="11_gi4pg"]
+[ext_resource type="Script" uid="uid://bgn13okdw2vtj" path="res://Scene/fight/Fighters/F_Boat/States/Down.gd" id="12_o7qih"]
+[ext_resource type="Script" uid="uid://d0dq1d3aw5e3y" path="res://Scene/fight/Fighters/F_Boat/States/Defend.gd" id="13_mmq7y"]
+[ext_resource type="Script" uid="uid://ijl1ovvg0eca" path="res://Scene/fight/Fighters/F_Boat/States/down_jab.gd" id="14_avufh"]
+[ext_resource type="Script" uid="uid://b62kjqkyicfn2" path="res://Scene/fight/Fighters/F_Boat/States/up_jab.gd" id="15_0ya40"]
+[ext_resource type="Script" uid="uid://mgg3lm1nc5jp" path="res://Scene/fight/Fighters/F_Boat/States/damaged.gd" id="16_22t5v"]
 
 [sub_resource type="Animation" id="Animation_r3pv5"]
 resource_name = "Idle"
@@ -611,7 +559,7 @@ tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("Flip_Container/damage/damage:position")
-tracks/1/interp = 1
+tracks/1/interp = 0
 tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0, 0.0666667, 0.1, 0.133333, 0.140096, 0.2),
@@ -711,7 +659,7 @@ tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("Flip_Container/damage/damage:position")
-tracks/1/interp = 1
+tracks/1/interp = 0
 tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0, 0.133333, 0.166667, 0.246141, 0.285455, 0.341004, 0.390582),
@@ -854,6 +802,106 @@ tracks/5/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_r85jw"]
+resource_name = "neutral_air"
+length = 0.38
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0333333, 0.0666667, 0.1, 0.133333, 0.166667, 0.2, 0.233333, 0.266667),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [12, 13, 14, 15, 12, 13, 14, 15, 16]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip_Container/damage/damage:disabled")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.0666667, 0.2, 0.27),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [false, true, false, true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip_Container/damage/damage:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-671.125, -2185.64)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Flip_Container/damage/damage:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(5.46875, 5.45279)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Flip_Container/hurt/x:build_mode")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Flip_Container/hurt/x:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-152, -456)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Flip_Container/hurt/x:scale")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Flip_Container/hurt/x:polygon")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [PackedVector2Array(184, 376, 200, 392, 200, 432, 204, 453, 211, 476, 194, 517, 239, 530, 222, 559, 197, 546, 164, 530, 151, 533, 115, 568, 95, 564, 84, 530, 107, 534, 118, 506, 104, 482, 112, 448, 112, 408, 120, 384, 137, 369, 168, 368)]
 }
 
 [sub_resource type="Animation" id="Animation_4qy4w"]
@@ -1382,6 +1430,7 @@ _data = {
 &"jab": SubResource("Animation_k18ep"),
 &"jab2": SubResource("Animation_6o3uc"),
 &"jump": SubResource("Animation_jgscj"),
+&"neutral_air": SubResource("Animation_r85jw"),
 &"run": SubResource("Animation_4qy4w"),
 &"strong_atk": SubResource("Animation_50g5q"),
 &"strong_atk2": SubResource("Animation_4mol1"),
@@ -1392,6 +1441,59 @@ _data = {
 &"up_jab_start": SubResource("Animation_nyqvp")
 }
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_1g0n5"]
+atlas = ExtResource("4_crc2n")
+region = Rect2(14, 0, 13, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_68j0a"]
+atlas = ExtResource("2_c6n4i")
+region = Rect2(2772, 3696, 308, 308)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o4t1w"]
+atlas = ExtResource("4_crc2n")
+region = Rect2(0, 0, 13, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_50uny"]
+atlas = ExtResource("4_crc2n")
+region = Rect2(0, 0, 13, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mb2uk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1g0n5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_68j0a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1g0n5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_68j0a")
+}],
+"loop": true,
+"name": &"play1",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o4t1w")
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_50uny")
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": true,
+"name": &"play2",
+"speed": 2.0
+}]
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_57e20"]
 size = Vector2(48, 196)
 
@@ -1400,6 +1502,12 @@ collision_layer = 2
 collision_mask = 3
 safe_margin = 0.001
 script = ExtResource("1_r85jw")
+
+[node name="Anima" type="AnimationPlayer" parent="."]
+callback_mode_process = 0
+libraries = {
+&"": SubResource("AnimationLibrary_r5as0")
+}
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(176, 464)
@@ -1439,12 +1547,6 @@ scale = Vector2(4.80769, 5.07143)
 sprite_frames = SubResource("SpriteFrames_mb2uk")
 animation = &"play1"
 
-[node name="Anima" type="AnimationPlayer" parent="."]
-callback_mode_process = 0
-libraries = {
-&"": SubResource("AnimationLibrary_r5as0")
-}
-
 [node name="StateMachine" type="Node" parent="."]
 script = ExtResource("5_0ows1")
 
@@ -1462,6 +1564,9 @@ script = ExtResource("9_da3kw")
 
 [node name="Jab" type="Node" parent="StateMachine"]
 script = ExtResource("10_bat5g")
+
+[node name="Neutral_Air" type="Node" parent="StateMachine"]
+script = ExtResource("11_gi4pg")
 
 [node name="Strong Attack" type="Node" parent="StateMachine"]
 script = ExtResource("11_gbxd8")
@@ -1507,14 +1612,15 @@ shape = SubResource("RectangleShape2D_57e20")
 [node name="Hit_Window" type="Timer" parent="."]
 one_shot = true
 
-[connection signal="area_entered" from="Flip_Container/damage" to="." method="_on_damage_area_entered"]
-[connection signal="area_entered" from="Flip_Container/hurt" to="." method="_on_hurt_area_entered"]
-[connection signal="timeout" from="Flip_Container/hurt/Stagger_Window" to="Flip_Container/hurt" method="_on_stagger_window_timeout"]
 [connection signal="animation_changed" from="Anima" to="StateMachine/Up_Jab" method="_on_anima_animation_changed"]
 [connection signal="animation_finished" from="Anima" to="StateMachine/Jab" method="_on_anima_animation_finished"]
+[connection signal="animation_finished" from="Anima" to="StateMachine/Neutral_Air" method="_on_anima_animation_finished"]
 [connection signal="animation_finished" from="Anima" to="StateMachine/Strong Attack" method="_on_anima_animation_finished"]
 [connection signal="animation_finished" from="Anima" to="StateMachine/Down_Jab" method="_on_anima_animation_finished"]
 [connection signal="animation_finished" from="Anima" to="StateMachine/Up_Jab" method="_on_anima_animation_finished"]
+[connection signal="area_entered" from="Flip_Container/damage" to="." method="_on_damage_area_entered"]
+[connection signal="area_entered" from="Flip_Container/hurt" to="." method="_on_hurt_area_entered"]
+[connection signal="timeout" from="Flip_Container/hurt/Stagger_Window" to="Flip_Container/hurt" method="_on_stagger_window_timeout"]
 [connection signal="timeout" from="StateMachine/Damaged/Stun_Window" to="StateMachine/Damaged" method="_on_stun_window_timeout"]
 [connection signal="timeout" from="Combo" to="StateMachine/Jab" method="_on_combo_timeout"]
 [connection signal="timeout" from="Combo" to="StateMachine/Strong Attack" method="_on_combo_timeout"]

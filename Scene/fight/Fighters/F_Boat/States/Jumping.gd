@@ -10,6 +10,8 @@ func start():
 	player.set_animation("jump")
 
 func physics_process(_delta):
+	if Input.is_action_just_pressed("Jab"+str(player.player_num)):
+		SM.set_state("Neutral_Air")
 	if Input.is_action_pressed("Left"+str(player.player_num)):
 		direction = -1
 		if Input.is_action_pressed("Right"+str(player.player_num)):

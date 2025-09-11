@@ -85,23 +85,34 @@ func _on_damage_area_entered(area):
 		if target != self:
 			if target.has_method("damage"):
 				if attack_type == "jab":
+					Hitstop.hit_stop(0.05)
 					target.damage(7.5)
+					target.knockback("small")
 					special_val += 5
 				if attack_type == "jab_2":
+					Hitstop.hit_stop(0.05)
 					target.damage(7.5)
 					target.knockback("small")
 					special_val += 5
 				if attack_type == "up_jab":
+					Hitstop.hit_stop(0.15)
 					target.damage(7.5)
 					target.knockback("up_small")
 					special_val += 5
 				if attack_type == "down_jab":
+					Hitstop.hit_stop(0.1)
 					target.damage(7.5)
 					target.knockback("up_small")
 					special_val += 5
 				if attack_type == "Strong Attack":
+					Hitstop.hit_stop(0.2)
 					target.damage(20)
 					target.knockback("Medium")
+					special_val += 5
+				if attack_type == "neutral_air":
+					Hitstop.hit_stop(0.1)
+					target.damage(5)
+					target.knockback("up_small")
 					special_val += 5
 		if target.hp <= 0:
 			target.die()

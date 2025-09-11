@@ -28,6 +28,9 @@ func physics_process(delta):
 		player.velocity.x = move_toward(player.velocity.x, 0, player.SPEED)
 	player.move_and_slide()
 
+	if Input.is_action_just_pressed("Jab"+str(player.player_num)):
+		SM.set_state("Neutral_Air")
+	
 	if player.is_on_floor():
 		player.velocity.y = 0
 		if player.velocity.x != 0:

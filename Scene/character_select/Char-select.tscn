@@ -29,6 +29,7 @@ grow_vertical = 2
 script = ExtResource("1_naj2x")
 
 [node name="SbfCharacterSelect-2_png" type="Sprite2D" parent="."]
+texture_filter = 3
 position = Vector2(601, 317)
 scale = Vector2(0.4576, 0.429333)
 texture = ExtResource("2_kn3hc")
@@ -115,6 +116,7 @@ texture = ExtResource("3_s4oep")
 
 [node name="Sandy_Preview" type="Sprite2D" parent="."]
 visible = false
+texture_filter = 3
 position = Vector2(1096, 488)
 scale = Vector2(4.17094, 4.71415)
 texture = ExtResource("4_77yj8")
@@ -131,6 +133,7 @@ scale = Vector2(0.4588, 0.429333)
 texture = ExtResource("5_i0mmk")
 
 [node name="Sandy" type="TextureButton" parent="."]
+texture_filter = 3
 layout_mode = 0
 offset_left = 720.0
 offset_top = 216.0

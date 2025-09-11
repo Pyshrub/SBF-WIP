@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 Global="*res://Global.gd"
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+Hitstop="*res://Scene/fight/Hitstop.gd"
 
 [dialogue_manager]
 

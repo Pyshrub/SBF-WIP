@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=3 uid="uid://dutr63exynkmm"]
+[gd_scene load_steps=45 format=3 uid="uid://dutr63exynkmm"]
 
 [ext_resource type="Script" uid="uid://fecj1sed1766" path="res://Scene/fight/Fighters/F_Boat/Failboat.gd" id="1_r85jw"]
 [ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://Assets/Sprites/FailBattle_SbF_3.png" id="2_c6n4i"]
@@ -10,6 +10,7 @@
 [ext_resource type="Script" uid="uid://dimugd78vspld" path="res://Scene/fight/Fighters/F_Boat/States/Jumping.gd" id="8_srmjk"]
 [ext_resource type="Script" uid="uid://cxxmancskpwj0" path="res://Scene/fight/Fighters/F_Boat/States/Falling.gd" id="9_uht81"]
 [ext_resource type="Script" uid="uid://dq16pabnkx66c" path="res://Scene/fight/Fighters/F_Boat/States/Jab.gd" id="10_g87cg"]
+[ext_resource type="Script" uid="uid://dr3g2o4ajd01h" path="res://Scene/fight/Fighters/F_Boat/States/Neutral_Air.gd" id="11_c6n4i"]
 [ext_resource type="Script" uid="uid://cdwslwfcod0u1" path="res://Scene/fight/Fighters/F_Boat/States/Strong Attack.gd" id="11_da3kw"]
 [ext_resource type="Script" uid="uid://bgn13okdw2vtj" path="res://Scene/fight/Fighters/F_Boat/States/Down.gd" id="12_bat5g"]
 [ext_resource type="Script" uid="uid://d0dq1d3aw5e3y" path="res://Scene/fight/Fighters/F_Boat/States/Defend.gd" id="13_gbxd8"]
@@ -611,7 +612,7 @@ tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("Flip_Container/damage/damage:position")
-tracks/1/interp = 1
+tracks/1/interp = 0
 tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0, 0.0666667, 0.1, 0.133333, 0.140096, 0.2),
@@ -711,7 +712,7 @@ tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/path = NodePath("Flip_Container/damage/damage:position")
-tracks/1/interp = 1
+tracks/1/interp = 0
 tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0, 0.133333, 0.166667, 0.246141, 0.285455, 0.341004, 0.390582),
@@ -854,6 +855,106 @@ tracks/5/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_r85jw"]
+resource_name = "neutral_air"
+length = 0.38
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0333333, 0.0666667, 0.1, 0.133333, 0.166667, 0.2, 0.233333, 0.266667),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [12, 13, 14, 15, 12, 13, 14, 15, 16]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip_Container/damage/damage:disabled")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.04, 0.06, 0.1, 0.2, 0.27),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [false, true, false, true, false, true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip_Container/damage/damage:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-671.125, -2185.64)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Flip_Container/damage/damage:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(5.46875, 5.45279)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Flip_Container/hurt/x:build_mode")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Flip_Container/hurt/x:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-152, -456)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Flip_Container/hurt/x:scale")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Flip_Container/hurt/x:polygon")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [PackedVector2Array(184, 376, 200, 392, 200, 432, 204, 453, 211, 476, 194, 517, 239, 530, 222, 559, 197, 546, 164, 530, 151, 533, 115, 568, 95, 564, 84, 530, 107, 534, 118, 506, 104, 482, 112, 448, 112, 408, 120, 384, 137, 369, 168, 368)]
 }
 
 [sub_resource type="Animation" id="Animation_4qy4w"]
@@ -1382,6 +1483,7 @@ _data = {
 &"jab": SubResource("Animation_k18ep"),
 &"jab2": SubResource("Animation_6o3uc"),
 &"jump": SubResource("Animation_jgscj"),
+&"neutral_air": SubResource("Animation_r85jw"),
 &"run": SubResource("Animation_4qy4w"),
 &"strong_atk": SubResource("Animation_50g5q"),
 &"strong_atk2": SubResource("Animation_4mol1"),
@@ -1462,6 +1564,9 @@ script = ExtResource("9_uht81")
 
 [node name="Jab" type="Node" parent="StateMachine"]
 script = ExtResource("10_g87cg")
+
+[node name="Neutral_Air" type="Node" parent="StateMachine"]
+script = ExtResource("11_c6n4i")
 
 [node name="Strong Attack" type="Node" parent="StateMachine"]
 script = ExtResource("11_da3kw")
