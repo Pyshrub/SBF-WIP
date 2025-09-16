@@ -27,7 +27,7 @@ func physics_process(_delta):
 		player.velocity.x = player.direction * player.SPEED
 	else:
 		player.velocity.x = move_toward(player.velocity.x, 0, player.SPEED)
-	if Input.is_action_pressed("Jump"+str(player.player_num)) and player.velocity.y > player.MAX_JUMP:
+	if player.velocity.y > player.MAX_JUMP:
 		player.velocity.y += player.JUMP_VELOCITY
 		player.move_and_slide()
 	else:

@@ -3,9 +3,12 @@ extends CharacterBody2D
 @onready var SM = $StateMachine
 
 
-const SPEED = 500.0
+const SPEED = 600.0
+const AIR_SPEED = 500.0
 const JUMP_VELOCITY = -1000.0
 const MAX_JUMP = -2000.0
+const ACCEL = 0.15
+const AIR_ACCEL = 0.1
 @onready var Arena_Check = get_parent()
 var attack_type
 # Get the gravity from the project settings to be synced with RigidBody nodes.
@@ -21,6 +24,10 @@ var player_num = 1
 var stun_level
 var type = "Player"
 @onready var special_val = 0
+@onready var sprite = $Sprite2D
+
+var hit_dir
+var hit_effect = preload("res://Scene/VFX/Hit_Effects/Test_Impact.tscn")
 func _ready():
 	up_direction = Vector2.UP
 	$StateMachine/Damaged/Stun_Window.start()
@@ -84,28 +91,36 @@ func _on_damage_area_entered(area):
 	if area.has_method("damage") == false:
 		if target != self:
 			if target.has_method("damage"):
+				if position > target.position:
+					target.set_direction(1)
+				else:
+					target.set_direction(-1)
+				var new_hit_effect = hit_effect.instantiate()
+				new_hit_effect.position = (target.position + position) / 2
+				new_hit_effect.position += Vector2(176, 464 + $Flip_Container/damage/damage.position.y)
+				get_parent().add_child(new_hit_effect)
 				if attack_type == "jab":
-					Hitstop.hit_stop(0.05)
+					Hitstop.hit_stop(0.1)
 					target.damage(7.5)
 					target.knockback("small")
 					special_val += 5
 				if attack_type == "jab_2":
-					Hitstop.hit_stop(0.05)
+					Hitstop.hit_stop(0.1)
 					target.damage(7.5)
 					target.knockback("small")
 					special_val += 5
 				if attack_type == "up_jab":
-					Hitstop.hit_stop(0.15)
+					Hitstop.hit_stop(0.2)
 					target.damage(7.5)
 					target.knockback("up_small")
 					special_val += 5
 				if attack_type == "down_jab":
-					Hitstop.hit_stop(0.1)
+					Hitstop.hit_stop(0.15)
 					target.damage(7.5)
 					target.knockback("up_small")
 					special_val += 5
 				if attack_type == "Strong Attack":
-					Hitstop.hit_stop(0.2)
+					Hitstop.hit_stop(0.3)
 					target.damage(20)
 					target.knockback("Medium")
 					special_val += 5

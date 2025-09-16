@@ -11,6 +11,7 @@ func start():
 	player.set_animation("Idle")
 
 func physics_process(_delta):
+	player.velocity.x = lerp(player.velocity.x, 0.0, player.ACCEL)
 	player.move_and_slide()
 	if Input.is_action_pressed("Up"+str(player.player_num)):
 		if Input.is_action_pressed("Up"+str(player.player_num)) and Input.is_action_just_pressed("Jab"+str(player.player_num)):
@@ -25,7 +26,7 @@ func physics_process(_delta):
 		if Input.is_action_just_pressed("Left"+str(player.player_num)) or Input.is_action_just_pressed("Right"+str(player.player_num)):
 			SM.set_state("Moving")
 		if Input.is_action_pressed("Jump"+str(player.player_num)):
-			SM.set_state("Jumping")
+			SM.set_state("Jumpsquat")
 		if Input.is_action_pressed("Down"+str(player.player_num)):
 			SM.set_state("Down")
 		if Input.is_action_pressed("defend"+str(player.player_num)):

@@ -1,11 +1,13 @@
-[gd_scene load_steps=45 format=3 uid="uid://ja5ty68paj2m"]
+[gd_scene load_steps=49 format=3 uid="uid://ja5ty68paj2m"]
 
+[ext_resource type="Shader" uid="uid://bdharumxsmuho" path="res://Shaders/HitShake.gdshader" id="1_epgew"]
 [ext_resource type="Script" uid="uid://fecj1sed1766" path="res://Scene/fight/Fighters/F_Boat/Failboat.gd" id="1_r85jw"]
 [ext_resource type="Texture2D" uid="uid://uyyjkupke71d" path="res://Assets/Sprites/FailBattle_SbF_3.png" id="2_c6n4i"]
 [ext_resource type="Script" uid="uid://balicn73wm6hx" path="res://Scene/fight/Fighters/F_Boat/States/hurt.gd" id="3_a07h0"]
 [ext_resource type="Texture2D" uid="uid://bg7qa5tpbhhu" path="res://Assets/Sprites/player_indicator.png" id="4_crc2n"]
 [ext_resource type="Script" uid="uid://32dm7fthxxm2" path="res://Scene/fight/Fighters/F_Boat/States/StateMachine.gd" id="5_0ows1"]
 [ext_resource type="Script" uid="uid://c01pg4rg3levd" path="res://Scene/fight/Fighters/F_Boat/States/Idle.gd" id="6_srmjk"]
+[ext_resource type="Script" uid="uid://b5360hwx8ecaf" path="res://Scene/fight/Fighters/F_Boat/States/Jumpsquat.gd" id="7_7nhn2"]
 [ext_resource type="Script" uid="uid://btgjp0djukx14" path="res://Scene/fight/Fighters/F_Boat/States/Moving.gd" id="7_uht81"]
 [ext_resource type="Script" uid="uid://dimugd78vspld" path="res://Scene/fight/Fighters/F_Boat/States/Jumping.gd" id="8_g87cg"]
 [ext_resource type="Script" uid="uid://cxxmancskpwj0" path="res://Scene/fight/Fighters/F_Boat/States/Falling.gd" id="9_da3kw"]
@@ -841,7 +843,7 @@ tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(-671.125, -2185.64)]
+"values": [Vector2(8, -8)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
@@ -853,7 +855,7 @@ tracks/3/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(5.46875, 5.45279)]
+"values": [Vector2(1.003, 1)]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
@@ -902,6 +904,18 @@ tracks/7/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [PackedVector2Array(184, 376, 200, 392, 200, 432, 204, 453, 211, 476, 194, 517, 239, 530, 222, 559, 197, 546, 164, 530, 151, 533, 115, 568, 95, 564, 84, 530, 107, 534, 118, 506, 104, 482, 112, 448, 112, 408, 120, 384, 137, 369, 168, 368)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Flip_Container/damage/damage:polygon")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [PackedVector2Array(300, 348, 300, 588, 32, 588, 32, 348)]
 }
 
 [sub_resource type="Animation" id="Animation_4qy4w"]
@@ -1182,7 +1196,7 @@ tracks/2/keys = {
 "times": PackedFloat32Array(0, 0.00316107, 0.153258),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
-"values": [PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464)]
+"values": [PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(280, 448, 280, 520, 32, 520, 32, 448), PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
@@ -1194,7 +1208,7 @@ tracks/3/keys = {
 "times": PackedFloat32Array(0, 0.00316107, 0.153258),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(-1062, -1064), Vector2(30, 137)]
+"values": [Vector2(0, 0), Vector2(8, -91), Vector2(30, 137)]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
@@ -1206,7 +1220,7 @@ tracks/4/keys = {
 "times": PackedFloat32Array(0, 0.00316107, 0.153258),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
-"values": [Vector2(1, 1), Vector2(7.9375, 2.99024), Vector2(0.824218, 0.702522)]
+"values": [Vector2(1, 1), Vector2(1, 1), Vector2(0.824218, 0.702522)]
 }
 
 [sub_resource type="Animation" id="Animation_im2ls"]
@@ -1228,6 +1242,7 @@ tracks/0/keys = {
 [sub_resource type="Animation" id="Animation_l72ai"]
 resource_name = "up_jab_multi"
 length = 0.2
+step = 0.0032
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -1262,7 +1277,7 @@ tracks/2/keys = {
 "times": PackedFloat32Array(0, 0.00316107),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
-"values": [PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464)]
+"values": [PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(280, 448, 280, 520, 32, 520, 32, 448)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
@@ -1274,7 +1289,7 @@ tracks/3/keys = {
 "times": PackedFloat32Array(0, 0.00316107),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
-"values": [Vector2(0, 0), Vector2(-1062, -1064)]
+"values": [Vector2(0, 0), Vector2(8, -91)]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
@@ -1286,12 +1301,13 @@ tracks/4/keys = {
 "times": PackedFloat32Array(0, 0.00316107),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
-"values": [Vector2(1, 1), Vector2(7.9375, 2.99024)]
+"values": [Vector2(1, 1), Vector2(1, 1)]
 }
 
 [sub_resource type="Animation" id="Animation_nrk2v"]
 resource_name = "up_jab_multi_2"
 length = 0.2
+step = 0.0052
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -1323,10 +1339,10 @@ tracks/2/path = NodePath("Flip_Container/damage/damage:polygon")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
-"times": PackedFloat32Array(0.00203281, 0.00519388),
+"times": PackedFloat32Array(0.00203281, 0.00520833),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
-"values": [PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464)]
+"values": [PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(280, 448, 280, 520, 32, 520, 32, 448)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
@@ -1335,10 +1351,10 @@ tracks/3/path = NodePath("Flip_Container/damage/damage:position")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
-"times": PackedFloat32Array(0.00203281, 0.00519388),
+"times": PackedFloat32Array(0.00203281, 0.00520833),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
-"values": [Vector2(0, 0), Vector2(-1062, -1064)]
+"values": [Vector2(0, 0), Vector2(8, -91)]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
@@ -1347,10 +1363,10 @@ tracks/4/path = NodePath("Flip_Container/damage/damage:scale")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
-"times": PackedFloat32Array(0.00203281, 0.00519388),
+"times": PackedFloat32Array(0.00203281, 0.00520833),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
-"values": [Vector2(1, 1), Vector2(7.9375, 2.99024)]
+"values": [Vector2(1, 1), Vector2(1, 1)]
 }
 
 [sub_resource type="Animation" id="Animation_nyqvp"]
@@ -1375,10 +1391,10 @@ tracks/1/path = NodePath("Flip_Container/damage/damage:polygon")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.349639, 0.366504, 0.40487),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.349639, 0.366504, 0.366667, 0.40487),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 0,
-"values": [PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464)]
+"values": [PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(176, 464, 176, 504, 136, 504, 136, 464), PackedVector2Array(280, 448, 280, 520, 32, 520, 32, 448), PackedVector2Array(280, 448, 280, 520, 32, 520, 32, 448)]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
@@ -1387,10 +1403,10 @@ tracks/2/path = NodePath("Flip_Container/damage/damage:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
-"times": PackedFloat32Array(0, 0.349639, 0.366504, 0.40487),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.349639, 0.366504, 0.366667, 0.40487),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 0,
-"values": [Vector2(8, -8), Vector2(8, -8), Vector2(-844, -764), Vector2(-933, -1129)]
+"values": [Vector2(8, -8), Vector2(8, -8), Vector2(8, -8), Vector2(8, -88), Vector2(8, -91)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
@@ -1402,7 +1418,7 @@ tracks/3/keys = {
 "times": PackedFloat32Array(0, 0.349639, 0.366504, 0.40487),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 0,
-"values": [Vector2(1, 1), Vector2(1, 1), Vector2(6.38666, 2.40449), Vector2(7.00085, 3.1206)]
+"values": [Vector2(1, 1), Vector2(1, 1), Vector2(1, 1), Vector2(1, 1)]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
@@ -1417,9 +1433,26 @@ tracks/4/keys = {
 "values": [false]
 }
 
+[sub_resource type="Animation" id="Animation_7nhn2"]
+resource_name = "Jumpsquat"
+length = 0.1333
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0666667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [141, 142]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_r5as0"]
 _data = {
 &"Idle": SubResource("Animation_r3pv5"),
+&"Jumpsquat": SubResource("Animation_7nhn2"),
 &"RESET": SubResource("Animation_ffnbl"),
 &"damaged": SubResource("Animation_5h4o0"),
 &"defend": SubResource("Animation_smgkl"),
@@ -1440,6 +1473,14 @@ _data = {
 &"up_jab_multi_2": SubResource("Animation_nrk2v"),
 &"up_jab_start": SubResource("Animation_nyqvp")
 }
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_epgew"]
+resource_local_to_scene = true
+shader = ExtResource("1_epgew")
+shader_parameter/hit_effect = 0.0
+shader_parameter/shake_intensity = 10.0
+shader_parameter/flash_speed = 30.0
+shader_parameter/flash_color = Color(1, 1, 1, 1)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1g0n5"]
 atlas = ExtResource("4_crc2n")
@@ -1499,7 +1540,6 @@ size = Vector2(48, 196)
 
 [node name="Failboat" type="CharacterBody2D"]
 collision_layer = 2
-collision_mask = 3
 safe_margin = 0.001
 script = ExtResource("1_r85jw")
 
@@ -1510,6 +1550,7 @@ libraries = {
 }
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_epgew")
 position = Vector2(176, 464)
 texture = ExtResource("2_c6n4i")
 hframes = 12
@@ -1552,6 +1593,9 @@ script = ExtResource("5_0ows1")
 
 [node name="Idle" type="Node" parent="StateMachine"]
 script = ExtResource("6_srmjk")
+
+[node name="Jumpsquat" type="Node" parent="StateMachine"]
+script = ExtResource("7_7nhn2")
 
 [node name="Moving" type="Node" parent="StateMachine"]
 script = ExtResource("7_uht81")
@@ -1618,6 +1662,7 @@ one_shot = true
 [connection signal="animation_finished" from="Anima" to="StateMachine/Strong Attack" method="_on_anima_animation_finished"]
 [connection signal="animation_finished" from="Anima" to="StateMachine/Down_Jab" method="_on_anima_animation_finished"]
 [connection signal="animation_finished" from="Anima" to="StateMachine/Up_Jab" method="_on_anima_animation_finished"]
+[connection signal="animation_finished" from="Anima" to="StateMachine/Jumpsquat" method="_on_anima_animation_finished"]
 [connection signal="area_entered" from="Flip_Container/damage" to="." method="_on_damage_area_entered"]
 [connection signal="area_entered" from="Flip_Container/hurt" to="." method="_on_hurt_area_entered"]
 [connection signal="timeout" from="Flip_Container/hurt/Stagger_Window" to="Flip_Container/hurt" method="_on_stagger_window_timeout"]

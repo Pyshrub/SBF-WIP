@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://bew5wh1ls31pa"]
+[gd_scene load_steps=6 format=3 uid="uid://bew5wh1ls31pa"]
 
 [ext_resource type="Script" uid="uid://miiabvs72ipc" path="res://Scene/fight/HUD/hud.gd" id="1_uytym"]
 [ext_resource type="Theme" uid="uid://cetdetw65yjvq" path="res://Scene/fight/HUD/healthbar.tres" id="2_jo64p"]
+[ext_resource type="Texture2D" uid="uid://cbjp6dixq0j0" path="res://Assets/Sprites/Healthbar-1.png.png" id="3_akca1"]
 [ext_resource type="Theme" uid="uid://bopm1cy01s5jd" path="res://Scene/fight/HUD/sp_bar.tres" id="3_q4nm8"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_akca1"]
@@ -17,25 +18,93 @@ grow_vertical = 2
 script = ExtResource("1_uytym")
 
 [node name="P1_Health" type="ProgressBar" parent="."]
+y_sort_enabled = true
 layout_mode = 0
-offset_left = 64.0
-offset_top = 64.0
-offset_right = 1064.0
-offset_bottom = 150.0
+offset_left = 47.0
+offset_top = 54.0
+offset_right = 840.0
+offset_bottom = 231.0
 scale = Vector2(0.450037, 0.411599)
 theme = ExtResource("2_jo64p")
 fill_mode = 1
+show_percentage = false
+
+[node name="Healthbar_BG2" type="TextureRect" parent="P1_Health"]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -512.278
+offset_top = -528.282
+offset_right = 487.722
+offset_bottom = 471.718
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_akca1")
+
+[node name="Healthbar_BG" type="TextureRect" parent="P1_Health"]
+z_index = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -491.112
+offset_top = -538.873
+offset_right = 508.888
+offset_bottom = 461.127
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_akca1")
 
 [node name="P2_Health" type="ProgressBar" parent="."]
+y_sort_enabled = true
 layout_mode = 0
 offset_left = 1096.0
-offset_top = 64.0
-offset_right = 2096.0
-offset_bottom = 151.0
+offset_top = 54.0
+offset_right = 1889.0
+offset_bottom = 231.0
 scale = Vector2(-0.45, 0.412)
 theme = ExtResource("2_jo64p")
 allow_greater = true
 fill_mode = 1
+show_percentage = false
+
+[node name="Healthbar_BG3" type="TextureRect" parent="P2_Health"]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -512.278
+offset_top = -527.854
+offset_right = 487.722
+offset_bottom = 472.146
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_akca1")
+
+[node name="Healthbar_BG2" type="TextureRect" parent="P2_Health"]
+z_index = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -491.112
+offset_top = -538.873
+offset_right = 508.888
+offset_bottom = 461.127
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_akca1")
 
 [node name="P1_SP" type="ProgressBar" parent="."]
 layout_mode = 0
@@ -49,6 +118,7 @@ theme_override_styles/fill = SubResource("StyleBoxFlat_akca1")
 max_value = 20.0
 allow_greater = true
 fill_mode = 1
+show_percentage = false
 
 [node name="P2_SP" type="ProgressBar" parent="."]
 layout_mode = 0
@@ -61,3 +131,4 @@ theme = ExtResource("3_q4nm8")
 max_value = 20.0
 allow_greater = true
 fill_mode = 1
+show_percentage = false

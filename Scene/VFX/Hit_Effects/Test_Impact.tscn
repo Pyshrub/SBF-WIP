@@ -1,0 +1,53 @@
+[gd_scene load_steps=8 format=3 uid="uid://bso81lcyswus3"]
+
+[ext_resource type="Texture2D" uid="uid://dhsiqst44f85s" path="res://Assets/Sprites/Damage_Test_Better.png" id="1_da0nw"]
+[ext_resource type="Script" uid="uid://bl0hi714sjv5j" path="res://Scene/VFX/Hit_Effects/destroy_impact.gd" id="2_vqdbh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vqdbh"]
+atlas = ExtResource("1_da0nw")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t5yum"]
+atlas = ExtResource("1_da0nw")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p8kwk"]
+atlas = ExtResource("1_da0nw")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8fah4"]
+atlas = ExtResource("1_da0nw")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ic0t8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vqdbh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t5yum")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p8kwk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8fah4")
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="TestImpact" type="AnimatedSprite2D"]
+z_index = 1
+texture_filter = 3
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_ic0t8")
+autoplay = "default"
+script = ExtResource("2_vqdbh")
+
+[connection signal="animation_finished" from="." to="." method="_on_animation_finished"]

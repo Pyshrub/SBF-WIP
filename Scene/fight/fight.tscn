@@ -1,12 +1,11 @@
-[gd_scene load_steps=18 format=4 uid="uid://cce48mcsbibgf"]
+[gd_scene load_steps=14 format=4 uid="uid://cce48mcsbibgf"]
 
 [ext_resource type="Script" uid="uid://dw6s6wmvrqyk8" path="res://Scene/fight/fight.gd" id="1_21p48"]
 [ext_resource type="Texture2D" uid="uid://4wd2fyfaaynk" path="res://Assets/Sprites/Streaming_SbF-1.png.png" id="2_hdvww"]
 [ext_resource type="Texture2D" uid="uid://dr3mdxn2offn2" path="res://Assets/Sprites/Streaming_SbF-2.png.png" id="3_3x4q4"]
 [ext_resource type="Script" uid="uid://hykbje2iu2dw" path="res://Scene/fight/floor.gd" id="3_6mqjw"]
 [ext_resource type="Script" uid="uid://c4ajsu1440u32" path="res://Scene/fight/Player_Container.gd" id="4_4qbg7"]
-[ext_resource type="Script" uid="uid://miiabvs72ipc" path="res://Scene/fight/HUD/hud.gd" id="6_41rlg"]
-[ext_resource type="Theme" uid="uid://bopm1cy01s5jd" path="res://Scene/fight/HUD/sp_bar.tres" id="7_msf4v"]
+[ext_resource type="PackedScene" uid="uid://bew5wh1ls31pa" path="res://Scene/fight/HUD/hud.tscn" id="6_opec2"]
 [ext_resource type="Script" uid="uid://ckryv7fsmxlqb" path="res://Scene/fight/pause_screen.gd" id="8_yanjw"]
 [ext_resource type="PackedScene" uid="uid://b8a3elk7075rb" path="res://Scene/Options_Menu/options.tscn" id="9_yanjw"]
 
@@ -24,15 +23,6 @@ loop = true
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4r8lo"]
 size = Vector2(1178, 20)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_13nrh"]
-bg_color = Color(1, 0, 0, 1)
-
-[sub_resource type="Theme" id="Theme_g066k"]
-ProgressBar/styles/fill = SubResource("StyleBoxFlat_13nrh")
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_opec2"]
-bg_color = Color(0, 0, 0.823529, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_uuefb"]
 font_size = 28
@@ -106,63 +96,7 @@ collision_layer = 3
 position = Vector2(579, 0)
 shape = SubResource("RectangleShape2D_4r8lo")
 
-[node name="HUD" type="Control" parent="."]
-process_mode = 1
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-script = ExtResource("6_41rlg")
-
-[node name="P1_Health" type="ProgressBar" parent="HUD"]
-layout_mode = 0
-offset_left = 32.0
-offset_top = 48.0
-offset_right = 1032.0
-offset_bottom = 134.0
-scale = Vector2(0.450037, 0.411599)
-theme = SubResource("Theme_g066k")
-fill_mode = 1
-show_percentage = false
-
-[node name="P2_Health" type="ProgressBar" parent="HUD"]
-layout_mode = 0
-offset_left = 1128.0
-offset_top = 48.0
-offset_right = 2128.0
-offset_bottom = 135.0
-scale = Vector2(-0.45, 0.412)
-theme = SubResource("Theme_g066k")
-fill_mode = 1
-show_percentage = false
-
-[node name="P1_SP" type="ProgressBar" parent="HUD"]
-layout_mode = 0
-offset_left = 64.0
-offset_top = 576.0
-offset_right = 657.0
-offset_bottom = 662.0
-scale = Vector2(0.450037, 0.411599)
-theme = ExtResource("7_msf4v")
-theme_override_styles/fill = SubResource("StyleBoxFlat_opec2")
-max_value = 20.0
-allow_greater = true
-show_percentage = false
-
-[node name="P2_SP" type="ProgressBar" parent="HUD"]
-layout_mode = 0
-offset_left = 824.0
-offset_top = 576.0
-offset_right = 1417.0
-offset_bottom = 662.0
-scale = Vector2(0.450037, 0.411599)
-theme = ExtResource("7_msf4v")
-max_value = 20.0
-allow_greater = true
-fill_mode = 1
-show_percentage = false
+[node name="HUD" parent="." instance=ExtResource("6_opec2")]
 
 [node name="Pause_Screen" type="Control" parent="."]
 process_mode = 2
