@@ -17,8 +17,8 @@ var direction = 1
 @onready var timing = $Combo
 @onready var hit_window = $Hit_Window
 var combo = false
-@onready var hp = 100
-@onready var max_hp = 100
+@onready var hp = 200
+@onready var max_hp = 200
 var hitting = false
 var player_num = 1
 var stun_level
@@ -101,34 +101,54 @@ func _on_damage_area_entered(area):
 				get_parent().add_child(new_hit_effect)
 				if attack_type == "jab":
 					Hitstop.hit_stop(0.1)
-					target.damage(7.5)
+					target.damage(3.5)
 					target.knockback("small")
-					special_val += 5
+					special_val += 1
 				if attack_type == "jab_2":
 					Hitstop.hit_stop(0.1)
-					target.damage(7.5)
+					target.damage(4.5)
 					target.knockback("small")
-					special_val += 5
+					special_val += 1
 				if attack_type == "up_jab":
 					Hitstop.hit_stop(0.2)
-					target.damage(7.5)
+					target.damage(5.5)
 					target.knockback("up_small")
-					special_val += 5
+					special_val += 1
 				if attack_type == "down_jab":
 					Hitstop.hit_stop(0.15)
-					target.damage(7.5)
+					target.damage(4.5)
 					target.knockback("up_small")
-					special_val += 5
+					special_val += 1
 				if attack_type == "Strong Attack":
 					Hitstop.hit_stop(0.3)
-					target.damage(20)
+					target.damage(10)
 					target.knockback("Medium")
-					special_val += 5
+					special_val += 3
+				if attack_type == "up_strong":
+					Hitstop.hit_stop(0.3)
+					target.damage(7)
+					target.knockback("up_medium")
+					special_val += 3
+				if attack_type == "down_strong":
+					Hitstop.hit_stop(0.3)
+					target.damage(7)
+					target.knockback("up_medium")
+					special_val += 3
 				if attack_type == "neutral_air":
 					Hitstop.hit_stop(0.1)
-					target.damage(5)
+					target.damage(3.5)
 					target.knockback("up_small")
-					special_val += 5
+					special_val += 1
+				if attack_type == "forward_air":
+					Hitstop.hit_stop(0.2)
+					target.damage(6)
+					target.knockback("Medium")
+					special_val += 2
+				if attack_type == "up_air":
+					Hitstop.hit_stop(0.2)
+					target.damage(4.5)
+					target.knockback("up_medium")
+					special_val += 2
 		if target.hp <= 0:
 			target.die()
 
@@ -137,7 +157,7 @@ func damage(num):
 		hp = hp - (num*0.5)
 	else:
 		hp -= num
-	special_val += num/2
+	special_val += num/4
 func die():
 	queue_free()
 func _on_hit_window_timeout():

@@ -1,7 +1,7 @@
 [gd_resource type="Theme" load_steps=2 format=3 uid="uid://bopm1cy01s5jd"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qdmdg"]
-bg_color = Color(0.260847, 0.197646, 1, 1)
+bg_color = Color(1, 1, 1, 1)
 
 [resource]
 ProgressBar/colors/font_color = Color(0, 0, 0, 1)

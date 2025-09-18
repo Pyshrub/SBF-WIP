@@ -5,10 +5,10 @@ var stand_buffer = false
 func _ready():
 	await player.ready
 func start():
-	player.attack_type = "neutral_air"
-	player.set_animation("neutral_air")
+	player.attack_type = "forward_air"
+	player.set_animation("forward_air")
 func _on_anima_animation_finished(anim_name):
-	if anim_name == "neutral_air":
+	if anim_name == "forward_air":
 		SM.set_state("Falling")
 
 func physics_process(delta):

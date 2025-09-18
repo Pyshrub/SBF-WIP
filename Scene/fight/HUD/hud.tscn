@@ -1,12 +1,14 @@
-[gd_scene load_steps=6 format=3 uid="uid://bew5wh1ls31pa"]
+[gd_scene load_steps=8 format=3 uid="uid://bew5wh1ls31pa"]
 
 [ext_resource type="Script" uid="uid://miiabvs72ipc" path="res://Scene/fight/HUD/hud.gd" id="1_uytym"]
 [ext_resource type="Theme" uid="uid://cetdetw65yjvq" path="res://Scene/fight/HUD/healthbar.tres" id="2_jo64p"]
 [ext_resource type="Texture2D" uid="uid://cbjp6dixq0j0" path="res://Assets/Sprites/Healthbar-1.png.png" id="3_akca1"]
 [ext_resource type="Theme" uid="uid://bopm1cy01s5jd" path="res://Scene/fight/HUD/sp_bar.tres" id="3_q4nm8"]
+[ext_resource type="Texture2D" uid="uid://cntify2osdybo" path="res://Assets/Sprites/SuperGauge.png" id="5_melxu"]
+[ext_resource type="Texture2D" uid="uid://c7kxtqx5c63s0" path="res://Assets/Sprites/SuperGauge_1.png" id="6_o1qit"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_akca1"]
-bg_color = Color(0, 0, 0.823529, 1)
+bg_color = Color(1, 1, 1, 1)
 
 [node name="HUD" type="Control"]
 layout_mode = 3
@@ -108,11 +110,12 @@ texture = ExtResource("3_akca1")
 
 [node name="P1_SP" type="ProgressBar" parent="."]
 layout_mode = 0
-offset_left = 64.0
-offset_top = 576.0
-offset_right = 657.0
-offset_bottom = 662.0
-scale = Vector2(0.450037, 0.411599)
+offset_left = 352.0
+offset_top = 528.0
+offset_right = 945.0
+offset_bottom = 690.0
+rotation = -0.115223
+scale = Vector2(-0.45, 0.412)
 theme = ExtResource("3_q4nm8")
 theme_override_styles/fill = SubResource("StyleBoxFlat_akca1")
 max_value = 20.0
@@ -120,15 +123,36 @@ allow_greater = true
 fill_mode = 1
 show_percentage = false
 
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 3
+layout_mode = 0
+offset_left = 13.0
+offset_top = 519.0
+offset_right = 743.0
+offset_bottom = 759.0
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_melxu")
+
 [node name="P2_SP" type="ProgressBar" parent="."]
 layout_mode = 0
-offset_left = 824.0
-offset_top = 576.0
-offset_right = 1417.0
-offset_bottom = 662.0
+offset_left = 800.0
+offset_top = 528.0
+offset_right = 1393.0
+offset_bottom = 690.0
+rotation = 0.115192
 scale = Vector2(0.450037, 0.411599)
 theme = ExtResource("3_q4nm8")
 max_value = 20.0
 allow_greater = true
 fill_mode = 1
 show_percentage = false
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+texture_filter = 3
+layout_mode = 0
+offset_left = 773.0
+offset_top = 519.0
+offset_right = 1503.0
+offset_bottom = 759.0
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("6_o1qit")

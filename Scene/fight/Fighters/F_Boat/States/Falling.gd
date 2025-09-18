@@ -24,12 +24,17 @@ func physics_process(delta):
 	#player.set_direction(direction)
 	if direction:
 		player.velocity.x = lerp(player.velocity.x, direction * player.AIR_SPEED, player.AIR_ACCEL)
+		if Input.is_action_just_pressed("Jab"+str(player.player_num)):
+			SM.set_state("Forward_Air")
 	else:
 		player.velocity.x = lerp(player.velocity.x, 0.0, player.AIR_ACCEL)
+		if Input.is_action_pressed("Up"+str(player.player_num)):
+			if Input.is_action_just_pressed("Jab"+str(player.player_num)):
+				SM.set_state("Up_Air")
+		else:
+			if Input.is_action_just_pressed("Jab"+str(player.player_num)):
+				SM.set_state("Neutral_Air")
 	player.move_and_slide()
-
-	if Input.is_action_just_pressed("Jab"+str(player.player_num)):
-		SM.set_state("Neutral_Air")
 	
 	if player.is_on_floor():
 		player.velocity.y = 0

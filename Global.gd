@@ -28,15 +28,15 @@ func player1(check):
 func get_hp(player):
 	if player == "p2":
 		if play_two == "Fail":
-			return 100
+			return 200
 		elif play_two == "Sandy":
 			print("hi")
 			return 500
 	if player == "p1" and play_one == "Fail":
-		return 100
+		return 200
 	else:
 		print("you failed")
-		return 100
+		return 200
 	
 func update_hp():
 	var HUD = get_node_or_null("/root/fight/HUD")

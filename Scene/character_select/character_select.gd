@@ -26,7 +26,7 @@ func _process(delta):
 
 func _on_fail_pressed():
 	Global.play_one = "Fail"
-	Global.P1_Max = 100
+	Global.P1_Max = 200
 	p_1_clicks = 1
 	
 func _on_fail_mouse_entered():
@@ -40,7 +40,7 @@ func _on_fail_mouse_exited():
 		
 func _on_fail_2_pressed():
 	Global.play_two = "Fail"
-	Global.P2_Max = 100
+	Global.P2_Max = 200
 	p_2_clicks = 1
 
 

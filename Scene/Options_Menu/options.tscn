@@ -6,6 +6,7 @@
 
 [node name="Options" type="Control"]
 process_mode = 2
+z_index = 5
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -30,6 +31,7 @@ theme_override_constants/separation = 12
 alignment = 1
 
 [node name="Apply_Settings" type="Button" parent="Main Buttons"]
+z_index = 5
 layout_mode = 2
 focus_neighbor_right = NodePath("../../Options_container/Options_buttons_container/Volume_Slider")
 focus_neighbor_bottom = NodePath("../Return")
@@ -37,6 +39,7 @@ focus_next = NodePath("../Return")
 text = "Apply Changes"
 
 [node name="Return" type="Button" parent="Main Buttons"]
+z_index = 5
 layout_mode = 2
 focus_neighbor_top = NodePath("../Apply_Settings")
 focus_neighbor_right = NodePath("../../Options_container/Options_buttons_container/CheckButton")

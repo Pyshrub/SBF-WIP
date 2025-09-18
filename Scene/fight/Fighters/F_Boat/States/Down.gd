@@ -13,3 +13,5 @@ func physics_process(_delta):
 		SM.set_state("Idle")
 	if Input.is_action_just_pressed("Jab"+str(player.player_num)):
 		SM.set_state("Down_Jab")
+	if Input.is_action_just_pressed("Strong Attack"+str(player.player_num)):
+		SM.set_state("Down_Strong")

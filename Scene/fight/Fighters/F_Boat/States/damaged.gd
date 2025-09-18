@@ -20,11 +20,17 @@ func start():
 		$Stun_Window.start(.2)
 	if player.stun_level == "up_small":
 		player.velocity.x = player.direction * -1 * 600
-		player.velocity.y += -1500
+		player.velocity.y = -2000
 		$Stun_Window.start(.2)
 		# SM.set_state("Falling")
+	if player.stun_level == "up_medium":
+		player.velocity.x = player.direction * -1 * 300
+		player.velocity.y = -3500
+		$Stun_Window.start(.3)
+		# SM.set_state("Falling")
 	if player.stun_level == "Medium":
-		player.velocity.x = -player.hit_dir * -1 * 1000
+		player.velocity.x = player.direction * -1 * 1500
+		player.velocity.y += -1500
 		$Stun_Window.start(.5)
 	
 func _on_anima_animation_finished(anim_name):
